@@ -162,6 +162,7 @@ ul.bl li{margin:4px 0}
 (function(){
 "use strict";
 var DATA = window.OSCE_DATA || [];
+DATA.forEach(function(c){ c.minutes = 14; });  
 var app = document.getElementById("app");
 var titleEl = document.getElementById("title");
 var backBtn = document.getElementById("back");
