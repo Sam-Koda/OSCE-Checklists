@@ -1,6 +1,6 @@
 # OSCE Checklists
 
-Tick-box OSCE checklists for Deakin MD2 clinical skills: 25 examinations and histories. It works on a phone, iPad or computer, and works offline once it has been opened.
+Tick-box OSCE checklists for Deakin MD2 clinical skills: 25 examinations and histories, plus 8 HME922 procedural skills (with images). It works on a phone, iPad or computer, and works offline once it has been opened.
 
 **Features**
 - Choose an examination from the home screen, or search for any step (e.g. "McMurray").
@@ -38,9 +38,10 @@ Open it once while online, and after that it also works without internet.
 
 ## Updating later
 
+- Procedural skills images are in the `img/proc` folder.
 - To change wording, edit `data.js` (each checklist's text is there), or replace a PDF in the `pdf` folder with the same file name.
 - Upload the changed file(s) to the repository the same way (**Add file → Upload files**).
-- Then open `sw.js` on GitHub (pencil icon) and change `osce-v1` to `osce-v2` (v3, v4… each time) so phones pick up the new version.
+- Then open `sw.js` on GitHub (pencil icon) and change the version number (e.g. `osce-v3` to `osce-v4`) each time so phones pick up the new version.
 
 ---
 

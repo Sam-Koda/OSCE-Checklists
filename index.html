@@ -90,6 +90,26 @@ a{color:var(--accent)}
 /* Content */
 .sub{color:var(--muted);font-size:13.5px;margin:12px 0 0}
 .note{background:var(--accent-soft);border-radius:12px;padding:10px 12px;font-size:14px;margin:12px 0}
+.note .nt{display:block;font-size:11.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);margin-bottom:3px}
+.note.memory{background:#EEF0FB;border-left:4px solid #5B63C8}
+.note.memory .nt{color:#4A51B0}
+.note.key{background:var(--surface-2);border-left:4px solid var(--brand)}
+.note.key .nt{color:var(--text)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .note.memory{background:#1E2140}:root:not([data-theme="light"]) .note.memory .nt{color:#A9AEF5}}
+:root[data-theme="dark"] .note.memory{background:#1E2140}:root[data-theme="dark"] .note.memory .nt{color:#A9AEF5}
+.ptext{font-size:14.5px;margin:8px 0}
+.dops{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.04em;color:#8A5A00;background:#FFE7A8;border-radius:6px;padding:1px 6px;margin-left:4px;vertical-align:1px}
+.say{display:none}
+.item:has(.say){box-shadow:inset 4px 0 0 #2F9E7E}
+.item:has(.dops){box-shadow:inset 4px 0 0 #E0A82E}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:12px 0}
+.gallery button{appearance:none;border:1px solid var(--line);background:#fff;border-radius:12px;padding:6px;cursor:zoom-in;display:block}
+.gallery img{width:100%;height:auto;display:block;border-radius:8px}
+.gallery.one{grid-template-columns:1fr}
+.lightbox{position:fixed;inset:0;z-index:60;background:rgba(10,16,24,.92);display:none;align-items:center;justify-content:center;padding:calc(16px + env(safe-area-inset-top)) 16px calc(16px + env(safe-area-inset-bottom))}
+.lightbox.show{display:flex}
+.lightbox img{max-width:100%;max-height:100%;border-radius:8px;background:#fff}
+.lightbox .x{position:absolute;top:calc(10px + env(safe-area-inset-top));right:12px;width:44px;height:44px;border-radius:22px;border:0;background:rgba(255,255,255,.15);color:#fff;font-size:24px;cursor:pointer}
 h2.sec{font-size:17px;margin:22px 0 8px;color:var(--text);display:flex;align-items:center;gap:8px}
 h2.sec .sc{margin-left:auto;font-size:12.5px;color:var(--muted);font-weight:500;font-variant-numeric:tabular-nums}
 .list{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
@@ -156,18 +176,18 @@ ul.bl li{margin:4px 0}
 </header>
 <main id="app"></main>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Image"><button class="x" aria-label="Close">×</button><img alt=""></div>
 
 <script src="data.js"></script>
 <script>
 (function(){
 "use strict";
 var DATA = window.OSCE_DATA || [];
-DATA.forEach(function(c){ c.minutes = 14; });  
 var app = document.getElementById("app");
 var titleEl = document.getElementById("title");
 var backBtn = document.getElementById("back");
 var topProg = document.getElementById("topProgress");
-var GROUP_ORDER = ["Neurology","Eyes","Ear, nose & throat","Respiratory & abdominal","Endocrine","Breast & inguinoscrotal","Cervical & pelvic","Musculoskeletal — upper limb","Musculoskeletal — lower limb"];
+var GROUP_ORDER = ["Neurology","Eyes","Ear, nose & throat","Respiratory & abdominal","Endocrine","Breast & inguinoscrotal","Cervical & pelvic","Musculoskeletal — upper limb","Musculoskeletal — lower limb","Procedural skills"];
 
 /* ---------- storage (safe) ---------- */
 function load(key, fallback){ try{ var v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; }catch(e){ return fallback; } }
@@ -207,7 +227,7 @@ function renderHome(){
   var html = '<div class="wrap"><div class="hero"><p>Deakin MD2 clinical skills · '+DATA.length+' checklists · works offline</p></div>'+
     '<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>'+
     '<input id="q" type="search" placeholder="Search checklists or steps…" autocomplete="off" value="'+esc(query)+'"></label><div id="list"></div>'+
-    '<div class="foot">Based on Deakin CP guidelines 2026 &amp; Talley &amp; O\'Connor 10e.<br>Always check against your marking rubric.<br><a href="pdf/ALL_OSCE_Checklists_Bundle.pdf">Download all as one PDF</a></div></div>';
+    '<div class="foot">Based on Deakin CP guidelines 2026 &amp; Talley &amp; O\'Connor 10e.<br>Always check against your marking rubric.<br><a href="pdf/ALL_OSCE_Checklists_Bundle.pdf">All exam checklists (PDF)</a> · <a href="pdf/Procedural_Skills_All.pdf">All procedural skills (PDF)</a></div></div>';
   app.innerHTML = html;
   var q = document.getElementById("q");
   q.addEventListener("input", function(){ query = q.value; renderList(); });
@@ -252,7 +272,9 @@ function renderChecklist(c){
     '<span class="count" id="count"></span></div></div><div class="wrap">';
   h += '<p class="sub">'+esc(c.sub)+'</p>';
   c.blocks.forEach(function(b){
-    if(b.t==="note"){ h += '<div class="note">'+b.text+'</div>'; }
+    if(b.t==="note"){ h += '<div class="note '+(b.kind||'')+'">'+(b.title?'<span class="nt">'+b.title+'</span>':'')+b.text+'</div>'; }
+    else if(b.t==="p"){ h += '<p class="ptext">'+b.text+'</p>'; }
+    else if(b.t==="imgs"){ h += '<div class="gallery'+(b.items.length===1?' one':'')+'">'+b.items.map(function(im){ return '<button type="button" data-zoom="'+esc(im.src)+'" aria-label="Enlarge image"><img src="'+esc(im.src)+'" alt="'+esc(im.alt||'')+'" loading="lazy"></button>'; }).join("")+'</div>'; }
     else if(b.t==="h"){ sectionIdx++; h += '<h2 class="sec">'+b.text+'<span class="sc" data-sec="'+sectionIdx+'"></span></h2>'; }
     else if(b.t==="check"){
       h += '<div class="list">';
@@ -287,6 +309,9 @@ function renderChecklist(c){
   window.scrollTo(0,0);
   updateCounts();
 
+  app.querySelectorAll("[data-zoom]").forEach(function(el){
+    el.addEventListener("click", function(){ var lb=document.getElementById("lightbox"); lb.querySelector("img").src=el.getAttribute("data-zoom"); lb.querySelector("img").alt=el.querySelector("img").alt; lb.classList.add("show"); });
+  });
   app.querySelectorAll(".item").forEach(function(el){
     el.addEventListener("click", function(e){
       if(e.target.closest("[data-peek]")){ el.classList.toggle("reveal"); e.target.textContent = el.classList.contains("reveal") ? "Hide details" : "Show details"; return; }
@@ -353,6 +378,10 @@ function stopTimer(){ if(tState && tState.iv) clearInterval(tState.iv); tState =
 function buzz(p){ try{ if(navigator.vibrate) navigator.vibrate(p); }catch(e){}
   try{ var A=window.AudioContext||window.webkitAudioContext; if(!A) return; var ctx=new A(), o=ctx.createOscillator(), g=ctx.createGain();
     o.frequency.value=880; o.connect(g); g.connect(ctx.destination); g.gain.setValueAtTime(.15,ctx.currentTime); o.start(); o.stop(ctx.currentTime+.35);}catch(e){} }
+
+/* ---------- lightbox ---------- */
+(function(){ var lb=document.getElementById("lightbox"); lb.addEventListener("click", function(){ lb.classList.remove("show"); });
+  document.addEventListener("keydown", function(e){ if(e.key==="Escape") lb.classList.remove("show"); }); })();
 
 /* ---------- routing ---------- */
 function route(){

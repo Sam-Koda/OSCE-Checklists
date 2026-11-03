@@ -5,9 +5,9 @@ window.OSCE_DATA = [
   "title": "Cranial nerves",
   "group": "Neurology",
   "block": "Neuro",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Cranial_Nerve_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · Neuro · Time: 8–10 min",
+  "sub": "Deakin MD2 · Neuro · Time: 14 min",
   "source": "Based on class whiteboard notes · Check against your Deakin marking rubric",
   "blocks": [
    {
@@ -345,9 +345,9 @@ window.OSCE_DATA = [
   "title": "Upper limb neuro",
   "group": "Neurology",
   "block": "BB6/BB7",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Upper_Limb_Neuro_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · BB6/BB7 · Time: 8–10 min",
+  "sub": "Deakin MD2 · BB6/BB7 · Time: 14 min",
   "source": "Based on Deakin CP BB6/BB7 Neurological Examination Guidelines 2026 & Talley & O'Connor Ch 34 · Check against your marking rubric",
   "blocks": [
    {
@@ -736,9 +736,9 @@ window.OSCE_DATA = [
   "title": "Lower limb neuro",
   "group": "Neurology",
   "block": "BB6/BB7",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Lower_Limb_Neuro_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · BB6/BB7 · Time: 8–10 min",
+  "sub": "Deakin MD2 · BB6/BB7 · Time: 14 min",
   "source": "Based on Deakin CP BB6/BB7 Neurological Examination Guidelines 2026 & Talley & O'Connor Ch 34 · Check against your marking rubric",
   "blocks": [
    {
@@ -1151,7 +1151,7 @@ window.OSCE_DATA = [
   "title": "Eye history",
   "group": "Eyes",
   "block": "BB8",
-  "minutes": 8,
+  "minutes": 14,
   "pdf": "pdf/Eye_History_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · BB8 · Ophthalmology",
   "source": "Based on Deakin CP BB8 Ophthalmology Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -1395,7 +1395,7 @@ window.OSCE_DATA = [
   "title": "Eye examination",
   "group": "Eyes",
   "block": "BB8",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Eye_Exam_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · BB8 · Ophthalmology",
   "source": "Based on Deakin CP BB8 Ophthalmology Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -1675,7 +1675,7 @@ window.OSCE_DATA = [
   "title": "Ear examination",
   "group": "Ear, nose & throat",
   "block": "BB4",
-  "minutes": 6,
+  "minutes": 14,
   "pdf": "pdf/Ear_Exam_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · BB4 · ENT",
   "source": "Based on Deakin CP BB4 ENT Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -1910,7 +1910,7 @@ window.OSCE_DATA = [
   "title": "Nose & sinus",
   "group": "Ear, nose & throat",
   "block": "BB4",
-  "minutes": 5,
+  "minutes": 14,
   "pdf": "pdf/Nose_Sinus_Exam_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · BB4 · ENT",
   "source": "Based on Deakin CP BB4 ENT Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -2056,7 +2056,7 @@ window.OSCE_DATA = [
   "title": "Throat & mouth",
   "group": "Ear, nose & throat",
   "block": "BB4",
-  "minutes": 5,
+  "minutes": 14,
   "pdf": "pdf/Throat_Mouth_Exam_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · BB4 · ENT",
   "source": "Based on Deakin CP BB4 ENT Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -2187,9 +2187,9 @@ window.OSCE_DATA = [
   "title": "Respiratory examination",
   "group": "Respiratory & abdominal",
   "block": "CR7",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Respiratory_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · CR7 · Time: 10 min",
+  "sub": "Deakin MD2 · CR7 · Time: 14 min",
   "source": "Based on Deakin CP CR7 Respiratory Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -2485,9 +2485,9 @@ window.OSCE_DATA = [
   "title": "Abdominal (GI) examination",
   "group": "Respiratory & abdominal",
   "block": "RG5",
-  "minutes": 12,
+  "minutes": 14,
   "pdf": "pdf/Abdominal_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · RG5 · Time: 10–12 min",
+  "sub": "Deakin MD2 · RG5 · Time: 14 min",
   "source": "Based on Deakin CP RG5 GI Abdominal Examination & DRE Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -2938,7 +2938,7 @@ window.OSCE_DATA = [
   "title": "Digital rectal examination",
   "group": "Respiratory & abdominal",
   "block": "RG5",
-  "minutes": 8,
+  "minutes": 14,
   "pdf": "pdf/DRE_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · RG5 · Part-task trainer",
   "source": "Based on Deakin CP RG5 GI Abdominal Examination & DRE Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -3192,9 +3192,9 @@ window.OSCE_DATA = [
   "title": "Thyroid examination",
   "group": "Endocrine",
   "block": "ELC5",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Thyroid_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · ELC5 · Time: 8–10 min",
+  "sub": "Deakin MD2 · ELC5 · Time: 14 min",
   "source": "Based on Deakin CP ELC5 Thyroid Examination & Menstrual History Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -3515,7 +3515,7 @@ window.OSCE_DATA = [
   "title": "Menstrual history",
   "group": "Endocrine",
   "block": "ELC5",
-  "minutes": 8,
+  "minutes": 14,
   "pdf": "pdf/Menstrual_History_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · ELC5 · Introductory history",
   "source": "Based on Deakin CP ELC5 Thyroid Examination & Menstrual History Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -3778,9 +3778,9 @@ window.OSCE_DATA = [
   "title": "Diabetes examination",
   "group": "Endocrine",
   "block": "ELC3",
-  "minutes": 12,
+  "minutes": 14,
   "pdf": "pdf/Diabetes_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · ELC3 · Time: 10–12 min",
+  "sub": "Deakin MD2 · ELC3 · Time: 14 min",
   "source": "Based on Deakin CP ELC3 Diabetes Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -4083,9 +4083,9 @@ window.OSCE_DATA = [
   "title": "Breast examination",
   "group": "Breast & inguinoscrotal",
   "block": "ELC7",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Breast_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · ELC7 · Time: 8–10 min",
+  "sub": "Deakin MD2 · ELC7 · Time: 14 min",
   "source": "Based on Deakin CP ELC7 Breast & Inguinoscrotal Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -4419,7 +4419,7 @@ window.OSCE_DATA = [
   "title": "Inguinoscrotal examination",
   "group": "Breast & inguinoscrotal",
   "block": "ELC7",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Inguinoscrotal_Exam_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · ELC7 · Hernia & testes",
   "source": "Based on Deakin CP ELC7 Breast & Inguinoscrotal Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -4748,7 +4748,7 @@ window.OSCE_DATA = [
   "title": "Cervical screening (speculum)",
   "group": "Cervical & pelvic",
   "block": "ELC8",
-  "minutes": 8,
+  "minutes": 14,
   "pdf": "pdf/Cervical_Screening_Speculum_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · ELC8 · Clinician-collected CST",
   "source": "Based on Deakin CP ELC8 Cervical & Pelvic Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -4916,7 +4916,7 @@ window.OSCE_DATA = [
   "title": "Bimanual pelvic examination",
   "group": "Cervical & pelvic",
   "block": "ELC8",
-  "minutes": 8,
+  "minutes": 14,
   "pdf": "pdf/Bimanual_Pelvic_Exam_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · ELC8 · Pelvic exam",
   "source": "Based on Deakin CP ELC8 Cervical & Pelvic Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -5066,7 +5066,7 @@ window.OSCE_DATA = [
   "title": "HPV self-collection discussion",
   "group": "Cervical & pelvic",
   "block": "ELC8",
-  "minutes": 6,
+  "minutes": 14,
   "pdf": "pdf/HPV_Self_Collection_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · ELC8 · Counselling station",
   "source": "Based on Deakin CP ELC8 Cervical & Pelvic Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -5202,9 +5202,9 @@ window.OSCE_DATA = [
   "title": "Shoulder examination",
   "group": "Musculoskeletal — upper limb",
   "block": "MM6",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Shoulder_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM6 · Time: 8–10 min",
+  "sub": "Deakin MD2 · MM6 · Time: 14 min",
   "source": "Based on Deakin CP MM6 Shoulder, Elbow & Hand Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -5428,9 +5428,9 @@ window.OSCE_DATA = [
   "title": "Elbow examination",
   "group": "Musculoskeletal — upper limb",
   "block": "MM6",
-  "minutes": 8,
+  "minutes": 14,
   "pdf": "pdf/Elbow_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM6 · Time: 6–8 min",
+  "sub": "Deakin MD2 · MM6 · Time: 14 min",
   "source": "Based on Deakin CP MM6 Shoulder, Elbow & Hand Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -5606,9 +5606,9 @@ window.OSCE_DATA = [
   "title": "Hand & wrist examination",
   "group": "Musculoskeletal — upper limb",
   "block": "MM6",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Hand_Wrist_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM6 · Time: 8–10 min",
+  "sub": "Deakin MD2 · MM6 · Time: 14 min",
   "source": "Based on Deakin CP MM6 Shoulder, Elbow & Hand Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -5850,9 +5850,9 @@ window.OSCE_DATA = [
   "title": "Hip examination",
   "group": "Musculoskeletal — lower limb",
   "block": "MM7",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Hip_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM7 · Time: 8–10 min",
+  "sub": "Deakin MD2 · MM7 · Time: 14 min",
   "source": "Based on Deakin CP MM7 Hip, Knee & Ankle Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -6005,9 +6005,9 @@ window.OSCE_DATA = [
   "title": "Knee examination",
   "group": "Musculoskeletal — lower limb",
   "block": "MM7",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Knee_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM7 · Time: 10 min",
+  "sub": "Deakin MD2 · MM7 · Time: 14 min",
   "source": "Based on Deakin CP MM7 Hip, Knee & Ankle Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -6192,9 +6192,9 @@ window.OSCE_DATA = [
   "title": "Ankle & foot examination",
   "group": "Musculoskeletal — lower limb",
   "block": "MM7",
-  "minutes": 8,
+  "minutes": 14,
   "pdf": "pdf/Ankle_Foot_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM7 · Time: 8 min",
+  "sub": "Deakin MD2 · MM7 · Time: 14 min",
   "source": "Based on Deakin CP MM7 Hip, Knee & Ankle Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -6377,6 +6377,2471 @@ window.OSCE_DATA = [
     "items": [
      "<b>Ottawa ankle rules</b>: X-ray if malleolar pain plus bone tenderness at the posterior edge or tip of either malleolus, or unable to weight-bear 4 steps. Foot X-ray if tender at the base of the 5th metatarsal or navicular.",
      "Acute hot, swollen 1st MTP = think gout; exclude septic arthritis if febrile or unwell."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "proc-injections-im-sc-id",
+  "title": "1. Injections — IM / SC / ID",
+  "group": "Procedural skills",
+  "block": "HME922",
+  "minutes": 10,
+  "pdf": "pdf/Proc_1_Injections_IM_SC_ID.pdf",
+  "sub": "HME922 Procedural Station · 10 minutes · Injections guideline + IM/SC DOPS form",
+  "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
+  "blocks": [
+   {
+    "t": "note",
+    "kind": "info",
+    "title": "How to use",
+    "text": "Green-edged steps = <b>guideline wording — say it aloud</b>. <span class=\"dops\">DOPS</span> = on the examiner's DOPS marking form. Every station starts with the Universal opening and ends with the Universal closing."
+   },
+   {
+    "t": "note",
+    "kind": "key",
+    "title": "KEY MESSAGE",
+    "text": "Right route, right site, right needle for the drug <b>and</b> the patient’s body habitus. Check the <b>6 Rights</b>. IM: aspirate only by clinical judgement. SC: <b>never aspirate</b>."
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL OPENING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Hand hygiene — Moment 1 <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Introduce yourself: name + “medical student”"
+     ],
+     [
+      "<span class=\"say\"></span>Confirm ID — <b>3 identifiers: full name, DOB, UR number/address</b>; check band + medication chart"
+     ],
+     [
+      "Explain procedure + why an injection (not oral) in plain language"
+     ],
+     [
+      "Ask about <b>allergies</b> (drug, latex, tape, skin prep) <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Allow questions <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Gain <b>informed verbal consent</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Privacy, lighting, exposure, bed height up <span class=\"dops\">DOPS</span>"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — 6 RIGHTS",
+    "text": "<b>P</b>atient · <b>D</b>rug · <b>D</b>ose · <b>R</b>oute · <b>T</b>ime · <b>D</b>ocumentation — “Please Don’t Disturb Rob’s Tea, Doc”<br><b>5 Moments of Hand Hygiene:</b> 1 before touching patient · 2 before procedure · 3 after body-fluid risk · 4 after touching patient · 5 after touching surroundings"
+   },
+   {
+    "t": "h",
+    "text": "CLINICAL KNOWLEDGE — SAY IT"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>Why inject:</b> drug not absorbed in GIT or too variable; route set by drug (e.g. lipid solubility) + manufacturer"
+     ],
+     [
+      "<span class=\"say\"></span><b>Body habitus:</b> thick fat + short needle = accidental SC instead of IM"
+     ],
+     [
+      "<b>Check medication chart:</b> right drug, dose, patient, route, time <span class=\"dops\">DOPS</span>"
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Complication</b>",
+      "<b>Prevent / manage</b>"
+     ],
+     [
+      "Local irritation, allergy, anaphylaxis",
+      "Check allergies to every ingredient"
+     ],
+     [
+      "Infection",
+      "Hand hygiene, skin prep, infection control"
+     ],
+     [
+      "Pain",
+      "Positioning + technique"
+     ],
+     [
+      "Haematoma, bruising (anticoagulants)",
+      "Careful site, positioning, technique"
+     ],
+     [
+      "Scar tissue / lipohypertrophy",
+      "Rotate sites (e.g. insulin)"
+     ],
+     [
+      "Vessel injury",
+      "Know anatomy; aspirate if indicated"
+     ],
+     [
+      "Nerve injury (esp. <b>sciatic</b>)",
+      "Landmark technique"
+     ],
+     [
+      "Vaccine reaction",
+      "Observe at least <b>15 minutes</b>"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "CHOOSE NEEDLE &amp; SITE"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Route</b>",
+      "<b>Adult sites</b>",
+      "<b>Length</b>",
+      "<b>Gauge</b>",
+      "<b>Angle</b>",
+      "<b>Volume</b>"
+     ],
+     [
+      "<b>IM</b>",
+      "<b>Deltoid</b> · ventrogluteal (best if cachectic) · <b>vastus lateralis</b> · dorsogluteal (avoid if obese)",
+      "25–40 mm (76 mm large)",
+      "21–25 G",
+      "<b>90°</b>",
+      "1–5 mL syringe"
+     ],
+     [
+      "<b>SC</b>",
+      "<b>Abdomen</b> (not within 50 mm of umbilicus) · thigh · upper outer triceps · upper buttock",
+      "Insulin 4–13 mm; other 13–16 mm",
+      "23/25 G",
+      "<b>45–90°</b>",
+      "≤ 1.5 mL (3 mL abdo)"
+     ],
+     [
+      "<b>ID (intradermal)</b>",
+      "Anterolateral forearm · upper chest · upper back",
+      "10–19 mm",
+      "23/25 G",
+      "<b>5–15°</b> bevel up",
+      "0.1 mL (max 0.5)"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — ANGLES",
+    "text": "<b>I</b>ntra<b>M</b>uscular = <b>90</b> · <b>S</b>ub<b>C</b>ut = <b>45–90</b> · intra<b>D</b>ermal = <b>D</b>ead flat (5–15) Getting deeper = getting steeper."
+   },
+   {
+    "t": "h",
+    "text": "IM LANDMARKS"
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-injections-im-sc-id-1.webp",
+      "alt": ""
+     },
+     {
+      "src": "img/proc/proc-injections-im-sc-id-2.webp",
+      "alt": ""
+     },
+     {
+      "src": "img/proc/proc-injections-im-sc-id-3.webp",
+      "alt": ""
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>Deltoid:</b> sitting or hand on hip; expose whole upper arm; acromion + deltoid tuberosity; inverted triangle 2–3 fingers below acromion; inject centre"
+     ],
+     [
+      "<span class=\"say\"></span><b>Vastus lateralis:</b> greater trochanter → lateral condyle; middle third, anterolateral thigh (rectus femoris = mid-anterior)"
+     ],
+     [
+      "<span class=\"say\"></span><b>Ventrogluteal:</b> on side; heel of OPPOSITE hand on greater trochanter, index finger on ASIS, spread middle finger → “V”; inject middle"
+     ],
+     [
+      "<span class=\"say\"></span><b>Dorsogluteal:</b> upper outer quadrant, 5–7.5 cm below iliac crest (crest, PSIS, ischial tuberosity, greater trochanter) — sciatic risk"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PROCEDURE — IM (Z-TRACK)"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<b>1.</b> Gather: 21–25 G needle, 1–5 mL syringe, swab, cotton ball/dressing, sharps bin"
+     ],
+     [
+      "<b>2.</b> Hand hygiene + PPE; consent; 6 Rights"
+     ],
+     [
+      "<b>3.</b> Locate site using landmarks <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>4.</b> Swab site and <b>allow to dry</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span><b>5.</b> Non-dominant hand pulls skin <b>2–3 cm sideways</b> (Z-track)"
+     ],
+     [
+      "<b>6.</b> Dart needle in quickly and smoothly at <b>90°</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span><b>7.</b> Aspiration <b>no longer routinely recommended</b> — clinical judgement by site; follow local policy"
+     ],
+     [
+      "<b>8.</b> Inject smoothly at the drug’s recommended rate"
+     ],
+     [
+      "<span class=\"say\"></span><b>9.</b> Withdraw needle <b>then</b> release skin (seals the track)"
+     ],
+     [
+      "<b>10.</b> Cotton ball / dressing; needle to sharps <span class=\"dops\">DOPS</span>"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-injections-im-sc-id-4.webp",
+      "alt": "💉 IM Injection: Z-Track Method for NCLEX The Z-track method is an intramuscular (IM) injection technique that helps prevent irritating medic"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PROCEDURE — SC"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<b>1.</b> 23/25 G needle, 1–3 mL syringe; select site and <b>rotate</b> sites"
+     ],
+     [
+      "<b>2.</b> Swab, allow to dry"
+     ],
+     [
+      "<span class=\"say\"></span><b>3.</b> <b>No pinch</b> (short needle / enough fat) → 90°"
+     ],
+     [
+      "<span class=\"say\"></span><b>4.</b> <b>Pinch</b> (lift skin + fat off muscle) → 45–90°; 45° if cachectic"
+     ],
+     [
+      "<span class=\"say\"></span><b>5.</b> <b>DO NOT ASPIRATE</b>"
+     ],
+     [
+      "<b>6.</b> Inject <b>slowly</b>; withdraw; cotton ball"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PROCEDURE — ID"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<b>1.</b> 1 mL syringe, bevel <b>up</b>, 5–15°"
+     ],
+     [
+      "<b>2.</b> Insert only until bevel is covered"
+     ],
+     [
+      "<span class=\"say\"></span><b>3.</b> Inject slowly until a <b>bleb / wheal</b> forms"
+     ],
+     [
+      "<b>4.</b> Uses: local anaesthetic, allergy testing, tuberculin (Mantoux), some vaccines"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL CLOSING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Needle straight into sharps — <b>never recap</b>"
+     ],
+     [
+      "Waste: sharps / biohazard / general <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Area clean; patient comfortable; bed lowest; call bell <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Aftercare: report pain, swelling, rash, breathing difficulty (vaccines: wait 15 min)"
+     ],
+     [
+      "Hand hygiene — Moments 4/5 <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Document date, time, drug, dose, route, site, needle size, batch (vaccines), name + signature <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span>Can’t answer? “I’ll pass that on to someone senior”"
+     ],
+     [
+      "Examiner asks <b>“How do you think that went?”</b> → one thing done well · one to improve · one strategy"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "proc-venepuncture",
+  "title": "2. Venepuncture",
+  "group": "Procedural skills",
+  "block": "HME922",
+  "minutes": 10,
+  "pdf": "pdf/Proc_2_Venepuncture.pdf",
+  "sub": "HME922 Procedural Station · 10 minutes · Venepuncture guideline + DOPS form",
+  "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
+  "blocks": [
+   {
+    "t": "note",
+    "kind": "info",
+    "title": "How to use",
+    "text": "Green-edged steps = <b>guideline wording — say it aloud</b>. <span class=\"dops\">DOPS</span> = on the examiner's DOPS marking form. Every station starts with the Universal opening and ends with the Universal closing."
+   },
+   {
+    "t": "note",
+    "kind": "key",
+    "title": "KEY MESSAGE",
+    "text": "<b>Feel</b> for a soft, bouncy vein. Tourniquet off within <b>2 minutes</b>. Follow the <b>order of draw</b>. Max <b>2 attempts</b>. Label tubes <b>at the bedside</b>."
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL OPENING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Hand hygiene — Moment 1 <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Introduce yourself: name + “medical student”"
+     ],
+     [
+      "Confirm ID — <b>3 identifiers</b>; patient states name + DOB; check band against request slip <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Explain procedure + which tests"
+     ],
+     [
+      "Ask about <b>allergies</b> (latex, tape, alcohol) and <b>fainting history</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Allow questions <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Gain <b>informed verbal consent</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Privacy, lighting, exposure; seated/reclined, arm at or below heart <span class=\"dops\">DOPS</span>"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — 5 MOMENTS",
+    "text": "<b>5 Moments of Hand Hygiene:</b> 1 before touching patient · 2 before procedure · 3 after body-fluid risk · 4 after touching patient · 5 after touching surroundings"
+   },
+   {
+    "t": "h",
+    "text": "CLINICAL KNOWLEDGE — SAY IT"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Venepuncture = sample for lab tests. Venesection = therapeutic removal (haemochromatosis, polycythaemia)"
+     ],
+     [
+      "<b>Sites: cephalic, median cubital, basilic</b> — superficial, small nerve supply. Dorsum of hand = less prominent, more painful"
+     ],
+     [
+      "<span class=\"say\"></span><b>Avoid:</b> lower limbs, small/non-palpable, repeatedly used, bruised/inflamed/sclerosed, infection, broken skin, cellulitis, phlebitis, lymphangitis, <b>arm with IV infusion</b>, limb for vascular surgery, <b>mastectomy side</b>, <b>AV fistula</b>; caution coagulopathy"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-venepuncture-1.webp",
+      "alt": "Understanding Upper Limb Superficial Veins for Venous Access | Dr. S.0 MIKAYE posted on the topic | LinkedIn"
+     }
+    ]
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Complication</b>",
+      "<b>Prevent/manage</b>"
+     ],
+     [
+      "Syncope",
+      "Fainting history → lie supine"
+     ],
+     [
+      "Haematoma",
+      "Loosen tourniquet, remove needle, <b>firm pressure</b>"
+     ],
+     [
+      "Infection",
+      "Uncommon — aseptic technique"
+     ],
+     [
+      "Needlestick",
+      "Sharps bin at bedside, immediate disposal"
+     ],
+     [
+      "Haemolysis",
+      "Falsely high <b>K+</b>; usually technique"
+     ],
+     [
+      "Not enough blood",
+      "Paediatric tubes if difficult"
+     ],
+     [
+      "Prolonged tourniquet",
+      "Falsely ↑ protein, AST, lipids, cholesterol, iron; affects PCV"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PREPARE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Check request slip for tubes; enough kit for <b>two attempts</b>"
+     ],
+     [
+      "Gloves (non-sterile, latex free), eye protection, sharps bin, kidney dish, <b>Vacutainer</b> (preferred closed system) / butterfly, alcohol swab, tourniquet, bluey, tubes, cotton ball + tape, labelled slip, specimen bag <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span>Difficult vein: <b>21 G butterfly</b>, or 21 G + 10–20 mL syringe"
+     ],
+     [
+      "<span class=\"say\"></span>Blood alcohol test → <b>only the kit swab</b>, no alcohol swab"
+     ],
+     [
+      "<span class=\"say\"></span>Same arm as IV fluid (no choice): stop infusion, wait <b>5–10 min</b>, sample distal to cannula"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PROCEDURE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<b>1.</b> Tourniquet <b>10–15 cm above</b> site — fingers fit under it; arterial flow not blocked <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>2.</b> Palpate (before gloves): soft, bouncy, refills, doesn’t roll. <b>Pulsates = artery → don’t use</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>3.</b> No vein? Fist clench/unclench; warm pack or warm water 5–10 min"
+     ],
+     [
+      "<b>4.</b> Gloves; alcohol swab; <b>dry 30 seconds</b>; don’t re-touch <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>5.</b> Anchor vein — thumb below site, skin taut <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>6.</b> Needle <b>bevel up, 10–30°</b>, in line with vein <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>7.</b> Push tubes in, fill until vacuum stops; <b>gently invert</b> additive tubes <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span><b>8.</b> Tourniquet released by <b>2 minutes</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>9.</b> Tourniquet <b>fully off</b> → cotton ball → withdraw needle → firm pressure <b>1–2 min</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>10.</b> Bending the elbow is <b>NOT</b> pressure → haematoma"
+     ],
+     [
+      "<span class=\"say\"></span><b>11.</b> All tubes labelled <b>at the bedside</b>"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — ORDER OF DRAW — “Be Loving, Respectful, Gentle, Patient, Generous, Brave”",
+    "text": "<b>B</b>lood cultures (sterile) → <b>L</b>ight blue (citrate) + ACD → <b>R</b>ed / gold (clot activator) → <b>G</b>reen (heparin) → <b>P</b>urple (EDTA) → <b>G</b>rey (glucose) → <b>B</b>lack (ESR) → other"
+   },
+   {
+    "t": "h",
+    "text": "TROUBLESHOOTING"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Problem</b>",
+      "<b>Fix</b>"
+     ],
+     [
+      "No flow",
+      "Check position, advance slightly"
+     ],
+     [
+      "Through the vein",
+      "Pull back slightly"
+     ],
+     [
+      "Bevel against wall",
+      "Adjust angle"
+     ],
+     [
+      "Vein collapsed",
+      "Tighten tourniquet, gentle fist"
+     ],
+     [
+      "Haematoma forming",
+      "Release tourniquet, withdraw, firm pressure"
+     ],
+     [
+      "2 failed attempts",
+      "Ask a senior colleague"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL CLOSING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Needle straight into sharps — <b>never recap</b>"
+     ],
+     [
+      "Waste: sharps / biohazard / general <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Area clean; patient comfortable; bed lowest; call bell <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span>Check patient isn’t light-headed before you leave; report bleeding/swelling"
+     ],
+     [
+      "Hand hygiene — Moments 4/5 <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Request slip dated, timed, signed; specimen bag with slip in outer pocket → lab <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span>Can’t answer? “I’ll pass that on to someone senior”"
+     ],
+     [
+      "Examiner asks <b>“How do you think that went?”</b> → one thing done well · one to improve · one strategy"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "proc-12-lead-ecg",
+  "title": "3. 12-lead ECG",
+  "group": "Procedural skills",
+  "block": "HME922",
+  "minutes": 10,
+  "pdf": "pdf/Proc_3_12_Lead_ECG.pdf",
+  "sub": "HME922 Procedural Station · 10 minutes · CR4 ECG guideline",
+  "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
+  "blocks": [
+   {
+    "t": "note",
+    "kind": "info",
+    "title": "How to use",
+    "text": "Green-edged steps = <b>guideline wording — say it aloud</b>. <span class=\"dops\">DOPS</span> = on the examiner's DOPS marking form. Every station starts with the Universal opening and ends with the Universal closing."
+   },
+   {
+    "t": "note",
+    "kind": "key",
+    "title": "KEY MESSAGE",
+    "text": "<b>10 electrodes → 12 leads.</b> Find the 4th ICS, place V1–V6, record with patient still, <b>label the trace immediately</b>, then read it in ’s fixed order."
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL OPENING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Hand hygiene — Moment 1"
+     ],
+     [
+      "Introduce yourself: name + “medical student”"
+     ],
+     [
+      "<span class=\"say\"></span>Confirm ID — <b>3 identifiers</b>"
+     ],
+     [
+      "<span class=\"say\"></span>Explain: bare chest; some leads go <b>under the left breast</b>"
+     ],
+     [
+      "<span class=\"say\"></span>Ask about <b>skin/adhesive allergies</b>; brief history — why the ECG?"
+     ],
+     [
+      "<span class=\"say\"></span>Allow time for questions"
+     ],
+     [
+      "Gain <b>informed verbal consent</b>; offer a chaperone"
+     ],
+     [
+      "<span class=\"say\"></span>Private, <b>warm</b> room; supine; not over-exposed"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — 5 MOMENTS",
+    "text": "<b>5 Moments of Hand Hygiene:</b> 1 before touching patient · 2 before procedure · 3 after body-fluid risk · 4 after touching patient · 5 after touching surroundings"
+   },
+   {
+    "t": "h",
+    "text": "CLINICAL KNOWLEDGE — SAY IT"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Indications: chest pain · palpitations · heart failure · hypertension · SOB · congenital heart disease · electrolytes · drugs/toxins · routine medicals"
+     ],
+     [
+      "<span class=\"say\"></span>Detects: arrhythmia, ischaemia/AMI, conduction block (BBB), K+ disturbance, PE"
+     ],
+     [
+      "<span class=\"say\"></span>No alcohol, tobacco, caffeine or vigorous exercise in previous <b>30 minutes</b>"
+     ],
+     [
+      "RL = earth. I, II, III = bipolar (Einthoven). aVR, aVL, aVF = augmented. V1–V6 = unipolar, horizontal plane. 3/5-lead = rhythm monitoring only"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PREPARE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>ECG machine charged + paper; paper towel; disposable clippers + sharps bin; sandpaper; electrodes; 10 labelled leads; tape"
+     ],
+     [
+      "<span class=\"say\"></span>Wipe sweat; <b>clip</b> hair (don’t shave); sandpaper if needed"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "ELECTRODE PLACEMENT"
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-12-lead-ecg-1.webp",
+      "alt": "ECG Lead positioning • LITFL • ECG Library Basics"
+     },
+     {
+      "src": "img/proc/proc-12-lead-ecg-2.webp",
+      "alt": "12-Lead ECG Placement: The Ultimate Guide"
+     }
+    ]
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Electrode</b>",
+      "<b>Position</b>",
+      "<b>Remember</b>"
+     ],
+     [
+      "<b>V1</b>",
+      "4th ICS, <b>RIGHT</b> sternal border",
+      "V1 &amp; V2 = 4th ICS, either side"
+     ],
+     [
+      "<b>V2</b>",
+      "4th ICS, <b>LEFT</b> sternal border",
+      "of the sternum"
+     ],
+     [
+      "<b>V4</b>",
+      "5th ICS, mid-clavicular line",
+      "<b>Place V4 before V3</b>"
+     ],
+     [
+      "<b>V3</b>",
+      "Midway V2 ↔ V4",
+      "the bridge"
+     ],
+     [
+      "<b>V5</b>",
+      "Anterior axillary line, level of V4",
+      "5, 6 slide out sideways"
+     ],
+     [
+      "<b>V6</b>",
+      "Mid-axillary line, level of V4",
+      "in a straight line"
+     ],
+     [
+      "<b>RA / LA</b>",
+      "Inside right / left wrist",
+      ""
+     ],
+     [
+      "<b>RL / LL</b>",
+      "Inside right / left ankle",
+      "RL = earth"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — PLACING CHEST LEADS",
+    "text": "Find the <b>angle of Louis</b> → 2nd rib beside it → slide down to the <b>4th ICS</b> → V1 right, V2 left.<br>“<b>4-4-5</b>”: V1 &amp; V2 in the <b>4</b>th, V4 in the <b>5</b>th; V3 between; V5 &amp; V6 follow V4 out to the side.<br>Limb colours (AHA, as in diagram): “<b>White on right, smoke (black) over fire (red), clouds over grass</b>”. IEC machines: RA red, LA yellow, LL green, RL black — “<b>R</b>ide <b>Y</b>our <b>G</b>reen <b>B</b>ike” clockwise. Always check the lead labels.<br>Posterior (V7–V9) and right-sided leads are <b>not examinable</b>."
+   },
+   {
+    "t": "h",
+    "text": "RECORD"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<b>1.</b> Patient relaxed, still, not talking → <b>RECORD</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>2.</b> Rhythm strip prints (usually lead II)"
+     ],
+     [
+      "<span class=\"say\"></span><b>3.</b> Switch off, remove electrodes, patient dresses; wipe leads; machine back on charge"
+     ],
+     [
+      "<span class=\"say\"></span><b>4.</b> <b>Label the trace now:</b> name · DOB · date + <b>time</b> · chest pain / pain-free · vital signs · your name + signature"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "INTERPRET — ORDER"
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — “Remember: Rate Rhythm, P, PR, QRS, ST, T, QT — then Compare”",
+    "text": "Say the <b>patient details + presentation</b> first, finish by <b>comparing with an old ECG</b>."
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Step</b>",
+      "<b>Normal</b>",
+      "<b>Look for</b>"
+     ],
+     [
+      "<b>Rate</b>",
+      "60–100",
+      "300 ÷ large squares R–R; or QRS in 10 s × 6 (P waves × 6 = atrial rate)"
+     ],
+     [
+      "<b>Rhythm</b>",
+      "Regular P–P and R–R",
+      "Every P followed by a QRS?"
+     ],
+     [
+      "<b>P wave</b>",
+      "Upright, &lt; 2.5 mm, &lt; 0.12 s, 1:1",
+      "Absent (AF), saw-tooth (flutter)"
+     ],
+     [
+      "<b>PR</b>",
+      "0.12–0.20 s (3–5 small sq)",
+      "Long = heart block"
+     ],
+     [
+      "<b>QRS</b>",
+      "0.08–0.12 s",
+      "Wide (BBB); pathological Q &gt; 0.04 s, &gt; 1 mm, &gt; 25% of R; R-wave progression"
+     ],
+     [
+      "<b>ST</b>",
+      "Isoelectric",
+      "↑ &gt; 1 mm limb / &gt; 2 mm chest in 2 contiguous leads; ↓ ≥ 0.5 mm"
+     ],
+     [
+      "<b>T wave</b>",
+      "Same direction as QRS; &lt; 5 mm limb, &lt; 10 mm chest",
+      "Inversion (TWI V1 can be normal); tall peaked = ↑K+"
+     ],
+     [
+      "<b>QTc</b>",
+      "&lt; 0.425 s",
+      "QTc = QT ÷ √RR; long QT → VT risk"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "TERRITORIES"
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — “I SAL” — Inferior · Septal · Anterior · Lateral",
+    "text": "Ischaemia = <b>repolarisation</b> (ST ↑/↓, T inversion). Infarction = <b>depolarisation</b> (pathological Q, small/notched QRS). <b>Time is muscle</b> — ~30 min ischaemia → infarction."
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Territory</b>",
+      "<b>Leads</b>",
+      "<b>Artery</b>"
+     ],
+     [
+      "<b>I</b>nferior",
+      "II, III, aVF",
+      "RCA"
+     ],
+     [
+      "<b>S</b>eptal",
+      "V1, V2",
+      "LAD"
+     ],
+     [
+      "<b>A</b>nterior",
+      "V3, V4",
+      "LAD"
+     ],
+     [
+      "<b>L</b>ateral",
+      "I, aVL, V5, V6",
+      "LCx"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-12-lead-ecg-3.webp",
+      "alt": "This image is a visual guide detailing various heart rhythm abnormalities, including normal sinus rhythm, tachycardia, bradycardia, fibrilla"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL CLOSING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Clippers into sharps bin; electrodes into general waste"
+     ],
+     [
+      "Patient dresses; comfortable; bed lowest; call bell"
+     ],
+     [
+      "Explain next step — doctor will review; report chest pain immediately"
+     ],
+     [
+      "Hand hygiene — Moments 4/5"
+     ],
+     [
+      "<span class=\"say\"></span>Trace labelled + signed (check again)"
+     ],
+     [
+      "<span class=\"say\"></span>Can’t answer? “I’ll pass that on to someone senior”"
+     ],
+     [
+      "Examiner asks <b>“How do you think that went?”</b> → one thing done well · one to improve · one strategy"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "proc-basic-life-support-adult",
+  "title": "4. Basic life support (adult)",
+  "group": "Procedural skills",
+  "block": "HME922",
+  "minutes": 10,
+  "pdf": "pdf/Proc_4_Basic_Life_Support.pdf",
+  "sub": "HME922 Procedural Station · 10 minutes · HB6 BLS & First Aid lecture + ANZCOR 2024",
+  "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
+  "blocks": [
+   {
+    "t": "note",
+    "kind": "info",
+    "title": "How to use",
+    "text": "Green-edged steps = <b>guideline wording — say it aloud</b>. <span class=\"dops\">DOPS</span> = on the examiner's DOPS marking form. Every station starts with the Universal opening and ends with the Universal closing."
+   },
+   {
+    "t": "note",
+    "kind": "key",
+    "title": "KEY MESSAGE",
+    "text": "Unresponsive and <b>not breathing normally</b> → follow the <b>ANZCOR BLS flowchart: DRSABCD</b>. Say every letter out loud. <b>30:2 at 100–120/min, 1/3 depth.</b> AED on <b>ASAP</b>."
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL OPENING (EMERGENCY VERSION)"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Introduce yourself to the examiner: name + “medical student”"
+     ],
+     [
+      "State: “Emergency — <b>consent is implied</b>”"
+     ],
+     [
+      "<span class=\"say\"></span>Apply <b>PPE — protective eyewear + gloves</b> before touching the patient"
+     ],
+     [
+      "Go straight to DRSABCD; talk the examiner through each step"
+     ],
+     [
+      "Patient wakes → introduce yourself, explain, reassure"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — DRSABCD — “Doctors’ Rounds Start At Breakfast, Coffee ‘n’ Danish”",
+    "text": "<b>D</b>anger · <b>R</b>esponse · <b>S</b>end for help · <b>A</b>irway · <b>B</b>reathing · <b>C</b>PR · <b>D</b>efibrillation<br>learning objectives: purpose of BLS · technical <b>and communication</b> skills for DRSABCD · <b>routine post-resuscitation care</b>"
+   },
+   {
+    "t": "h",
+    "text": "D — DANGER"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>First priority: scene safe for <b>1 rescuer</b> (PPE: eyewear + gloves) · <b>2 patient</b> · <b>3 others</b> helping"
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Community dangers</b>",
+      "<b>Healthcare dangers</b>"
+     ],
+     [
+      "Violence · fire, smoke, fumes · traffic",
+      "Blood + body fluids · needles/sharps"
+     ],
+     [
+      "Confined spaces · unstable structures",
+      "Wet floors / spilled fluids"
+     ],
+     [
+      "Electricity · sharps · dangerous weather",
+      "<b>Electrical equipment</b> — don’t touch a patient still connected to current"
+     ],
+     [
+      "Deep/fast water · chemicals · biological",
+      "<b>Trip hazards</b> — move furniture/people to make space"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "R — RESPONSE (“TALK AND TOUCH”)"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>1.</b> <b>Verbal:</b> “Can you open your eyes?”"
+     ],
+     [
+      "<span class=\"say\"></span><b>2.</b> <b>Touch:</b> “Can you squeeze my hand?”"
+     ],
+     [
+      "<span class=\"say\"></span><b>3.</b> <b>Painful:</b> firmly squeeze the shoulders (<b>trapezius</b>)"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "S — SEND FOR HELP"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>Delegate someone to get the AED</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>In hospital:</b> call out — “<b>Hello, can I get some help in here please!</b>” · press emergency bell · dial <b>2222</b> (standard emergency number) → your <b>name, location (ward/bed)</b>, “<b>Code Blue</b>”"
+     ],
+     [
+      "<span class=\"say\"></span><b>Out of hospital: 000</b>"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "A — AIRWAY (POSITION → OPEN &amp; OBSERVE → OPTIMISE)"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Airway takes priority over <b>any</b> other injury, <b>including possible spinal injury</b> (ANZCOR 9.16)"
+     ],
+     [
+      "<span class=\"say\"></span><b>Position:</b> adult + child = <b>sniffing</b> · infant = <b>neutral</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>Open &amp; observe:</b> can you see anything? Remove without pushing it further down — suction or head position. <b>No finger sweeps</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>Optimise:</b> head tilt–chin lift or jaw thrust · oral airway adjunct (OPA) · suction"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-basic-life-support-adult-1.webp",
+      "alt": "Head Tilt Chin Lift vs Jaw Thrust Maneuver - Distributor Resmi Defibrilator ZOLL AED"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "B — BREATHING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Keep the airway open (manoeuvre / adjunct) <b>while</b> you check"
+     ],
+     [
+      "<span class=\"say\"></span><b>Look</b> for chest movement · <b>Listen</b> for breath sounds · <b>Feel</b> breath on your hand"
+     ],
+     [
+      "Check for <b>no more than 10 seconds</b>; gasping/agonal breathing = <b>not normal</b>"
+     ],
+     [
+      "<span class=\"say\"></span>Unresponsive + not breathing normally → <b>start compressions immediately</b>"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "C — CPR"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "",
+      "<b>Adult</b>",
+      "<b>Child</b>",
+      "<b>Infant</b>"
+     ],
+     [
+      "<b>Hands</b>",
+      "Two hands, lower half of sternum",
+      "One or two hands",
+      "Two fingers or encircling thumbs"
+     ],
+     [
+      "<b>Depth</b>",
+      "<b>1/3</b> of chest",
+      "<b>1/3</b>",
+      "<b>1/3</b>"
+     ],
+     [
+      "<b>Rate</b>",
+      "<b>100–120 / min</b> (~2 per second)",
+      "same",
+      "same"
+     ],
+     [
+      "<b>Ratio</b>",
+      "<b>30 : 2</b>",
+      "30 : 2",
+      "30 : 2"
+     ],
+     [
+      "<b>Breaths</b>",
+      "<b>1 second each</b>; mouth-to-mask or BVM; see chest rise",
+      "",
+      ""
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Rates <b>&lt; 100 or &gt; 140</b> are linked to lower survival (ANZCOR Guideline 6)"
+     ],
+     [
+      "Full recoil every compression; pauses &lt; 10 s; swap compressor ~every 2 min"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — NUMBERS — “30 – 2 – 100–120 – 1/3 – 2 min”",
+    "text": "30 pushes, 2 breaths, 100–120 a minute, one-third deep, AED re-analyses every 2 minutes.<br>Beat: “<b>Stayin’ Alive</b>” ≈ 103 bpm."
+   },
+   {
+    "t": "h",
+    "text": "D — DEFIBRILLATION (AED)"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>1.</b> Only for someone <b>unresponsive and not breathing normally</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>2.</b> Attach <b>ASAP</b>, turn <b>on</b>, follow voice prompts"
+     ],
+     [
+      "<span class=\"say\"></span><b>3.</b> Remove clothing; attach pads (upper right chest + left side). <b>Pads touching?</b> → one middle of chest, one on back between shoulder blades"
+     ],
+     [
+      "<span class=\"say\"></span><b>4.</b> Plug pad cable into the AED"
+     ],
+     [
+      "<span class=\"say\"></span><b>5.</b> <b>Analysis: nobody touches the patient</b>"
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>AED says</b>",
+      "<b>You do</b>"
+     ],
+     [
+      "<b>Shockable</b>",
+      "Charges (150 or 200 J) → <b>visual check</b> + loudly “<b>STAND CLEAR!</b>” → press shock → <b>CPR 2 minutes</b> with no interruptions"
+     ],
+     [
+      "<b>Non-shockable</b>",
+      "Won’t charge → “resume compressions” → CPR 2 minutes"
+     ],
+     [
+      "<b>Every 2 minutes</b>",
+      "AED re-analyses — hands off"
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Pads <b>not</b> over jewellery, pacemakers or medication patches"
+     ],
+     [
+      "<span class=\"say\"></span>Clip excess chest hair; wipe off moisture; pads firmly stuck"
+     ],
+     [
+      "<span class=\"say\"></span>Child <b>&lt; 8 years</b> (incl. infants): paediatric attenuated pads (<b>50 J</b>) — or standard adult pads if none"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — SHOCK SEQUENCE — “Look, Shout, Shock, Push”",
+    "text": "<b>Look</b> (visual check nobody touching) → <b>Shout</b> “Stand clear!” → <b>Shock</b> → <b>Push</b> (straight back to compressions)"
+   },
+   {
+    "t": "h",
+    "text": "CONTINUE BLS UNTIL"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>Signs of life</b> return"
+     ],
+     [
+      "<span class=\"say\"></span><b>Qualified help</b> arrives and takes over"
+     ],
+     [
+      "<span class=\"say\"></span><b>Impossible to continue</b> (e.g. exhaustion)"
+     ],
+     [
+      "<span class=\"say\"></span>An <b>authorised person pronounces death</b>"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "POST-RESUSCITATION CARE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>Explain</b> what happened to the patient <b>and family</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>Recovery position — left lateral</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>Oxygen</b> if available"
+     ],
+     [
+      "<span class=\"say\"></span>Monitor closely: <b>reassess ABCDE</b> + vital signs (<b>HR, RR, BP</b>)"
+     ],
+     [
+      "<span class=\"say\"></span>To <b>ED</b> for observation + investigations (bloods, <b>ECG</b>, imaging) — <b>find the cause</b>, prevent recurrence"
+     ],
+     [
+      "<span class=\"say\"></span>Keep watching for further deterioration"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "CHOKING ( AIRWAY GUIDELINE)"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Severity</b>",
+      "<b>Action</b>"
+     ],
+     [
+      "<b>Mild</b> — effective cough",
+      "Sit up, encourage coughing, monitor, send for help"
+     ],
+     [
+      "<b>Severe</b> — ineffective cough",
+      "Call for help; back blows then chest thrusts (up to 5 each), alternate; suction / forceps with caution"
+     ],
+     [
+      "<b>Becomes unresponsive</b>",
+      "Start DRSABCD"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL CLOSING (EMERGENCY VERSION)"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<b>ISBAR handover</b> to Code Blue/ambulance: time of collapse, CPR start, number of shocks, return of circulation"
+     ],
+     [
+      "Sharps (if any) to sharps bin; waste sorted"
+     ],
+     [
+      "<span class=\"say\"></span>Recovery position (left lateral); oxygen; privacy; family informed"
+     ],
+     [
+      "Hand hygiene — Moments 4/5"
+     ],
+     [
+      "Document times, actions, shocks, outcome, name + signature"
+     ],
+     [
+      "Debrief with team; restock resus trolley / AED"
+     ],
+     [
+      "Examiner asks <b>“How do you think that went?”</b> → one thing done well · one to improve · one strategy"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "proc-first-aid-quick-reference",
+  "title": "4b. First aid — quick reference",
+  "group": "Procedural skills",
+  "block": "HME922",
+  "minutes": 10,
+  "pdf": "pdf/Proc_4b_First_Aid.pdf",
+  "sub": "HB6 BLS & First Aid lecture · burns · trauma · anaphylaxis · snake bite",
+  "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
+  "blocks": [
+   {
+    "t": "note",
+    "kind": "info",
+    "title": "How to use",
+    "text": "Green-edged steps = <b>guideline wording — say it aloud</b>. <span class=\"dops\">DOPS</span> = on the examiner's DOPS marking form. Every station starts with the Universal opening and ends with the Universal closing."
+   },
+   {
+    "t": "note",
+    "kind": "key",
+    "title": "KEY MESSAGE",
+    "text": "Every first aid scenario starts with <b>DRSABCD</b> and <b>call for help (000)</b>. Then treat the specific problem, reassure, and stay with the person."
+   },
+   {
+    "t": "h",
+    "text": "BURNS"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Clothes on fire → <b>STOP</b> (reassure) · <b>DROP</b> (to ground) · <b>ROLL</b> (wrap in blanket, roll until out)"
+     ],
+     [
+      "<span class=\"say\"></span>DRSABCD; severe burn or <b>airway burn</b> → 000"
+     ],
+     [
+      "<span class=\"say\"></span><b>Cool running water 20 minutes</b>, as soon as possible"
+     ],
+     [
+      "<span class=\"say\"></span>Remove clothing + jewellery <b>unless stuck</b> to the burn"
+     ],
+     [
+      "<span class=\"say\"></span>Cover loosely with <b>cling film</b> or non-stick sterile dressing"
+     ],
+     [
+      "<span class=\"say\"></span>Check for and treat <b>shock</b>; calm and reassure"
+     ],
+     [
+      "<span class=\"say\"></span><b>DON’T:</b> lotions, ointment, butter/fat or neutralising agents · touch the burn or burst blisters · remove stuck material · touch an <b>electrical burn</b> patient until power is safe"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — BURNS — “20 minutes, cool, cover”",
+    "text": "Cool running water for <b>20 minutes</b>, then cover with cling film. Nothing greasy, nothing popped."
+   },
+   {
+    "t": "h",
+    "text": "TRAUMA &amp; SEVERE BLEEDING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Signs of severe bleeding: <b>weak, rapid pulse</b> · pale, cool, moist skin · sweating · rapid gasping breathing · restless · nausea · thirst · dizzy/confused · loss of consciousness"
+     ],
+     [
+      "<span class=\"say\"></span>DRSABCD (move from danger if safe) · <b>gloves</b> · <b>000</b> · stay calm, stay with them"
+     ],
+     [
+      "<span class=\"say\"></span>Find injuries → <b>stop bleeding</b> (direct pressure) · <b>immobilise fractures</b> · keep <b>warm</b> · recovery position"
+     ],
+     [
+      "<span class=\"say\"></span><b>DON’T remove embedded objects</b> · amputated parts <b>on ice</b> · <b>nothing to eat or drink</b> · minimise movement · elevate limbs (improves blood return to core in shock)"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "ANAPHYLAXIS"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Mild–moderate</b>",
+      "<b>Severe (= anaphylaxis)</b>"
+     ],
+     [
+      "Swelling of lips, face, eyes",
+      "<b>Difficult / noisy breathing</b>"
+     ],
+     [
+      "Hives / itchy raised rash",
+      "<b>Swelling of tongue / throat</b>"
+     ],
+     [
+      "Anxious, scared",
+      "<b>Wheeze</b> → risk of LOC + cardiac arrest"
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>1.</b> DRSABCD"
+     ],
+     [
+      "<span class=\"say\"></span><b>2.</b> <b>Lay flat</b> — don’t let them stand or walk (sit up only if breathing difficult)"
+     ],
+     [
+      "<span class=\"say\"></span><b>3.</b> Remove allergen if known (flick out sting, wipe food from mouth, stop medication)"
+     ],
+     [
+      "<span class=\"say\"></span><b>4.</b> Follow their <b>ASCIA Action Plan</b>; help them self-administer"
+     ],
+     [
+      "<span class=\"say\"></span><b>5.</b> <b>Adrenaline IM</b> — EpiPen® or Anapen® into the <b>outer (lateral) thigh</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>6.</b> <b>000</b> + family / emergency contact"
+     ],
+     [
+      "<span class=\"say\"></span><b>7.</b> Calm and reassure"
+     ],
+     [
+      "<span class=\"say\"></span><b>8.</b> <b>Further adrenaline</b> if no improvement"
+     ],
+     [
+      "<span class=\"say\"></span><b>9.</b> Stops breathing → DRSABCD"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — EPIPEN — “Blue to the sky, orange to the thigh”",
+    "text": "Remove blue safety cap → orange end on outer thigh → push until click → hold <b>3 seconds</b>. Note the time. Lay flat."
+   },
+   {
+    "t": "h",
+    "text": "SNAKE BITE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Signs: pain, swelling, bruising, bleeding, puncture marks/scratches · tender groin/axillary glands · dizziness, nausea, vomiting, headache, abdo pain · <b>double/blurred vision, drooping eyelids</b>, difficulty speaking/swallowing · limb weakness/paralysis · breathing difficulty · collapse then apparent recovery"
+     ],
+     [
+      "<span class=\"say\"></span>DRSABCD · call for help (000)"
+     ],
+     [
+      "<span class=\"say\"></span><b>Mark the bite site</b> with pen, cover with tissue (venom ID) — <b>don’t wash it</b>"
+     ],
+     [
+      "<span class=\"say\"></span><b>Pressure immobilisation bandage</b>, bandaging <b>upwards</b> the whole limb"
+     ],
+     [
+      "<span class=\"say\"></span><b>Splint</b> the limb; keep person and limb <b>still</b>"
+     ],
+     [
+      "<span class=\"say\"></span>Reassure; stay until help arrives"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — SNAKE BITE — “Mark, Wrap, Splint, Still”",
+    "text": "Mark the site → wrap the whole limb firmly upwards → splint → keep still (movement spreads venom via lymph)."
+   }
+  ]
+ },
+ {
+  "id": "proc-airway-management-oxygen-therapy",
+  "title": "5. Airway & oxygen therapy",
+  "group": "Procedural skills",
+  "block": "HME922",
+  "minutes": 10,
+  "pdf": "pdf/Proc_5_Airway_Oxygen.pdf",
+  "sub": "HME922 Procedural Station · 10 minutes · Airway Management & Oxygen Therapy guideline",
+  "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
+  "blocks": [
+   {
+    "t": "note",
+    "kind": "info",
+    "title": "How to use",
+    "text": "Green-edged steps = <b>guideline wording — say it aloud</b>. <span class=\"dops\">DOPS</span> = on the examiner's DOPS marking form. Every station starts with the Universal opening and ends with the Universal closing."
+   },
+   {
+    "t": "note",
+    "kind": "key",
+    "title": "KEY MESSAGE",
+    "text": "Work through the <b>4 O’s</b>: <b>Observe</b> &amp; clear → <b>Open</b> → <b>Optimise</b> with adjuncts → <b>Oxygenate</b> to a <b>documented SpO2 target</b>."
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL OPENING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Hand hygiene — Moment 1"
+     ],
+     [
+      "<span class=\"say\"></span>Apply <b>PPE</b>"
+     ],
+     [
+      "Introduce yourself: name + “medical student”"
+     ],
+     [
+      "Confirm ID — <b>3 identifiers</b>"
+     ],
+     [
+      "<span class=\"say\"></span>Explain purpose of the assessment / oxygen"
+     ],
+     [
+      "<span class=\"say\"></span>Know the history (e.g. <b>COPD</b> → 88–92%); ask allergies (latex, tape)"
+     ],
+     [
+      "Allow questions; <b>informed consent</b> (unconscious = implied)"
+     ],
+     [
+      "<span class=\"say\"></span>Sit patient up if possible; warm, comfortable; privacy, lighting"
+     ],
+     [
+      "<span class=\"say\"></span>Stethoscope + airway equipment ready"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — THE 4 O’s",
+    "text": "<b>O</b>bserve (FB, teeth, blood, vomit) → <b>O</b>pen (chin lift, head tilt, jaw thrust) → <b>O</b>ptimise (suction, OPA, NPA, LMA) → <b>O</b>xygenate (prongs, Hudson, NRB, BVM)<br><b>5 Moments of Hand Hygiene:</b> 1 before touching patient · 2 before procedure · 3 after body-fluid risk · 4 after touching patient · 5 after touching surroundings"
+   },
+   {
+    "t": "h",
+    "text": "CLINICAL KNOWLEDGE — SAY IT"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Goal of O2: correct <b>alveolar and/or tissue hypoxia</b>"
+     ],
+     [
+      "<span class=\"say\"></span>Indications: respiratory distress · hypoxaemia · unwell/deteriorating incl. trauma · <b>SaO2 &lt; 93%</b> · surgery · opiates/sedatives"
+     ],
+     [
+      "<span class=\"say\"></span>Targets: <b>92–96%</b> acutely ill · <b>88–92%</b> COPD / chronic respiratory failure"
+     ],
+     [
+      "<span class=\"say\"></span>Nurses may start O2 without an order, but follow the <b>target range documented by medical staff</b>; oximetry for all on O2; ABG/VBG if breathless + acutely ill"
+     ],
+     [
+      "<span class=\"say\"></span>Rising O2 need or no response = <b>deterioration</b> → urgent review, escalate"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "EQUIPMENT"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Stethoscope · torch · <b>Magill forceps</b> · suction + <b>Yankauer</b>/catheters · OPAs · NPAs · LMA/SGA · O2 wall/cylinder · <b>white flowmeter</b> · tubing · delivery devices"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "O1 — OBSERVE &amp; CLEAR"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Look for foreign body, loose teeth, blood, vomit, saliva"
+     ],
+     [
+      "<span class=\"say\"></span>Mild obstruction: sit up, cough, monitor, send for help"
+     ],
+     [
+      "<span class=\"say\"></span>Severe: forceps with caution · lean forward + cough · back blows / chest thrusts · suction"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "O2 — OPEN"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Head tilt–chin lift"
+     ],
+     [
+      "<span class=\"say\"></span><b>Suspected C-spine injury → jaw thrust ONLY</b>"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "O3 — OPTIMISE WITH ADJUNCTS"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Adjunct</b>",
+      "<b>Who</b>",
+      "<b>Size</b>",
+      "<b>Key points</b>"
+     ],
+     [
+      "<b>OPA</b> (Guedel)",
+      "<b>Unconscious only</b>",
+      "Centre of top teeth → angle of mandible",
+      "Follow natural curve. Risks: aspiration, mouth/teeth trauma, wrong size → obstruction / laryngospasm"
+     ],
+     [
+      "<b>NPA</b>",
+      "Awake or unconscious; better tolerated awake + children",
+      "Nares → tragus",
+      "Safety pin, lubricate, along nasal floor perpendicular to face, flange at nostril, tie with trache tape. <b>NO: basal skull # · mid-face # · coagulopathy</b>; caution septum/polyps"
+     ],
+     [
+      "<b>LMA / SGA</b>",
+      "Unconscious; alternative to intubation",
+      "By weight; women 3–4, men 4–5",
+      "Lubricate, slide along back of throat until it stops, inflate cuff if needed, tape. <b>NO: aspiration risk</b>"
+     ],
+     [
+      "<b>Suction</b>",
+      "Any",
+      "—",
+      "Wall outlet, canister, tubing, Yankauer"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — SIZING",
+    "text": "<b>OPA = Teeth → Jaw</b> (“mouth tube, measure the mouth”) · <b>NPA = Nose → Ear</b> (“nose tube, measure the nose”)<br>OPA in an awake patient = gag/vomit → use an NPA."
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-airway-management-oxygen-therapy-1.webp",
+      "alt": "Oropharyngeal Airway (Guedel Airway) Insertion - OSCE Guide | Geeky Medics"
+     },
+     {
+      "src": "img/proc/proc-airway-management-oxygen-therapy-2.webp",
+      "alt": "The image depicts a diagram showing the anatomical positions of the philtrum and tragus. AI-generated content may be incorrect."
+     },
+     {
+      "src": "img/proc/proc-airway-management-oxygen-therapy-3.webp",
+      "alt": "Airway Evaluation and Management - Laryngeal Mask Airway | Clinical Anesthesia Procedures"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "BREATHING ASSESSMENT"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>LOOK</b> chest rise · <b>LISTEN</b> air at mouth/nose · <b>FEEL</b> air movement"
+     ],
+     [
+      "<span class=\"say\"></span>Observe <b>SpO2 · respiratory rate · colour</b>; perfusion, work of breathing"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "O4 — OXYGENATE"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Device</b>",
+      "<b>Flow</b>",
+      "<b>FiO2</b>",
+      "<b>Key points</b>"
+     ],
+     [
+      "<b>Nasal prongs</b>",
+      "<b>1–4 L/min</b>",
+      "24 / 28 / 32 / 36%",
+      "≥ 5 L dries mucosa, crusting, epistaxis. Mouth breathing OK unless nares blocked"
+     ],
+     [
+      "<b>Hudson mask</b>",
+      "<b>≥ 5 L/min</b>",
+      "6 L 45% → 10 L 65% (+5% per L)",
+      "Min 5 L stops CO2 rebreathing; FiO2 depends on flow, fit, effort; can humidify"
+     ],
+     [
+      "<b>Non-rebreather</b>",
+      "<b>≥ 15 L/min</b>",
+      "60–90%",
+      "Emergency; spontaneous breathing. <b>Fill bag &gt; 2/3 first.</b> No flow = <b>suffocation risk</b>"
+     ],
+     [
+      "<b>BVM</b>",
+      "<b>15 L/min</b>",
+      "Up to 100%",
+      "Not breathing / inadequate breathing; self-inflating"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — FLOW RATES — “4 – 5 – 15 – 15”",
+    "text": "Prongs up to <b>4</b> · Hudson at least <b>5</b> · NRB <b>15</b> · BVM <b>15</b><br>Prongs FiO2 = <b>20 + 4 × L</b> (1 L 24% … 4 L 36%) · Hudson: <b>6 L = 45%, add 5% per litre</b> to 10 L = 65%"
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-airway-management-oxygen-therapy-4.webp",
+      "alt": "Know the difference !! Partial Rebreather Mask • Flow rate: 6-10 L/min • FiO₂: 40-70% • Reservoir bag: partially inflated Non-Rebreather Mas"
+     },
+     {
+      "src": "img/proc/proc-airway-management-oxygen-therapy-5.webp",
+      "alt": "Two-handed bvm mask grip C-E vs vice grip"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "BVM TECHNIQUE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span><b>1.</b> Mask: pointed end on bridge of nose, round end between lip and chin; tight seal"
+     ],
+     [
+      "<span class=\"say\"></span><b>2.</b> <b>C-E grip:</b> thumb + index = “C” on mask; 3 fingers = “E” lifting jaw into mask"
+     ],
+     [
+      "<span class=\"say\"></span><b>3.</b> Squeeze <b>1/3 of the bag</b>, <b>10–12 breaths/min</b>, watch chest rise"
+     ],
+     [
+      "<span class=\"say\"></span><b>4.</b> Over-inflation → gastric insufflation, volutrauma, barotrauma"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PULSE OXIMETRY"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Normal <b>97–99%</b>; 93–97% may be normal for some; read as a <b>trend</b> with colour, perfusion, work of breathing"
+     ],
+     [
+      "<span class=\"say\"></span>False readings: cold peripheries / hypovolaemia · severe hypotension · cardiac failure · arrhythmia · poor probe · <b>CO poisoning</b> · nail polish"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL CLOSING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Used adjuncts, catheters, masks into correct waste"
+     ],
+     [
+      "Area clean; patient sitting up, comfortable; bed lowest"
+     ],
+     [
+      "<span class=\"say\"></span>Simple explanation of findings; reassure"
+     ],
+     [
+      "<span class=\"say\"></span>Call bell — “<b>buzz</b> if you’re concerned”"
+     ],
+     [
+      "Hand hygiene — Moments 4/5"
+     ],
+     [
+      "Document device, flow, SpO2, RR, target range, response"
+     ],
+     [
+      "<span class=\"say\"></span>Can’t answer? “I’ll forward that to someone senior”"
+     ],
+     [
+      "Examiner asks <b>“How do you think that went?”</b> → one thing done well · one to improve · one strategy"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "proc-wound-dressing-aseptic-technique",
+  "title": "6. Wound dressing (ANTT)",
+  "group": "Procedural skills",
+  "block": "HME922",
+  "minutes": 10,
+  "pdf": "pdf/Proc_6_Wound_Dressing.pdf",
+  "sub": "HME922 Procedural Station · 10 minutes · standard ANTT (check against wound guideline)",
+  "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
+  "blocks": [
+   {
+    "t": "note",
+    "kind": "info",
+    "title": "How to use",
+    "text": "Green-edged steps = <b>guideline wording — say it aloud</b>. <span class=\"dops\">DOPS</span> = on the examiner's DOPS marking form. Every station starts with the Universal opening and ends with the Universal closing."
+   },
+   {
+    "t": "note",
+    "kind": "key",
+    "title": "KEY MESSAGE",
+    "text": "Protect <b>key parts and key sites</b> with aseptic non-touch technique. Assess the wound systematically, clean <b>clean → dirty</b>, match dressing to wound, document."
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL OPENING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Hand hygiene — Moment 1"
+     ],
+     [
+      "Introduce yourself: name + “medical student”"
+     ],
+     [
+      "Confirm ID — <b>3 identifiers</b>"
+     ],
+     [
+      "Explain why the dressing is being changed"
+     ],
+     [
+      "Ask about <b>allergies</b> (tape, iodine, chlorhexidine, latex) + pain/analgesia (give 30 min before)"
+     ],
+     [
+      "Allow questions"
+     ],
+     [
+      "Gain <b>informed verbal consent</b>"
+     ],
+     [
+      "Privacy, lighting, expose only the wound, bed height up"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — 5 MOMENTS",
+    "text": "<b>5 Moments of Hand Hygiene:</b> 1 before touching patient · 2 before procedure · 3 after body-fluid risk · 4 after touching patient · 5 after touching surroundings"
+   },
+   {
+    "t": "h",
+    "text": "CLINICAL KNOWLEDGE — SAY IT"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Purpose: protect from infection/trauma, absorb exudate, moist healing environment, comfort"
+     ],
+     [
+      "Change when: care plan due, soiled/lifting/strike-through, signs of infection"
+     ],
+     [
+      "Infection signs: spreading redness, heat, swelling, pain, pus, odour, breakdown, fever"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PREPARE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Clean trolley (detergent/alcohol wipe, dry)"
+     ],
+     [
+      "Dressing pack, sterile 0.9% saline, sterile + non-sterile gloves, dressing, tape, waste bag, measuring guide, bluey"
+     ],
+     [
+      "Check <b>expiry</b> and packaging intact/dry"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PROCEDURE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<b>1.</b> Hand hygiene → non-sterile gloves → remove old dressing; inspect it → discard with gloves"
+     ],
+     [
+      "<b>2.</b> Hand hygiene → open pack by outer corners; drop saline + dressing onto field"
+     ],
+     [
+      "<b>3.</b> Sterile gloves / forceps — <b>key parts touch nothing non-sterile</b>"
+     ],
+     [
+      "<b>4.</b> <b>Assess:</b> site · size (L × W × D) · bed (granulation, slough, necrosis) · exudate · edges · surrounding skin · odour · pain"
+     ],
+     [
+      "<b>5.</b> Clean <b>clean → dirty</b>; one swab, one stroke, discard"
+     ],
+     [
+      "<b>6.</b> Pat surrounding skin dry"
+     ],
+     [
+      "<b>7.</b> Apply dressing with 2–3 cm margin; secure without tension"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — WOUND ASSESSMENT — “TIME”",
+    "text": "<b>T</b>issue (bed) · <b>I</b>nfection / inflammation · <b>M</b>oisture (exudate) · <b>E</b>dges"
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-wound-dressing-aseptic-technique-1.webp",
+      "alt": "Understanding wound tissue types for care"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL CLOSING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Sharps to sharps bin — never recap"
+     ],
+     [
+      "Waste sorted; trolley cleaned"
+     ],
+     [
+      "Area clean; patient comfortable; bed lowest; call bell"
+     ],
+     [
+      "Report pain, bleeding, fever, redness, soaked dressing"
+     ],
+     [
+      "Hand hygiene — Moments 4/5"
+     ],
+     [
+      "Document assessment, dressing, next review; date on dressing"
+     ],
+     [
+      "Escalate infection/deterioration"
+     ],
+     [
+      "Can’t answer? “I’ll pass that on to someone senior”"
+     ],
+     [
+      "Examiner asks <b>“How do you think that went?”</b> → one thing done well · one to improve · one strategy"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-wound-dressing-aseptic-technique-2.webp",
+      "alt": ""
+     },
+     {
+      "src": "img/proc/proc-wound-dressing-aseptic-technique-3.webp",
+      "alt": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "proc-intravenous-cannulation-pivc",
+  "title": "7. IV cannulation (PIVC)",
+  "group": "Procedural skills",
+  "block": "HME922",
+  "minutes": 10,
+  "pdf": "pdf/Proc_7_IV_Cannulation.pdf",
+  "sub": "HME922 Procedural Station · 10 minutes · MM3 guideline + IVC DOPS form",
+  "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
+  "blocks": [
+   {
+    "t": "note",
+    "kind": "info",
+    "title": "How to use",
+    "text": "Green-edged steps = <b>guideline wording — say it aloud</b>. <span class=\"dops\">DOPS</span> = on the examiner's DOPS marking form. Every station starts with the Universal opening and ends with the Universal closing."
+   },
+   {
+    "t": "note",
+    "kind": "key",
+    "title": "KEY MESSAGE",
+    "text": "Only if needed. <b>Smallest gauge</b> that works (largest in trauma). <b>2% chlorhexidine / 70% alcohol — dry 30 s — no touch.</b> Max 2 attempts. Date the dressing. VIP every shift."
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL OPENING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Hand hygiene — Moment 1 <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span>Introduce yourself: name + “medical student”"
+     ],
+     [
+      "Confirm ID — <b>3 identifiers: name, DOB, UR/address</b>; patient states, check ID band <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Explain procedure, purpose, risks, benefits <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Ask about <b>allergies</b> (tape, chlorhexidine, alcohol) <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span>Ask: any difficult cannulation before? (“took the anaesthetist 4 attempts”)"
+     ],
+     [
+      "Allow questions <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Gain <b>informed verbal consent</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Privacy, lighting, exposure; <b>raise bed height</b> <span class=\"dops\">DOPS</span>"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — 5 MOMENTS",
+    "text": "<b>5 Moments of Hand Hygiene:</b> 1 before touching patient · 2 before procedure · 3 after body-fluid risk · 4 after touching patient · 5 after touching surroundings"
+   },
+   {
+    "t": "h",
+    "text": "CLINICAL KNOWLEDGE — SAY IT"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>&gt; <b>3,500</b> cannula-related sepsis cases/year in Australia (~1.5 / 1,000 admissions) — devices bypass body defences"
+     ],
+     [
+      "<span class=\"say\"></span>Indications: medications · fluids/electrolytes · blood products · unstable patient access · IV contrast"
+     ],
+     [
+      "<span class=\"say\"></span>Delivery: continuous (N/S, Hartmann’s) · intermittent (antibiotics, electrolytes) · bolus (ondansetron, metoclopramide)"
+     ]
+    ]
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>AVOID if possible</b>",
+      "<b>NEVER (unless life-threatening)</b>"
+     ],
+     [
+      "Cubital fossa in a stable patient",
+      "AV fistula"
+     ],
+     [
+      "Legs / feet in adults (DVT, phlebitis)",
+      "Burns, scars, injured areas"
+     ],
+     [
+      "Previous IV sites, bruising",
+      "Infiltrated or phlebitic veins"
+     ],
+     [
+      "Dominant arm",
+      "Infected areas"
+     ],
+     [
+      "Joints — wrist, elbow",
+      "Dermatological conditions"
+     ],
+     [
+      "Mastectomy / axillary clearance side",
+      "Sclerosed or thrombosed veins"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "CHOOSE THE GAUGE"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>Gauge</b>",
+      "<b>Colour</b>",
+      "<b>mL/min</b>",
+      "<b>Use</b>"
+     ],
+     [
+      "<b>14 G</b>",
+      "Orange",
+      "240",
+      "Trauma, massive resuscitation, major surgery, peri-partum, GI bleed"
+     ],
+     [
+      "<b>16 G</b>",
+      "Grey",
+      "180",
+      "As above"
+     ],
+     [
+      "<b>18 G</b>",
+      "Green",
+      "90",
+      "Blood, irritant drugs, rapid infusion, CT contrast"
+     ],
+     [
+      "<b>20 G</b>",
+      "Pink",
+      "60",
+      "General: fluids, antibiotics, analgesia"
+     ],
+     [
+      "<b>22 G</b>",
+      "Blue",
+      "36",
+      "Paediatrics, fragile veins"
+     ],
+     [
+      "<b>24 G</b>",
+      "Yellow",
+      "20",
+      "Paediatrics, neonates"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — GAUGE COLOURS — “Old Grey Goats Pick Blue Yams”",
+    "text": "<b>O</b>range 14 · <b>G</b>rey 16 · <b>G</b>reen 18 · <b>P</b>ink 20 · <b>B</b>lue 22 · <b>Y</b>ellow 24<br>Bigger number = smaller cannula = slower flow."
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-intravenous-cannulation-pivc-1.webp",
+      "alt": "IV Cannula Gauge Chart: Standard Sizes, Colors, and Flow Rates"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "PREPARE"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Alcohol skin prep · IVC/dressing pack · tourniquet · transparent occlusive dressing · cannula · bung/valve · tape · bluey · gauze · sharps bin · splint/crepe if needed · 5–10 mL syringe · <b>0.9% saline flush</b> · blunt drawing-up needle · light · stool"
+     ],
+     [
+      "Standard precautions: hand hygiene, <b>gloves + safety glasses</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span>Bluey under arm; you and patient both comfortable"
+     ],
+     [
+      "<span class=\"say\"></span>Vein: examine both arms; warm if needed; round, firm, elastic, well filled; straight length ≥ cannula"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "INSERT"
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — KEY STEPS — “Clean, Dry, Bevel up, Flash, Lower, Slide, Flush”",
+    "text": "Hand hygiene <b>before</b> opening sterile stock · ANTT throughout"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<b>1.</b> Tourniquet on; locate vein <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>2.</b> Skin prep <b>2% chlorhexidine in 70% alcohol</b> (aqueous if alcohol allergy); circular, inside → out ~5 cm; <b>dry 30 s</b>; clip hair, <b>never shave</b>; don’t re-touch <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span><b>3.</b> Inspect cannula; rotate on stylet 360°"
+     ],
+     [
+      "<span class=\"say\"></span><b>4.</b> Anchor vein, skin taut, hand clear of insertion angle"
+     ],
+     [
+      "<b>5.</b> <b>Bevel up</b>, with blood flow, <b>20–30°</b>, single smooth movement <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>6.</b> <b>Flashback</b> → stop → lower angle almost to skin → advance a few mm <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>7.</b> Slide <b>plastic cannula</b> off the needle to the hub — don’t advance the needle; <b>never against resistance</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>8.</b> Release tourniquet; press over vein at cannula tip <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>9.</b> Remove introducer → <b>straight into sharps</b>; attach bung while occluding <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span><b>10.</b> Bloods? Vacutainer onto bung, collect, then release tourniquet"
+     ],
+     [
+      "<b>11.</b> <b>Flush 5–10 mL normal saline</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<b>12.</b> Transparent sterile dressing — <b>date/time sticker on it</b>; extra tape/splint <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span><b>13.</b> Failed? Retry only if confident + suitable vein — <b>max 2 attempts</b>"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/proc/proc-intravenous-cannulation-pivc-2.webp",
+      "alt": "The image illustrates the step-by-step process of inserting an intravenous catheter, including adjusting the angle to 20-30 degrees, flashba"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "AFTER CARE — VIP SCORE"
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "<b>VIP</b>",
+      "<b>Findings</b>",
+      "<b>Action</b>"
+     ],
+     [
+      "<b>0</b>",
+      "Healthy",
+      "Observe"
+     ],
+     [
+      "<b>1</b>",
+      "Slight pain OR slight redness",
+      "Observe"
+     ],
+     [
+      "<b>2</b>",
+      "Two of: pain, erythema, swelling",
+      "<b>Resite</b>"
+     ],
+     [
+      "<b>3</b>",
+      "All of: pain along vein, erythema, induration",
+      "Resite, consider treatment"
+     ],
+     [
+      "<b>4</b>",
+      "Extensive + palpable venous cord",
+      "Resite, consider treatment"
+     ],
+     [
+      "<b>5</b>",
+      "Extensive + <b>pyrexia</b>",
+      "Treat + resite (thrombophlebitis)"
+     ]
+    ]
+   },
+   {
+    "t": "note",
+    "kind": "memory",
+    "title": "MEMORY AID — VIP",
+    "text": "“<b>0–1 watch, 2 = resite</b>, 3–4 resite + think treatment, 5 = treat”. Check <b>every shift</b>; remove when <b>no longer needed</b>."
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "<span class=\"say\"></span>Complications: thrombophlebitis · thrombosis · extravasation (iron staining) · haematoma · nerve/tendon/ligament injury · infection — local (cellulitis) or systemic (CRBSI, endocarditis, osteomyelitis, sepsis, death)"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "UNIVERSAL CLOSING"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Introducer straight into sharps — <b>never recap</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Waste: sharps / biohazard / general <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Area clean (no blood); patient comfortable; <b>bed back to lowest</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Tell patient to report <b>pain, warmth, redness, swelling, bleeding</b> <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Hand hygiene — Moments 4/5 <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "Document date, time, site, gauge, indication, clinician name <span class=\"dops\">DOPS</span>"
+     ],
+     [
+      "<span class=\"say\"></span>Can’t answer? “I’ll pass that on to someone senior”"
+     ],
+     [
+      "Examiner asks <b>“How do you think that went?”</b> → one thing done well · one to improve · one strategy"
+     ]
     ]
    }
   ]
