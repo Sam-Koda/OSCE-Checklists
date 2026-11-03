@@ -566,6 +566,16 @@ window.OSCE_DATA = [
     ]
    },
    {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/neuro/proprioception.webp",
+      "alt": "Proprioception: hold the sides of the distal phalanx",
+      "cap": "Proprioception: hold the sides of the distal phalanx"
+     }
+    ]
+   },
+   {
     "t": "h",
     "text": "3. Closing and presenting"
    },
@@ -1468,7 +1478,47 @@ window.OSCE_DATA = [
       "Slit lamp*",
       "Corneal ulceration, anterior chamber (demonstrated in session)",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/eye/ptosis.webp",
+      "alt": "Ptosis",
+      "cap": "Ptosis"
+     },
+     {
+      "src": "img/eye/conj-normal.webp",
+      "alt": "(a) Normal conjunctiva",
+      "cap": "(a) Normal conjunctiva"
+     },
+     {
+      "src": "img/eye/conj-pallor.webp",
+      "alt": "(b) Conjunctival pallor — anaemia",
+      "cap": "(b) Conjunctival pallor — anaemia"
+     },
+     {
+      "src": "img/eye/eye-anatomy.webp",
+      "alt": "Anatomy of the eye",
+      "cap": "Anatomy of the eye"
+     },
+     {
+      "src": "img/eye/slit-lamp.webp",
+      "alt": "Slit lamp",
+      "cap": "Slit lamp"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Visual acuity",
      [
       "Snellen",
@@ -1484,7 +1534,37 @@ window.OSCE_DATA = [
       "Poor acuity*",
       "Count fingers → hand movements → perception of light †",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/eye/snellen.webp",
+      "alt": "Snellen chart",
+      "cap": "Snellen chart"
+     },
+     {
+      "src": "img/eye/pinhole.webp",
+      "alt": "Pinhole occluder",
+      "cap": "Pinhole occluder"
+     },
+     {
+      "src": "img/eye/lea-chart.webp",
+      "alt": "Picture/shape chart (children)",
+      "cap": "Picture/shape chart (children)"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Visual fields (revision from CN exam)",
      [
       "Confrontation",
@@ -1505,7 +1585,37 @@ window.OSCE_DATA = [
       "Finger wiggle*",
       "If acuity too poor for the pin",
       "Quick screen"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/eye/confrontation.webp",
+      "alt": "Confrontation visual fields",
+      "cap": "Confrontation visual fields"
+     },
+     {
+      "src": "img/eye/visual-pathway.webp",
+      "alt": "Visual pathway",
+      "cap": "Visual pathway"
+     },
+     {
+      "src": "img/eye/field-defects.webp",
+      "alt": "Visual field defects and lesion sites",
+      "cap": "Visual field defects and lesion sites"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Pupils (dim room, patient looks into distance)",
      [
       "Inspect",
@@ -1526,7 +1636,37 @@ window.OSCE_DATA = [
       "Near response",
       "Look far, then at a near target",
       "Constriction + convergence"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/eye/direct-reflex.webp",
+      "alt": "Direct pupillary reflex",
+      "cap": "Direct pupillary reflex"
+     },
+     {
+      "src": "img/eye/pupil-pathway.webp",
+      "alt": "Pupillary light reflex pathway",
+      "cap": "Pupillary light reflex pathway"
+     },
+     {
+      "src": "img/eye/perrla.webp",
+      "alt": "PERRLA",
+      "cap": "PERRLA"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Eye movements (CN III, IV, VI)",
      [
       "Diplopia",
@@ -1547,7 +1687,27 @@ window.OSCE_DATA = [
       "Cover test*",
       "If diplopia: does it go with either eye covered?",
       "Persists with one eye covered = monocular — ask for help"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/eye/eom.webp",
+      "alt": "Extraocular muscles and nerves",
+      "cap": "Extraocular muscles and nerves"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Other tests",
      [
       "Colour vision*",
@@ -1563,7 +1723,42 @@ window.OSCE_DATA = [
       "Fundoscopy",
       "Red reflex; disc (colour, margins, cup), vessels, macula — dilated pupils in session",
       "Absent red reflex = red flag; papilloedema, retinopathy"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/eye/ishihara.webp",
+      "alt": "Ishihara colour plate",
+      "cap": "Ishihara colour plate"
+     },
+     {
+      "src": "img/eye/ophthalmoscope.webp",
+      "alt": "Ophthalmoscope",
+      "cap": "Ophthalmoscope"
+     },
+     {
+      "src": "img/eye/fundus-normal.webp",
+      "alt": "Normal fundus — optic disc and fovea",
+      "cap": "Normal fundus — optic disc and fovea"
+     },
+     {
+      "src": "img/eye/diabetic-retinopathy.webp",
+      "alt": "Diabetic retinopathy",
+      "cap": "Diabetic retinopathy"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Palpation",
      [
       "Orbits",
@@ -1575,6 +1770,16 @@ window.OSCE_DATA = [
       "Palpate in front of tragus",
       "Viral / chlamydial conjunctivitis"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/eye/lymph-nodes.webp",
+      "alt": "Head and neck lymph node groups",
+      "cap": "Head and neck lymph node groups"
+     }
     ]
    },
    {
@@ -1748,7 +1953,42 @@ window.OSCE_DATA = [
       "Discharge",
       "Mucopurulent, serous, blood-stained",
       "Otitis externa / media, perforation"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/ear-anatomy.webp",
+      "alt": "Anatomy of the ear",
+      "cap": "Anatomy of the ear"
+     },
+     {
+      "src": "img/ent/otitis-externa.webp",
+      "alt": "Otitis externa",
+      "cap": "Otitis externa"
+     },
+     {
+      "src": "img/ent/pinna-scc.webp",
+      "alt": "Squamous cell carcinoma of the pinna",
+      "cap": "Squamous cell carcinoma of the pinna"
+     },
+     {
+      "src": "img/ent/preauricular-sinus.webp",
+      "alt": "Preauricular sinus",
+      "cap": "Preauricular sinus"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Palpation",
      [
       "Tragus and pinna",
@@ -1759,7 +1999,27 @@ window.OSCE_DATA = [
       "Mastoid",
       "Palpate behind the ear",
       "Tender = mastoiditis (with otitis media)"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/mastoiditis.webp",
+      "alt": "Acute mastoiditis",
+      "cap": "Acute mastoiditis"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Otoscopy",
      [
       "Speculum",
@@ -1785,7 +2045,42 @@ window.OSCE_DATA = [
       "Tympanic membrane",
       "Colour, light reflex, short process and handle of malleus, umbo, pars flaccida; move to see whole TM",
       "Bulging, retraction, perforation, grommet"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/otoscope-grip.webp",
+      "alt": "Holding the otoscope — hand braced on head",
+      "cap": "Holding the otoscope — hand braced on head"
+     },
+     {
+      "src": "img/ent/tm-labelled.webp",
+      "alt": "Right tympanic membrane — landmarks",
+      "cap": "Right tympanic membrane — landmarks"
+     },
+     {
+      "src": "img/ent/grommet.webp",
+      "alt": "Grommet (ventilation tube)",
+      "cap": "Grommet (ventilation tube)"
+     },
+     {
+      "src": "img/ent/tm-findings.webp",
+      "alt": "Common ear drum findings",
+      "cap": "Common ear drum findings"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Hearing",
      [
       "Whisper test",
@@ -1802,6 +2097,16 @@ window.OSCE_DATA = [
       "Base on mastoid until no longer heard, then prongs beside the ear: \"Can you hear it now?\"",
       "Positive (AC &gt; BC) = normal"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/weber-rinne.webp",
+      "alt": "Weber and Rinne tests",
+      "cap": "Weber and Rinne tests"
+     }
     ]
    },
    {
@@ -1968,13 +2273,43 @@ window.OSCE_DATA = [
       "Discharge",
       "Rhinorrhoea, crusting; unilateral?",
       "Unilateral offensive in a child = foreign body"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/nasal-anatomy.webp",
+      "alt": "Nasal and sinus anatomy",
+      "cap": "Nasal and sinus anatomy"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Palpation",
      [
       "Nasal bones",
       "Gently palpate bridge",
       "Tenderness, crepitus, step = fracture"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Airway patency",
      [
       "Misting test",
@@ -1985,7 +2320,17 @@ window.OSCE_DATA = [
       "Sniff test",
       "Occlude one nostril, ask patient to sniff; repeat",
       "Unilateral obstruction"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Anterior rhinoscopy",
      [
       "Without speculum",
@@ -2011,7 +2356,37 @@ window.OSCE_DATA = [
       "Polyps*",
       "Grey, glistening, insensate †",
       "Chronic rhinosinusitis"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/nasal-speculum.webp",
+      "alt": "Nasal speculum examination",
+      "cap": "Nasal speculum examination"
+     },
+     {
+      "src": "img/ent/littles-area.webp",
+      "alt": "Blood supply of the septum — Little's area",
+      "cap": "Blood supply of the septum — Little's area"
+     },
+     {
+      "src": "img/ent/nasal-polyp.webp",
+      "alt": "Nasal polyp",
+      "cap": "Nasal polyp"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Sinuses",
      [
       "Palpate",
@@ -2114,7 +2489,27 @@ window.OSCE_DATA = [
       "Tongue",
       "Appearance; ask to raise tongue to check underneath if indicated",
       "Lesions, floor-of-mouth swelling"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/mouth-anatomy.webp",
+      "alt": "Anatomy of the mouth",
+      "cap": "Anatomy of the mouth"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Oropharynx",
      [
       "\"Say ahh\"",
@@ -2135,7 +2530,27 @@ window.OSCE_DATA = [
       "Pharynx",
       "Swelling, inflammation, exudate, post-nasal drip",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/throat-view.webp",
+      "alt": "Palate, uvula and tonsils",
+      "cap": "Palate, uvula and tonsils"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Neck (if clinically indicated)",
      [
       "Lymph nodes",
@@ -2147,6 +2562,16 @@ window.OSCE_DATA = [
       "Palpate in front of ear and over angle of jaw",
       "Parotitis, tumour"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/ent/neck-nodes.webp",
+      "alt": "Cervical lymph node groups",
+      "cap": "Cervical lymph node groups"
+     }
     ]
    },
    {
@@ -3202,7 +3627,27 @@ window.OSCE_DATA = [
       "Mental state",
       "Confusion",
       "Hepatic encephalopathy"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/abdo/scleral-icterus.webp",
+      "alt": "Scleral icterus (jaundice)",
+      "cap": "Scleral icterus (jaundice)"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Vital signs",
      [
       "Pulse (manual)",
@@ -3218,7 +3663,17 @@ window.OSCE_DATA = [
       "RR, temp, SpO<sub>2</sub>, BGL",
       "Full set; height and weight if possible",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Hands (both)",
      [
       "Nails",
@@ -3239,7 +3694,42 @@ window.OSCE_DATA = [
       "Asterixis",
       "Arms out, wrists cocked back, fingers spread, ≥20 seconds",
       "Liver failure (\"flap\")"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/abdo/leukonychia.webp",
+      "alt": "Leukonychia",
+      "cap": "Leukonychia"
+     },
+     {
+      "src": "img/abdo/clubbing.webp",
+      "alt": "Clubbing",
+      "cap": "Clubbing"
+     },
+     {
+      "src": "img/abdo/palmar-erythema.webp",
+      "alt": "Palmar erythema",
+      "cap": "Palmar erythema"
+     },
+     {
+      "src": "img/abdo/dupuytrens.webp",
+      "alt": "Dupuytren's contracture",
+      "cap": "Dupuytren's contracture"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Arms",
      [
       "Skin",
@@ -3250,7 +3740,27 @@ window.OSCE_DATA = [
       "Muscle",
       "Wasting",
       "Malnutrition"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/abdo/spider-naevi.webp",
+      "alt": "Spider naevi",
+      "cap": "Spider naevi"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Face",
      [
       "Eyes",
@@ -3271,7 +3781,32 @@ window.OSCE_DATA = [
       "Lymph nodes*",
       "Left supraclavicular (Virchow's) node †",
       "Gastric malignancy (Troisier's sign)"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/abdo/xanthelasma.webp",
+      "alt": "Xanthelasma",
+      "cap": "Xanthelasma"
+     },
+     {
+      "src": "img/abdo/angular-stomatitis.webp",
+      "alt": "Angular stomatitis",
+      "cap": "Angular stomatitis"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Chest",
      [
       "Spider naevi",
@@ -3282,7 +3817,17 @@ window.OSCE_DATA = [
       "Gynaecomastia*",
       "Verbalise — not expected to examine",
       "Chronic liver disease, spironolactone"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Abdomen — inspection (stand back, then from the side)",
      [
       "Scars, stoma",
@@ -3308,7 +3853,37 @@ window.OSCE_DATA = [
       "Cough*",
       "Ask patient to cough — watch hernial orifices and for pain †",
       "Hernia; peritonism"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/abdo/abdominal-scars.webp",
+      "alt": "Abdominal scars (see quick reference)",
+      "cap": "Abdominal scars (see quick reference)"
+     },
+     {
+      "src": "img/abdo/gross-ascites.webp",
+      "alt": "Gross ascites",
+      "cap": "Gross ascites"
+     },
+     {
+      "src": "img/abdo/distension-veins.webp",
+      "alt": "Distension and prominent veins",
+      "cap": "Distension and prominent veins"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Abdomen — palpation (warm hands, kneel to bed level †, watch face)",
      [
       "Light palpation",
@@ -3344,7 +3919,27 @@ window.OSCE_DATA = [
       "Bladder*",
       "Palpate suprapubic area if retention suspected",
       "Dull to percussion"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/abdo/nine-regions.webp",
+      "alt": "The nine abdominal regions",
+      "cap": "The nine abdominal regions"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Abdomen — percussion",
      [
       "Liver span",
@@ -3365,7 +3960,17 @@ window.OSCE_DATA = [
       "Bladder*",
       "If urinary retention suspected",
       "Dullness above pubis"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Abdomen — auscultation",
      [
       "Bowel sounds",
@@ -3381,7 +3986,17 @@ window.OSCE_DATA = [
       "Aortic bruit*",
       "Above umbilicus †",
       "Atherosclerosis, AAA"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Hernias and groin",
      [
       "Hernial orifices",
@@ -3392,7 +4007,17 @@ window.OSCE_DATA = [
       "Inguinal lymph nodes",
       "Both sides",
       "Lymphadenopathy"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Legs*",
      [
       "Oedema",
@@ -3619,6 +4244,16 @@ window.OSCE_DATA = [
      [
       "Position: <b>left lateral</b>, knees drawn up to chest; cover with gown/sheet until exposure needed"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/abdo/dre-position.webp",
+      "alt": "Left lateral position for DRE",
+      "cap": "Left lateral position for DRE"
+     }
     ]
    },
    {
@@ -3904,7 +4539,17 @@ window.OSCE_DATA = [
       "Obvious neck mass",
       "Goitre or thyroglossal cyst",
       "May be seen before regional exam"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Hands",
      [
       "Nails",
@@ -3925,7 +4570,17 @@ window.OSCE_DATA = [
       "Fine tremor",
       "Arms outstretched, sheet of paper on the backs of hands",
       "Hyper (sympathetic overactivity)"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Vital signs and arms",
      [
       "Radial pulse (manual)",
@@ -3946,7 +4601,17 @@ window.OSCE_DATA = [
       "Proximal myopathy",
       "Arms overhead / resisted \"chicken wings\" (can do with legs)",
       "Hypo or hyper"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Eyes and face",
      [
       "Face / skin",
@@ -3987,7 +4652,17 @@ window.OSCE_DATA = [
       "Eye movements + ptosis",
       "H test, ask about diplopia",
       "Ophthalmoplegia (Graves); ptosis — consider myasthenia"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Neck — inspect (front and sides)",
      [
       "Scars, redness, veins",
@@ -4008,7 +4683,17 @@ window.OSCE_DATA = [
       "Tongue protrusion",
       "\"Stick out your tongue\"",
       "Thyroglossal cyst moves up; goitre does not"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Neck — palpate (from behind)",
      [
       "Thyroid",
@@ -4029,7 +4714,27 @@ window.OSCE_DATA = [
       "Trachea*",
       "Position †",
       "Deviation from large goitre"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/endo/thyroid-anatomy.webp",
+      "alt": "Thyroid gland anatomy",
+      "cap": "Thyroid gland anatomy"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Neck — percuss and auscultate",
      [
       "Percuss",
@@ -4045,7 +4750,17 @@ window.OSCE_DATA = [
       "Auscultate",
       "Over each lobe with diaphragm for a bruit",
       "Bruit = hyper (Graves)"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Chest",
      [
       "Gynaecomastia",
@@ -4056,7 +4771,17 @@ window.OSCE_DATA = [
       "Heart / lungs",
       "Auscultate for pericardial and pleural effusions",
       "Hypo"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Legs",
      [
       "Pretibial myxoedema",
@@ -4476,7 +5201,17 @@ window.OSCE_DATA = [
       "Gait",
       "Observe as the patient enters",
       "Neuropathy, PVD, foot problems"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Vital signs and measurements",
      [
       "BP lying and standing",
@@ -4497,7 +5232,17 @@ window.OSCE_DATA = [
       "Weight, height, BMI, waist",
       "If appropriate and able",
       "Cardiometabolic risk"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Hands and arms",
      [
       "Fingertips",
@@ -4513,7 +5258,17 @@ window.OSCE_DATA = [
       "Upper arm",
       "Continuous glucose monitor (CGM)?",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Face",
      [
       "Endocrine facies",
@@ -4524,7 +5279,17 @@ window.OSCE_DATA = [
       "Mouth",
       "Infection: bacterial or Candida (white plaques)",
       "Poor glycaemic control"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Eyes",
      [
       "Visual acuity",
@@ -4540,7 +5305,17 @@ window.OSCE_DATA = [
       "Fundoscopy",
       "Red reflex, disc, vessels, macula (note undilated-pupil limits)",
       "Retinopathy, cataract"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Neck and chest",
      [
       "Carotids",
@@ -4556,13 +5331,43 @@ window.OSCE_DATA = [
       "Precordium",
       "Auscultate heart; ± lung bases if cardiac concern",
       "Heart failure, IHD"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/endo/acanthosis.webp",
+      "alt": "Acanthosis nigricans — neck and axilla",
+      "cap": "Acanthosis nigricans — neck and axilla"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Abdomen",
      [
       "Injection sites",
       "Clean? Rotated? Lipohypertrophy or lipoatrophy",
       "Erratic insulin absorption"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Lower limbs — inspect (incl. backs of legs, between toes, soles)",
      [
       "Gait and footwear",
@@ -4598,7 +5403,27 @@ window.OSCE_DATA = [
       "Bone architecture",
       "High arch, clawed toes, bunions, muscle wasting, Charcot joint",
       "Motor / sensory neuropathy"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/endo/necrobiosis.webp",
+      "alt": "Necrobiosis lipoidica",
+      "cap": "Necrobiosis lipoidica"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Lower limbs — vascular",
      [
       "Pulses",
@@ -4609,7 +5434,17 @@ window.OSCE_DATA = [
       "Perfusion",
       "Capillary refill in toes; temperature of limbs",
       "Critical limb ischaemia = red flag"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Significance"
+    ],
+    "rows": [
      "Lower limbs — neurological",
      [
       "Monofilament (10 g)",
@@ -4631,6 +5466,16 @@ window.OSCE_DATA = [
       "Plantar → ankle → knee",
       "Reduced ankle jerks in neuropathy"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/endo/monofilament.webp",
+      "alt": "10 g monofilament testing sites",
+      "cap": "10 g monofilament testing sites"
+     }
     ]
    },
    {
@@ -4873,6 +5718,16 @@ window.OSCE_DATA = [
     ]
    },
    {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/endo/breast-lymph.webp",
+      "alt": "Lymph drainage of the breast",
+      "cap": "Lymph drainage of the breast"
+     }
+    ]
+   },
+   {
     "t": "h",
     "text": "5. Palpation — breasts (supine)"
    },
@@ -4904,6 +5759,26 @@ window.OSCE_DATA = [
      [
       "Repeat fully on the other breast"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/endo/breast-anatomy.webp",
+      "alt": "Breast anatomy",
+      "cap": "Breast anatomy"
+     },
+     {
+      "src": "img/endo/breast-quadrants.webp",
+      "alt": "Breast quadrants and axillary tail",
+      "cap": "Breast quadrants and axillary tail"
+     },
+     {
+      "src": "img/endo/breast-tumour-sites.webp",
+      "alt": "Where breast cancers most commonly occur",
+      "cap": "Where breast cancers most commonly occur"
+     }
     ]
    },
    {
@@ -5520,6 +6395,16 @@ window.OSCE_DATA = [
     ]
    },
    {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/endo/pelvic-position.webp",
+      "alt": "Position: heels together, knees fall apart",
+      "cap": "Position: heels together, knees fall apart"
+     }
+    ]
+   },
+   {
     "t": "h",
     "text": "4. Closing"
    },
@@ -5640,6 +6525,16 @@ window.OSCE_DATA = [
      [
       "Cover patient; leave tissues and bin; privacy to dress"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/endo/pelvic-position.webp",
+      "alt": "Position: heels together, knees fall apart",
+      "cap": "Position: heels together, knees fall apart"
+     }
     ]
    },
    {
@@ -5916,7 +6811,17 @@ window.OSCE_DATA = [
       "Deformity",
       "Step at AC joint, squared-off shoulder, winged scapula †",
       "AC dislocation, glenohumeral dislocation"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Feel — start medially and work round to the back",
      [
       "Temperature",
@@ -5947,7 +6852,17 @@ window.OSCE_DATA = [
       "Crepitus",
       "Hand over joint while moving it through a limited range",
       "OA, rotator cuff disease"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Move — active, then passive if limited (watch from front and back)",
      [
       "Abduction",
@@ -5983,7 +6898,17 @@ window.OSCE_DATA = [
       "Measure",
       "Limited → estimate/measure degrees; otherwise \"full range of motion\"",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Special tests",
      [
       "Empty can (Jobe's)",
@@ -6010,6 +6935,26 @@ window.OSCE_DATA = [
       "Arm at side, neutral rotation; pull down at the elbow",
       "Gap &gt;1 fingerbreadth below acromion = inferior instability"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/msk/empty-can.webp",
+      "alt": "Empty can test",
+      "cap": "Empty can test"
+     },
+     {
+      "src": "img/msk/hawkins.webp",
+      "alt": "Hawkins test",
+      "cap": "Hawkins test"
+     },
+     {
+      "src": "img/msk/apprehension.webp",
+      "alt": "Apprehension test (supine)",
+      "cap": "Apprehension test (supine)"
+     }
     ]
    },
    {
@@ -6330,7 +7275,47 @@ window.OSCE_DATA = [
       "Function",
       "Watch how they use their hands informally",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/msk/ra-hand.webp",
+      "alt": "Rheumatoid arthritis — late changes",
+      "cap": "Rheumatoid arthritis — late changes"
+     },
+     {
+      "src": "img/msk/ra-distribution.webp",
+      "alt": "RA joint distribution",
+      "cap": "RA joint distribution"
+     },
+     {
+      "src": "img/msk/oa-hand.webp",
+      "alt": "Osteoarthritis — Heberden's nodes",
+      "cap": "Osteoarthritis — Heberden's nodes"
+     },
+     {
+      "src": "img/msk/nail-pitting.webp",
+      "alt": "Nail pitting (psoriasis)",
+      "cap": "Nail pitting (psoriasis)"
+     },
+     {
+      "src": "img/msk/psoriatic-hands.webp",
+      "alt": "Psoriatic arthritis",
+      "cap": "Psoriatic arthritis"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Feel",
      [
       "Temperature",
@@ -6366,7 +7351,17 @@ window.OSCE_DATA = [
       "Pulses",
       "Radial and ulnar pulses; capillary refill",
       "Vascular compromise"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Move — active",
      [
       "Wrist",
@@ -6382,13 +7377,33 @@ window.OSCE_DATA = [
       "Thumb opposition",
       "Touch thumb to each fingertip",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Move — passive",
      [
       "Wrists, MCP, PIP, DIP",
       "Move each through range; feel for crepitus",
       "Restriction, crepitus"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Measure — hand function",
      [
       "Grip strength",
@@ -6409,7 +7424,17 @@ window.OSCE_DATA = [
       "Practical tasks",
       "Undo screw-top jar; do up and undo a button; write with a pen",
       "Functional impact"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Special tests",
      [
       "Phalen's",
@@ -6426,6 +7451,16 @@ window.OSCE_DATA = [
       "Sensory islands and key muscles of median, ulnar and radial nerves (covered in B&amp;B)",
       "Nerve injury — document sensation, movement, circulation after trauma"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/msk/phalens.webp",
+      "alt": "Phalen's manoeuvre",
+      "cap": "Phalen's manoeuvre"
+     }
     ]
    },
    {
@@ -6559,13 +7594,43 @@ window.OSCE_DATA = [
       "Trendelenburg test",
       "Stand on one leg (hold your hands †); watch iliac crests; repeat on the other leg",
       "Pelvis drops on the lifted side = weak abductors on the <b>standing</b> side"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/msk/trendelenburg.webp",
+      "alt": "Trendelenburg test",
+      "cap": "Trendelenburg test"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Look — supine",
      [
       "Re-inspect",
       "Anything missed; leg rotation or shortening †",
       "Fractured NOF: shortened, externally rotated"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Feel",
      [
       "Hip joint",
@@ -6576,7 +7641,17 @@ window.OSCE_DATA = [
       "Greater trochanters",
       "Palpate both",
       "Trochanteric bursitis"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Move — supine (active, then passive if pain or restriction)",
      [
       "Flexion",
@@ -6602,7 +7677,27 @@ window.OSCE_DATA = [
       "Extension",
       "Patient prone: lift leg off bed",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/msk/thomas.webp",
+      "alt": "Thomas test",
+      "cap": "Thomas test"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Measure",
      [
       "True leg length",
@@ -6613,7 +7708,17 @@ window.OSCE_DATA = [
       "Apparent leg length",
       "Umbilicus → medial malleolus, both sides",
       "Difference = pelvic tilt, adduction/abduction, spinal curvature"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Special tests (confirm done)",
      [
       "Trendelenburg, Thomas, leg lengths",
@@ -6714,13 +7819,33 @@ window.OSCE_DATA = [
       "Gait",
       "Normal? Antalgic?",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Look — supine",
      [
       "Re-inspect",
       "Anything missed",
       ""
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Feel",
      [
       "Temperature",
@@ -6741,7 +7866,17 @@ window.OSCE_DATA = [
       "Patellar tap",
       "Knee extended; hand above patella pushing fluid down; two fingers press patella",
       "Tap = large effusion"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Move",
      [
       "Active flexion / extension",
@@ -6752,7 +7887,17 @@ window.OSCE_DATA = [
       "Passive",
       "Feel for crepitus through flexion and extension",
       "OA, patellofemoral"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Special tests — cruciates",
      [
       "Posterior sag",
@@ -6773,7 +7918,27 @@ window.OSCE_DATA = [
       "Lachman's",
       "Knee 20–30°; hold distal thigh, pull proximal tibia forward",
       "Translation / soft end point = ACL"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/msk/lachman.webp",
+      "alt": "Lachman's test (20–30° flexion)",
+      "cap": "Lachman's test (20–30° flexion)"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Special tests — collaterals (knee at 30°)",
      [
       "MCL",
@@ -6784,7 +7949,17 @@ window.OSCE_DATA = [
       "LCL",
       "Varus stress (push knee outwards)",
       "Lateral gaping = LCL tear/laxity"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Special tests — menisci",
      [
       "McMurray's — medial",
@@ -6800,7 +7975,17 @@ window.OSCE_DATA = [
       "Apley's grind",
       "Prone, knee 90°, stabilise thigh; press down on foot and rotate",
       "Pain or clicking = meniscus"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
      "Special tests — patella",
      [
       "Patellar apprehension",

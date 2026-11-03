@@ -1,6 +1,6 @@
 # OSCE Checklists
 
-Tick-box OSCE checklists for Deakin MD2 clinical skills: 26 examinations and histories, plus 8 HME922 procedural skills (with images). It works on a phone, iPad or computer, and works offline once it has been opened.
+Tick-box OSCE checklists for Deakin MD2 clinical skills: 26 examinations and histories, plus 8 HME922 procedural skills, with images from the original guidelines. It works on a phone, iPad or computer, and works offline once it has been opened.
 
 **Features**
 - Choose an examination from the home screen, or search for any step (e.g. "McMurray").
