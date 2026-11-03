@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OSCE Checklists</title>
+<meta name="description" content="Tick-box OSCE checklists for Deakin MD2 clinical skills — works offline on phone and iPad.">
+<meta name="theme-color" content="#1F3A5F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="OSCE">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<style>
+:root{
+  --bg:#F4F7F9; --surface:#FFFFFF; --surface-2:#EEF3F6; --text:#15212E; --muted:#5B6B79;
+  --line:#D6E0E6; --brand:#1F3A5F; --brand-ink:#FFFFFF; --accent:#2E7D8C; --accent-soft:#E2F1F3;
+  --opt:#B7791F; --opt-soft:#FFF4DC; --done:#2F855A; --done-soft:#E3F4EA; --danger:#C53030;
+  --radius:14px; --shadow:0 1px 2px rgba(16,32,48,.06),0 4px 14px rgba(16,32,48,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E151C; --surface:#16202A; --surface-2:#1D2934; --text:#E6EDF2; --muted:#93A4B2;
+    --line:#2A3846; --brand:#14283F; --brand-ink:#FFFFFF; --accent:#5FB7C6; --accent-soft:#17323A;
+    --opt:#E0A84A; --opt-soft:#2E2617; --done:#5CC28A; --done-soft:#173022; --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E151C; --surface:#16202A; --surface-2:#1D2934; --text:#E6EDF2; --muted:#93A4B2;
+  --line:#2A3846; --brand:#14283F; --brand-ink:#FFFFFF; --accent:#5FB7C6; --accent-soft:#17323A;
+  --opt:#E0A84A; --opt-soft:#2E2617; --done:#5CC28A; --done-soft:#173022; --shadow:none;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  padding-bottom:env(safe-area-inset-bottom)}
+button{font:inherit;color:inherit}
+a{color:var(--accent)}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+
+/* Top bar */
+.bar{position:sticky;top:0;z-index:20;background:var(--brand);color:var(--brand-ink);
+  padding-top:env(safe-area-inset-top)}
+.bar-in{display:flex;align-items:center;gap:8px;min-height:56px}
+.bar h1{font-size:18px;margin:0;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:650}
+.iconbtn{appearance:none;border:0;background:transparent;color:var(--brand-ink);width:44px;height:44px;border-radius:10px;
+  display:inline-grid;place-items:center;cursor:pointer;flex:none}
+.iconbtn[hidden]{display:none}
+.iconbtn:active{background:rgba(255,255,255,.15)}
+.iconbtn svg{width:22px;height:22px}
+.progress{height:4px;background:rgba(255,255,255,.18)}
+.progress>i{display:block;height:100%;width:0;background:#7FD3C3;transition:width .25s}
+
+/* Home */
+.hero{padding:18px 0 6px}
+.hero p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.search{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:0 12px;margin:12px 0 4px}
+.search input{flex:1;border:0;background:transparent;color:var(--text);font-size:16px;padding:12px 0;outline:none;min-width:0}
+.search svg{width:18px;height:18px;color:var(--muted);flex:none}
+.group{margin:18px 0 6px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:650}
+.grid{display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+.card{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 14px 12px;box-shadow:var(--shadow)}
+.card:active{transform:scale(.99)}
+.card-top{display:flex;align-items:baseline;gap:8px}
+.card h3{margin:0;font-size:16.5px;font-weight:650;flex:1}
+.tag{font-size:11.5px;font-weight:650;color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:2px 8px;white-space:nowrap}
+.card .meta{margin-top:6px;font-size:13px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.mini{height:5px;border-radius:99px;background:var(--surface-2);margin-top:10px;overflow:hidden}
+.mini>i{display:block;height:100%;background:var(--done);width:0}
+.empty{color:var(--muted);padding:24px 0;text-align:center}
+.foot{color:var(--muted);font-size:12.5px;padding:28px 0 36px;text-align:center}
+
+/* Checklist toolbar */
+.tools{position:sticky;top:calc(60px + env(safe-area-inset-top));z-index:15;background:var(--bg);padding:10px 0 8px;border-bottom:1px solid var(--line)}
+.tools-in{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.chip{appearance:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 12px;font-size:14px;cursor:pointer;
+  display:inline-flex;align-items:center;gap:6px;min-height:40px}
+.chip svg{width:16px;height:16px}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
+.timer{font-variant-numeric:tabular-nums;font-weight:700;min-width:64px;justify-content:center}
+.timer.warn{color:var(--opt);border-color:var(--opt)}
+.timer.over{color:#fff;background:var(--danger);border-color:var(--danger)}
+.count{margin-left:auto;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* Content */
+.sub{color:var(--muted);font-size:13.5px;margin:12px 0 0}
+.note{background:var(--accent-soft);border-radius:12px;padding:10px 12px;font-size:14px;margin:12px 0}
+h2.sec{font-size:17px;margin:22px 0 8px;color:var(--text);display:flex;align-items:center;gap:8px}
+h2.sec .sc{margin-left:auto;font-size:12.5px;color:var(--muted);font-weight:500;font-variant-numeric:tabular-nums}
+.list{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.grp{padding:9px 14px;background:var(--surface-2);font-size:13.5px;font-weight:700;color:var(--accent);border-top:1px solid var(--line)}
+.list>.grp:first-child{border-top:0}
+.item{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:transparent;border:0;border-top:1px solid var(--line);
+  padding:12px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.list>.item:first-child{border-top:0}
+.item:active{background:var(--surface-2)}
+.box{flex:none;width:24px;height:24px;border-radius:7px;border:2px solid var(--muted);display:grid;place-items:center;margin-top:1px;transition:.15s}
+.box svg{width:16px;height:16px;opacity:0;color:#fff}
+.item[aria-checked="true"] .box{background:var(--done);border-color:var(--done)}
+.item[aria-checked="true"] .box svg{opacity:1}
+.item[aria-checked="true"] .lbl{color:var(--muted)}
+.body{flex:1;min-width:0}
+.lbl{font-weight:600;font-size:15.5px}
+.lbl.plain{font-weight:400}
+.det{font-size:14px;margin-top:3px;color:var(--text)}
+.det .k,.abn .k{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+.abn{font-size:13.5px;margin-top:3px;color:var(--muted)}
+.item.opt{box-shadow:inset 4px 0 0 var(--opt)}
+.optflag{font-size:11px;font-weight:700;color:var(--opt);background:var(--opt-soft);border-radius:999px;padding:1px 7px;margin-left:6px;vertical-align:2px;white-space:nowrap}
+body.recall .det, body.recall .abn{display:none}
+body.recall .item.reveal .det, body.recall .item.reveal .abn{display:block}
+.peek{appearance:none;border:0;background:transparent;color:var(--accent);font-size:13px;padding:2px 0 0;cursor:pointer;display:none}
+body.recall .peek{display:inline-block}
+
+/* reference blocks */
+.ref{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:4px 0;margin:10px 0;box-shadow:var(--shadow)}
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:8px 12px;text-align:left;vertical-align:top;border-top:1px solid var(--line)}
+thead th{border-top:0;font-size:12.5px;color:var(--accent);text-transform:none;font-weight:700;background:var(--surface-2)}
+td:first-child{font-weight:600}
+.pairs{display:grid;gap:10px}
+@media (min-width:700px){.pairs{grid-template-columns:1fr 1fr}}
+.pairs .ref{margin:0}
+ul.bl{margin:10px 0;padding:12px 16px 12px 32px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);font-size:14.5px}
+ul.bl li{margin:4px 0}
+.source{font-size:12.5px;color:var(--muted);margin:22px 0 8px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 40px}
+.btn{appearance:none;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:11px 14px;font-size:15px;text-decoration:none;color:var(--text);
+  display:inline-flex;align-items:center;gap:8px;cursor:pointer;min-height:44px}
+.btn.primary{background:var(--brand);color:#fff;border-color:var(--brand)}
+.btn svg{width:18px;height:18px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(120px);
+  background:#15212E;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;transition:transform .25s;z-index:50;max-width:calc(100% - 32px)}
+.toast.show{transform:translateX(-50%) translateY(0)}
+@media print{.bar,.tools,.actions,.peek{display:none!important} .item{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap bar-in">
+    <button class="iconbtn" id="back" aria-label="Back to all checklists" hidden>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <h1 id="title">OSCE Checklists</h1>
+    <button class="iconbtn" id="themeBtn" aria-label="Switch light or dark theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+  <div class="progress" id="topProgress" hidden><i></i></div>
+</header>
+<main id="app"></main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+"use strict";
+var DATA = window.OSCE_DATA || [];
+var app = document.getElementById("app");
+var titleEl = document.getElementById("title");
+var backBtn = document.getElementById("back");
+var topProg = document.getElementById("topProgress");
+var GROUP_ORDER = ["Neurology","Eyes","Ear, nose & throat","Respiratory & abdominal","Endocrine","Breast & inguinoscrotal","Cervical & pelvic","Musculoskeletal — upper limb","Musculoskeletal — lower limb"];
+
+/* ---------- storage (safe) ---------- */
+function load(key, fallback){ try{ var v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; }catch(e){ return fallback; } }
+function save(key, val){ try{ localStorage.setItem(key, JSON.stringify(val)); }catch(e){} }
+var mem = {};
+function getTicks(id){ return mem[id] || (mem[id] = load("osce:ticks:"+id, {})); }
+function setTicks(id, t){ mem[id] = t; save("osce:ticks:"+id, t); }
+
+/* ---------- theme ---------- */
+var theme = load("osce:theme", null);
+function applyTheme(){ if(theme) document.documentElement.setAttribute("data-theme", theme); else document.documentElement.removeAttribute("data-theme"); }
+applyTheme();
+document.getElementById("themeBtn").onclick = function(){
+  var dark = theme ? theme === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+  theme = dark ? "light" : "dark"; save("osce:theme", theme); applyTheme();
+};
+
+/* ---------- helpers ---------- */
+function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]; }); }
+function stripTags(s){ var d=document.createElement("div"); d.innerHTML=s; return d.textContent||""; }
+function isOpt(cell){ return /\*\s*$/.test(stripTags(cell)); }
+function cleanOpt(cell){ return cell.replace(/\*(\s*)$/, "$1"); }
+var toastT;
+function toast(msg){ var t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(function(){t.classList.remove("show");},2200); }
+function itemCount(c){ var n=0; c.blocks.forEach(function(b){ if(b.t==="check") b.rows.forEach(function(r){ if(typeof r!=="string") n++; }); }); return n; }
+function doneCount(c){ var t=getTicks(c.id), n=0; for(var k in t) if(t[k]) n++; return n; }
+var ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
+
+/* ---------- home ---------- */
+var query = "";
+function renderHome(){
+  stopTimer();
+  document.body.classList.remove("recall");
+  titleEl.textContent = "OSCE Checklists";
+  backBtn.hidden = true; topProg.hidden = true;
+  document.title = "OSCE Checklists";
+  var html = '<div class="wrap"><div class="hero"><p>Deakin MD2 clinical skills · '+DATA.length+' checklists · works offline</p></div>'+
+    '<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>'+
+    '<input id="q" type="search" placeholder="Search checklists or steps…" autocomplete="off" value="'+esc(query)+'"></label><div id="list"></div>'+
+    '<div class="foot">Based on Deakin CP guidelines 2026 &amp; Talley &amp; O\'Connor 10e.<br>Always check against your marking rubric.<br><a href="pdf/ALL_OSCE_Checklists_Bundle.pdf">Download all as one PDF</a></div></div>';
+  app.innerHTML = html;
+  var q = document.getElementById("q");
+  q.addEventListener("input", function(){ query = q.value; renderList(); });
+  renderList();
+  window.scrollTo(0, load("osce:homeScroll", 0) || 0);
+}
+function matches(c, q){
+  if(!q) return true; q = q.toLowerCase();
+  if((c.title+" "+c.group+" "+c.block).toLowerCase().indexOf(q) > -1) return true;
+  return JSON.stringify(c.blocks).toLowerCase().indexOf(q) > -1;
+}
+function renderList(){
+  var el = document.getElementById("list"), out = "";
+  GROUP_ORDER.forEach(function(g){
+    var cs = DATA.filter(function(c){ return c.group===g && matches(c, query); });
+    if(!cs.length) return;
+    out += '<div class="group">'+esc(g)+'</div><div class="grid">';
+    cs.forEach(function(c){
+      var n=itemCount(c), d=doneCount(c), pct=n?Math.round(d/n*100):0;
+      out += '<a class="card" href="#/'+c.id+'"><div class="card-top"><h3>'+esc(c.title)+'</h3><span class="tag">'+esc(c.block)+'</span></div>'+
+        '<div class="meta"><span>'+n+' steps</span><span>'+c.minutes+' min station</span>'+(d?'<span>'+d+' ticked</span>':'')+'</div>'+
+        '<div class="mini"><i style="width:'+pct+'%"></i></div></a>';
+    });
+    out += '</div>';
+  });
+  el.innerHTML = out || '<div class="empty">No checklists match “'+esc(query)+'”.</div>';
+}
+
+/* ---------- checklist ---------- */
+var current = null;
+function renderChecklist(c){
+  current = c;
+  titleEl.textContent = c.title; document.title = c.title+" · OSCE";
+  backBtn.hidden = false; topProg.hidden = false;
+  var recall = load("osce:recall", false);
+  document.body.classList.toggle("recall", recall);
+  var ticks = getTicks(c.id), idx = 0, sectionIdx = -1;
+  var h = '<div class="tools"><div class="wrap tools-in">'+
+    '<button class="chip timer" id="timer" aria-label="Station timer">'+fmt(c.minutes*60)+'</button>'+
+    '<button class="chip" id="timerReset" aria-label="Reset timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg></button>'+
+    '<button class="chip" id="recall" aria-pressed="'+recall+'">Recall mode</button>'+
+    '<span class="count" id="count"></span></div></div><div class="wrap">';
+  h += '<p class="sub">'+esc(c.sub)+'</p>';
+  c.blocks.forEach(function(b){
+    if(b.t==="note"){ h += '<div class="note">'+b.text+'</div>'; }
+    else if(b.t==="h"){ sectionIdx++; h += '<h2 class="sec">'+b.text+'<span class="sc" data-sec="'+sectionIdx+'"></span></h2>'; }
+    else if(b.t==="check"){
+      h += '<div class="list">';
+      var hdr = b.header || [];
+      b.rows.forEach(function(r){
+        if(typeof r==="string"){ h += '<div class="grp">'+r+'</div>'; return; }
+        var id = idx++, on = !!ticks[id], opt = isOpt(r[0]);
+        var cells = r.filter(function(x){ return x!==""; });
+        var label, det="", abn="";
+        if(!hdr.length && cells.length>1){ label = cells.join(" · "); }
+        else {
+          label = opt ? cleanOpt(cells[0]) : cells[0];
+          if(cells[1]) det = '<div class="det">'+(hdr[1]?'<span class="k">'+esc(hdr[1])+'</span>':'')+cells[1]+'</div>';
+          if(cells[2]) abn = '<div class="abn">'+(hdr[2]?'<span class="k">'+esc(hdr[2])+'</span>':'')+cells[2]+'</div>';
+        }
+        var hasDet = !!(det||abn);
+        h += '<button class="item'+(opt?' opt':'')+'" role="checkbox" aria-checked="'+on+'" data-i="'+id+'" data-sec="'+sectionIdx+'">'+
+             '<span class="box" aria-hidden="true">'+ICON_CHECK+'</span><span class="body"><span class="lbl'+(hasDet?'':' plain')+'">'+label+
+             (opt?'<span class="optflag">if indicated</span>':'')+'</span>'+det+abn+
+             (hasDet?'<span class="peek" data-peek="1">Show details</span>':'')+'</span></button>';
+      });
+      h += '</div>';
+    }
+    else if(b.t==="table"){ h += refTable(b.rows); }
+    else if(b.t==="pair"){ h += '<div class="pairs">'+b.items.map(function(x){ return x.t==="table" ? refTable(x.rows) : bullets(x.items); }).join("")+'</div>'; }
+    else if(b.t==="bullets"){ h += bullets(b.items); }
+  });
+  h += '<p class="source">'+esc(c.source)+'</p><div class="actions">'+
+    '<a class="btn primary" href="'+c.pdf+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Printable PDF</a>'+
+    '<button class="btn" id="resetTicks"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>Clear ticks</button></div></div>';
+  app.innerHTML = h;
+  window.scrollTo(0,0);
+  updateCounts();
+
+  app.querySelectorAll(".item").forEach(function(el){
+    el.addEventListener("click", function(e){
+      if(e.target.closest("[data-peek]")){ el.classList.toggle("reveal"); e.target.textContent = el.classList.contains("reveal") ? "Hide details" : "Show details"; return; }
+      var t = getTicks(c.id), i = el.getAttribute("data-i");
+      t[i] = !t[i]; if(!t[i]) delete t[i]; setTicks(c.id, t);
+      el.setAttribute("aria-checked", !!t[i]);
+      if(navigator.vibrate) try{ navigator.vibrate(8); }catch(_){}
+      updateCounts();
+    });
+  });
+  document.getElementById("recall").onclick = function(){
+    var on = !document.body.classList.contains("recall");
+    document.body.classList.toggle("recall", on); this.setAttribute("aria-pressed", on); save("osce:recall", on);
+    toast(on ? "Recall mode: details hidden — say each step, then tick" : "Details shown");
+  };
+  document.getElementById("resetTicks").onclick = function(){
+    if(!confirm("Clear all ticks for "+c.title+"?")) return;
+    setTicks(c.id, {}); app.querySelectorAll(".item").forEach(function(el){ el.setAttribute("aria-checked","false"); }); updateCounts(); toast("Ticks cleared");
+  };
+  setupTimer(c);
+}
+function bullets(items){ return '<ul class="bl">'+items.map(function(x){ return '<li>'+x+'</li>'; }).join("")+'</ul>'; }
+function refTable(rows){
+  var head = rows[0], body = rows.slice(1);
+  var empty = head.every(function(x){ return !stripTags(x).trim(); });
+  return '<div class="ref"><div class="tbl"><table>'+(empty?'':'<thead><tr>'+head.map(function(x){ return '<th>'+x+'</th>'; }).join("")+'</tr></thead>')+
+    '<tbody>'+body.map(function(r){ return '<tr>'+r.map(function(x){ return '<td>'+x+'</td>'; }).join("")+'</tr>'; }).join("")+'</tbody></table></div></div>';
+}
+function updateCounts(){
+  if(!current) return;
+  var items = app.querySelectorAll(".item"), done = 0, per = {};
+  items.forEach(function(el){
+    var s = el.getAttribute("data-sec"), on = el.getAttribute("aria-checked")==="true";
+    per[s] = per[s] || [0,0]; per[s][1]++; if(on){ per[s][0]++; done++; }
+  });
+  document.getElementById("count").textContent = done+" / "+items.length;
+  topProg.firstChild.style.width = (items.length ? done/items.length*100 : 0)+"%";
+  app.querySelectorAll(".sc").forEach(function(el){ var p = per[el.getAttribute("data-sec")]; el.textContent = p ? p[0]+"/"+p[1] : ""; });
+}
+
+/* ---------- timer ---------- */
+var tState = null;
+function fmt(sec){ var neg = sec<0; sec=Math.abs(sec); var m=Math.floor(sec/60), s=sec%60; return (neg?"+":"")+m+":"+(s<10?"0":"")+s; }
+function setupTimer(c){
+  tState = { total:c.minutes*60, left:c.minutes*60, running:false, iv:null, warned:false };
+  var btn = document.getElementById("timer");
+  function paint(){ btn.textContent = fmt(tState.left) + (tState.running ? "" : " ▶");
+    btn.classList.toggle("warn", tState.left<=60 && tState.left>0); btn.classList.toggle("over", tState.left<=0); }
+  paint();
+  btn.onclick = function(){
+    if(tState.running){ clearInterval(tState.iv); tState.running=false; paint(); return; }
+    tState.running = true; var last = Date.now();
+    tState.iv = setInterval(function(){
+      var now = Date.now(); if(now-last < 1000) return; last += 1000; tState.left--;
+      if(tState.left===60 && !tState.warned){ tState.warned=true; buzz([200]); toast("1 minute left"); }
+      if(tState.left===0){ buzz([300,150,300]); toast("Time's up"); }
+      paint();
+    }, 250);
+    paint();
+  };
+  document.getElementById("timerReset").onclick = function(){ clearInterval(tState.iv); tState.left=tState.total; tState.running=false; tState.warned=false; paint(); };
+}
+function stopTimer(){ if(tState && tState.iv) clearInterval(tState.iv); tState = null; }
+function buzz(p){ try{ if(navigator.vibrate) navigator.vibrate(p); }catch(e){}
+  try{ var A=window.AudioContext||window.webkitAudioContext; if(!A) return; var ctx=new A(), o=ctx.createOscillator(), g=ctx.createGain();
+    o.frequency.value=880; o.connect(g); g.connect(ctx.destination); g.gain.setValueAtTime(.15,ctx.currentTime); o.start(); o.stop(ctx.currentTime+.35);}catch(e){} }
+
+/* ---------- routing ---------- */
+function route(){
+  var id = (location.hash.match(/^#\/(.+)$/)||[])[1];
+  var c = id && DATA.filter(function(x){ return x.id===id; })[0];
+  if(c){ stopTimer(); renderChecklist(c); } else { current = null; renderHome(); }
+}
+backBtn.onclick = function(){ location.hash = ""; };
+window.addEventListener("hashchange", route);
+window.addEventListener("scroll", function(){ if(!current) save("osce:homeScroll", window.scrollY); }, {passive:true});
+route();
+
+/* ---------- offline ---------- */
+if("serviceWorker" in navigator && location.protocol.indexOf("http")===0){
+  window.addEventListener("load", function(){ navigator.serviceWorker.register("sw.js").catch(function(){}); });
+}
+})();
+</script>
+</body>
+</html>
