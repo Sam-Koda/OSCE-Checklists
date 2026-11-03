@@ -6386,9 +6386,9 @@ window.OSCE_DATA = [
   "title": "1. Injections — IM / SC / ID",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Proc_1_Injections_IM_SC_ID.pdf",
-  "sub": "HME922 Procedural Station · 10 minutes · Injections guideline + IM/SC DOPS form",
+  "sub": "HME922 Procedural Station · 14 minutes · Injections guideline + IM/SC DOPS form",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -6729,9 +6729,9 @@ window.OSCE_DATA = [
   "title": "2. Venepuncture",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Proc_2_Venepuncture.pdf",
-  "sub": "HME922 Procedural Station · 10 minutes · Venepuncture guideline + DOPS form",
+  "sub": "HME922 Procedural Station · 14 minutes · Venepuncture guideline + DOPS form",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -7003,9 +7003,9 @@ window.OSCE_DATA = [
   "title": "3. 12-lead ECG",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Proc_3_12_Lead_ECG.pdf",
-  "sub": "HME922 Procedural Station · 10 minutes · CR4 ECG guideline",
+  "sub": "HME922 Procedural Station · 14 minutes · CR4 ECG guideline",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -7340,9 +7340,9 @@ window.OSCE_DATA = [
   "title": "4. Basic life support (adult)",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Proc_4_Basic_Life_Support.pdf",
-  "sub": "HME922 Procedural Station · 10 minutes · HB6 BLS & First Aid lecture + ANZCOR 2024",
+  "sub": "HME922 Procedural Station · 14 minutes · HB6 BLS & First Aid lecture + ANZCOR 2024",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -7760,7 +7760,7 @@ window.OSCE_DATA = [
   "title": "4b. First aid — quick reference",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Proc_4b_First_Aid.pdf",
   "sub": "HB6 BLS & First Aid lecture · burns · trauma · anaphylaxis · snake bite",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
@@ -7941,9 +7941,9 @@ window.OSCE_DATA = [
   "title": "5. Airway & oxygen therapy",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Proc_5_Airway_Oxygen.pdf",
-  "sub": "HME922 Procedural Station · 10 minutes · Airway Management & Oxygen Therapy guideline",
+  "sub": "HME922 Procedural Station · 14 minutes · Airway Management & Oxygen Therapy guideline",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -8289,9 +8289,9 @@ window.OSCE_DATA = [
   "title": "6. Wound dressing (ANTT)",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Proc_6_Wound_Dressing.pdf",
-  "sub": "HME922 Procedural Station · 10 minutes · standard ANTT (check against wound guideline)",
+  "sub": "HME922 Procedural Station · 14 minutes · standard ANTT (check against wound guideline)",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -8487,9 +8487,9 @@ window.OSCE_DATA = [
   "title": "7. IV cannulation (PIVC)",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 10,
+  "minutes": 14,
   "pdf": "pdf/Proc_7_IV_Cannulation.pdf",
-  "sub": "HME922 Procedural Station · 10 minutes · MM3 guideline + IVC DOPS form",
+  "sub": "HME922 Procedural Station · 14 minutes · MM3 guideline + IVC DOPS form",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
