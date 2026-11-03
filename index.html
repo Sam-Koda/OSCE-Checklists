@@ -105,6 +105,7 @@ a{color:var(--accent)}
 .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:12px 0}
 .gallery button{appearance:none;border:1px solid var(--line);background:#fff;border-radius:12px;padding:6px;cursor:zoom-in;display:block}
 .gallery img{width:100%;height:auto;display:block;border-radius:8px}
+.gallery .cap{display:block;font-size:12.5px;color:#4A5866;padding:6px 2px 2px;text-align:left;line-height:1.3}
 .gallery.one{grid-template-columns:1fr}
 .lightbox{position:fixed;inset:0;z-index:60;background:rgba(10,16,24,.92);display:none;align-items:center;justify-content:center;padding:calc(16px + env(safe-area-inset-top)) 16px calc(16px + env(safe-area-inset-bottom))}
 .lightbox.show{display:flex}
@@ -187,7 +188,7 @@ var app = document.getElementById("app");
 var titleEl = document.getElementById("title");
 var backBtn = document.getElementById("back");
 var topProg = document.getElementById("topProgress");
-var GROUP_ORDER = ["Neurology","Eyes","Ear, nose & throat","Respiratory & abdominal","Endocrine","Breast & inguinoscrotal","Cervical & pelvic","Musculoskeletal — upper limb","Musculoskeletal — lower limb","Procedural skills"];
+var GROUP_ORDER = ["Neurology","Eyes","Ear, nose & throat","Cardiovascular, respiratory & abdominal","Endocrine","Breast & inguinoscrotal","Cervical & pelvic","Musculoskeletal — upper limb","Musculoskeletal — lower limb","Procedural skills"];
 
 /* ---------- storage (safe) ---------- */
 function load(key, fallback){ try{ var v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; }catch(e){ return fallback; } }
@@ -274,7 +275,7 @@ function renderChecklist(c){
   c.blocks.forEach(function(b){
     if(b.t==="note"){ h += '<div class="note '+(b.kind||'')+'">'+(b.title?'<span class="nt">'+b.title+'</span>':'')+b.text+'</div>'; }
     else if(b.t==="p"){ h += '<p class="ptext">'+b.text+'</p>'; }
-    else if(b.t==="imgs"){ h += '<div class="gallery'+(b.items.length===1?' one':'')+'">'+b.items.map(function(im){ return '<button type="button" data-zoom="'+esc(im.src)+'" aria-label="Enlarge image"><img src="'+esc(im.src)+'" alt="'+esc(im.alt||'')+'" loading="lazy"></button>'; }).join("")+'</div>'; }
+    else if(b.t==="imgs"){ h += '<div class="gallery'+(b.items.length===1?' one':'')+'">'+b.items.map(function(im){ return '<button type="button" data-zoom="'+esc(im.src)+'" aria-label="Enlarge image"><img src="'+esc(im.src)+'" alt="'+esc(im.alt||'')+'" loading="lazy">'+(im.cap?'<span class="cap">'+esc(im.cap)+'</span>':'')+'</button>'; }).join("")+'</div>'; }
     else if(b.t==="h"){ sectionIdx++; h += '<h2 class="sec">'+b.text+'<span class="sc" data-sec="'+sectionIdx+'"></span></h2>'; }
     else if(b.t==="check"){
       h += '<div class="list">';

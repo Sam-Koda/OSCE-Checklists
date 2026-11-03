@@ -2183,9 +2183,652 @@ window.OSCE_DATA = [
   ]
  },
  {
+  "id": "cardiovascular",
+  "title": "Cardiovascular examination",
+  "group": "Cardiovascular, respiratory & abdominal",
+  "block": "CR3",
+  "minutes": 14,
+  "pdf": "pdf/Cardiovascular_Exam_OSCE_Checklist.pdf",
+  "sub": "Deakin MD2 · CR3 · Time: 14 min",
+  "source": "Based on Deakin CP CR3 Cardiovascular Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
+  "blocks": [
+   {
+    "t": "note",
+    "text": "Tick each step as you perform or verbalise it. <b>Shaded rows (*)</b> are optional, verbalised or done if indicated. <b>†</b> = added from standard teaching (Talley &amp; O'Connor), not in the Deakin guideline. Order: <b>General → Vitals → Hands → Arms (pulse, BP) → Face → Neck (carotid, JVP) → Praecordium → Back → Abdomen → Legs → Other</b>. Patient at <b>45°</b>. Expose the chest only when needed."
+   },
+   {
+    "t": "h",
+    "text": "1. Introduction"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Hand hygiene; introduce self; confirm patient ID"
+     ],
+     [
+      "Explain the exam and gain consent: upper body clothing off, exposed only when needed"
+     ],
+     [
+      "Offer a chaperone; ensure privacy, comfort and warmth"
+     ],
+     [
+      "Position: on the bed at <b>45°</b>, supported with pillows"
+     ],
+     [
+      "Equipment: stethoscope, sphygmomanometer, torch, ruler †"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "2. General inspection and vital signs"
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     [
+      "Well or unwell?",
+      "Pallor, jaundice, cachexia, sweaty/diaphoretic",
+      "Shock, heart failure, endocarditis"
+     ],
+     [
+      "Breathing",
+      "Respiratory effort, rate, distress",
+      "Pulmonary oedema"
+     ],
+     [
+      "Body features",
+      "Marfan's, Turner's, trisomy 21",
+      "Associated cardiac lesions"
+     ],
+     [
+      "Mobility, expression",
+      "Walked in? How? Anxious or in pain?",
+      ""
+     ],
+     [
+      "Bedside clues",
+      "Medications, glucometer/CGM, oxygen, IV cannula/fluids, 'fluid restriction' or 'low salt' sign, cigarettes/vapes",
+      ""
+     ],
+     [
+      "Vital signs",
+      "HR, BP, RR, temp, SpO<sub>2</sub>, BGL",
+      ""
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "3. Hands and arms"
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     [
+      "Clubbing",
+      "Schamroth's window (nail-fold angle)",
+      "Infective endocarditis, cyanotic heart disease"
+     ],
+     [
+      "Splinter haemorrhages",
+      "Nail beds",
+      "Infective endocarditis"
+     ],
+     [
+      "Osler's nodes",
+      "Red, raised, <b>painful</b> 0.5–1 cm nodules on finger/toe pulps, thenar/hypothenar",
+      "Infective endocarditis"
+     ],
+     [
+      "Janeway lesions",
+      "<b>Non-tender</b> red lesions on palms or finger pulps",
+      "Infective endocarditis"
+     ],
+     [
+      "Colour",
+      "Peripheral cyanosis; nicotine staining; pallor of palmar creases",
+      "Low output; smoking; anaemia"
+     ],
+     [
+      "Temperature",
+      "Warm (vasodilated), sweaty, tremor; or cool, peripherally shut down",
+      "Sepsis, thyrotoxicosis; shock"
+     ],
+     [
+      "Tendon xanthoma",
+      "Yellow deposits over extensor tendons",
+      "Hypercholesterolaemia"
+     ],
+     [
+      "Radial pulse",
+      "Rate and rhythm",
+      "Tachy-/bradycardia; irregularly irregular = AF"
+     ],
+     [
+      "Radio-radial delay",
+      "Both radials together: timing and volume",
+      "Aortic dissection, subclavian stenosis"
+     ],
+     [
+      "Radio-femoral delay",
+      "Radial + femoral together",
+      "Coarctation of the aorta"
+     ],
+     [
+      "Arms",
+      "IV drug injection scars",
+      "Endocarditis risk"
+     ],
+     [
+      "Blood pressure",
+      "Manual BP, <b>both arms</b>, <b>lying and standing</b>",
+      "Hypertension; postural drop"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/cvs/schamroth-clubbed.webp",
+      "alt": "Schamroth's sign — clubbed (no window)",
+      "cap": "Schamroth's sign — clubbed (no window)"
+     },
+     {
+      "src": "img/cvs/schamroth-normal.webp",
+      "alt": "Normal — diamond window",
+      "cap": "Normal — diamond window"
+     },
+     {
+      "src": "img/cvs/splinter-haemorrhages.webp",
+      "alt": "Splinter haemorrhages",
+      "cap": "Splinter haemorrhages"
+     },
+     {
+      "src": "img/cvs/janeway-lesion.webp",
+      "alt": "Janeway lesion",
+      "cap": "Janeway lesion"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "4. Face and neck"
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     [
+      "Face",
+      "Expression (pain, apprehension); mitral facies (malar flush)",
+      "Mitral stenosis"
+     ],
+     [
+      "Eyes",
+      "Xanthelasmata, corneal arcus; jaundice; conjunctival pallor †",
+      "Hyperlipidaemia; congestive hepatopathy; anaemia"
+     ],
+     [
+      "Mouth",
+      "Central cyanosis; high-arched palate; poor dentition",
+      "Hypoxaemia; Marfan's; endocarditis source"
+     ],
+     [
+      "Carotid pulse",
+      "<b>One side at a time</b>: fingers behind neck, thumb at/below cricoid; volume and character",
+      "Slow-rising (AS), collapsing (AR)"
+     ],
+     [
+      "Carotid bruit",
+      "Bell; patient holds breath; each side; tell them to breathe again",
+      "Carotid stenosis"
+     ],
+     [
+      "JVP — position",
+      "45°, head tilted up and turned slightly away; look at <b>internal</b> jugular (between heads of SCM)",
+      ""
+     ],
+     [
+      "JVP — see it",
+      "Torch at an oblique angle; look for the <b>double flicker</b>",
+      ""
+     ],
+     [
+      "JVP — measure",
+      "Ruler held horizontally from top of pulsation; measure vertical height above sternal angle",
+      "&gt;3 cm = raised (right heart failure, fluid overload)"
+     ],
+     [
+      "JVP — character",
+      "Waveform",
+      "Large v waves (TR), absent a waves (AF) †"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/cvs/xanthelasmata.webp",
+      "alt": "Xanthelasmata",
+      "cap": "Xanthelasmata"
+     },
+     {
+      "src": "img/cvs/arcus-senilis.webp",
+      "alt": "Corneal arcus",
+      "cap": "Corneal arcus"
+     },
+     {
+      "src": "img/cvs/jvp-anatomy-a.webp",
+      "alt": "JVP and sternal angle",
+      "cap": "JVP and sternal angle"
+     },
+     {
+      "src": "img/cvs/jvp-position.webp",
+      "alt": "JVP height changes with position",
+      "cap": "JVP height changes with position"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "5. Praecordium"
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     "Inspect",
+     [
+      "Scars",
+      "Median sternotomy, thoracotomy †",
+      "Previous cardiac surgery"
+     ],
+     [
+      "Chest wall",
+      "Pectus excavatum, other deformity",
+      ""
+     ],
+     [
+      "Devices",
+      "Pacemaker or defibrillator box",
+      ""
+     ],
+     [
+      "Pulsations",
+      "Visible apex beat",
+      ""
+     ],
+     "Palpate",
+     [
+      "Apex beat",
+      "Supine or left lateral: normally <b>5th ICS, mid-clavicular line</b>; presence, position, character",
+      "Displaced = cardiomegaly; heaving = pressure-loaded; diffuse = volume-loaded"
+     ],
+     [
+      "Absent apex?",
+      "Consider thick chest wall, emphysema, pericardial effusion, dextrocardia",
+      ""
+     ],
+     [
+      "Parasternal impulse",
+      "Heel of hand at left sternal edge",
+      "Heave = right ventricular enlargement"
+     ],
+     [
+      "Thrills",
+      "Flat hand over apex, left sternal edge, then base (aortic and pulmonary areas)",
+      "Palpable murmur; time with apex beat"
+     ],
+     "Auscultate (time with carotid pulse †)",
+     [
+      "Mitral area",
+      "Apex: 5th left ICS, mid-clavicular line",
+      "S1, S2; murmurs"
+     ],
+     [
+      "Tricuspid area",
+      "5th left ICS, at the left sternal edge",
+      ""
+     ],
+     [
+      "Pulmonary area",
+      "2nd left ICS",
+      ""
+     ],
+     [
+      "Aortic area",
+      "2nd right ICS",
+      ""
+     ],
+     [
+      "Heart sounds",
+      "S1 (mitral + tricuspid closure), S2 (aortic + pulmonary); added sounds?",
+      "Murmur: systolic or diastolic, grade (Levine)"
+     ],
+     [
+      "Manoeuvres*",
+      "Left lateral + bell at apex; sit forward in full expiration at left sternal edge †",
+      "Mitral stenosis; aortic regurgitation"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/cvs/auscultation-areas.webp",
+      "alt": "Auscultation areas",
+      "cap": "Auscultation areas"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "6. Back and abdomen"
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     [
+      "Back",
+      "Sit forward: inspect for scars and deformity",
+      "Previous surgery"
+     ],
+     [
+      "Lung bases",
+      "Percuss and auscultate",
+      "Crackles, effusion (heart failure)"
+     ],
+     [
+      "Sacral oedema",
+      "Press over sacrum",
+      "Fluid overload"
+     ],
+     [
+      "Liver",
+      "Start in RIF, hand parallel to costal margin, advance on each breath out; span (normal &lt;13 cm)",
+      "Enlarged, tender (congestion); pulsatile (TR †)"
+     ],
+     [
+      "Spleen",
+      "Lower mid-abdomen towards left costal margin; roll patient towards you",
+      "Splenomegaly (endocarditis)"
+     ],
+     [
+      "Ascites",
+      "Percuss midline → flanks; if dull, test shifting dullness (roll, wait 30–60 s)",
+      "Right heart failure"
+     ],
+     [
+      "Aorta",
+      "Palpate left of midline",
+      "Expansile = AAA"
+     ],
+     [
+      "Femoral arteries",
+      "Palpate and auscultate (midway pubic symphysis–ASIS)",
+      "Weak pulse, bruit (PVD)"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "img/cvs/shifting-dullness.webp",
+      "alt": "Shifting dullness",
+      "cap": "Shifting dullness"
+     },
+     {
+      "src": "img/cvs/peripheral-pulses.webp",
+      "alt": "Peripheral pulses",
+      "cap": "Peripheral pulses"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "7. Legs"
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     [
+      "Inspect",
+      "Scars (vein harvest †), ulcers, hair loss, shiny skin, trophic nails, colour (white, cyanosed, red), clubbing of toes",
+      "Peripheral vascular disease"
+     ],
+     [
+      "Oedema",
+      "Ankle swelling; press for pitting; note the upper level",
+      "Heart failure"
+     ],
+     [
+      "Calves",
+      "Tenderness, swelling †",
+      "DVT"
+     ],
+     [
+      "Popliteal pulse",
+      "Centre of popliteal fossa, knee slightly bent",
+      ""
+     ],
+     [
+      "Posterior tibial",
+      "Behind medial malleolus",
+      "Absent = PVD"
+     ],
+     [
+      "Dorsalis pedis",
+      "Lateral to extensor hallucis longus tendon",
+      "Absent = PVD"
+     ],
+     [
+      "Capillary return",
+      "Press toe, watch colour return",
+      "Slow = poor perfusion"
+     ],
+     [
+      "Buerger's test*",
+      "If slow: raise legs until pale, then hang over the side of the bed",
+      "Delayed colour, cyanosis = arterial insufficiency"
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "8. Closing and presenting"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
+     [
+      "Completion: \"I would also do urinalysis and fundoscopy, and review the ECG and observation chart †.\""
+     ],
+     [
+      "Simple explanation of findings; anything you can't answer → \"I'll pass that on to someone senior\""
+     ],
+     [
+      "Ask about concerns/questions; check understanding and comfort; patient can redress"
+     ],
+     [
+      "Hand hygiene; return equipment; document findings"
+     ],
+     [
+      "Present: \"Mr X is comfortable at rest; pulse 72 regular, BP 125/80. No peripheral stigmata of endocarditis or hyperlipidaemia. JVP not raised. Apex beat 5th ICS mid-clavicular line, undisplaced. Heart sounds dual with no added sounds. Lung bases clear, no peripheral oedema, peripheral pulses present.\""
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "9. Quick reference"
+   },
+   {
+    "t": "pair",
+    "items": [
+     {
+      "t": "table",
+      "rows": [
+       [
+        "Category",
+        "Systolic",
+        "Diastolic"
+       ],
+       [
+        "Optimal",
+        "&lt;120 and",
+        "&lt;80"
+       ],
+       [
+        "Normal",
+        "120–129 and/or",
+        "80–84"
+       ],
+       [
+        "High normal",
+        "130–139 and/or",
+        "85–89"
+       ],
+       [
+        "Grade 1 HTN",
+        "140–159 and/or",
+        "90–99"
+       ],
+       [
+        "Grade 2 HTN",
+        "160–179 and/or",
+        "100–109"
+       ],
+       [
+        "Grade 3 HTN",
+        "≥180 and/or",
+        "≥110"
+       ],
+       [
+        "Isolated systolic",
+        "≥140 and",
+        "&lt;90"
+       ]
+      ]
+     },
+     {
+      "t": "table",
+      "rows": [
+       [
+        "Grade",
+        "Levine murmur grading"
+       ],
+       [
+        "1/6",
+        "Very soft, not heard at first"
+       ],
+       [
+        "2/6",
+        "Soft, heard almost immediately"
+       ],
+       [
+        "3/6",
+        "Moderate, no thrill"
+       ],
+       [
+        "4/6",
+        "Loud, thrill just palpable"
+       ],
+       [
+        "5/6",
+        "Very loud, thrill easily palpable"
+       ],
+       [
+        "6/6",
+        "Heard without stethoscope on chest"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "t": "table",
+    "rows": [
+     [
+      "Murmur †",
+      "Timing",
+      "Best heard",
+      "Key signs"
+     ],
+     [
+      "Aortic stenosis",
+      "Ejection systolic",
+      "Aortic area → carotids",
+      "Slow-rising pulse, narrow pulse pressure"
+     ],
+     [
+      "Mitral regurgitation",
+      "Pansystolic",
+      "Apex → axilla",
+      "Displaced apex, AF"
+     ],
+     [
+      "Aortic regurgitation",
+      "Early diastolic",
+      "Left sternal edge, sitting forward, expiration",
+      "Collapsing pulse, wide pulse pressure"
+     ],
+     [
+      "Mitral stenosis",
+      "Mid-diastolic rumble",
+      "Apex, left lateral, bell",
+      "Malar flush, AF, tapping apex"
+     ]
+    ]
+   },
+   {
+    "t": "bullets",
+    "items": [
+     "<b>Heart failure †</b>: tachycardia, raised JVP, displaced apex, S3, bibasal crackles, pleural effusion, tender liver, sacral and ankle oedema.",
+     "<b>Infective endocarditis</b>: clubbing, splinters, Osler's nodes, Janeway lesions, new murmur, splenomegaly, fever.",
+     "BP: one reading cannot diagnose hypertension (classification for reference only)."
+    ]
+   }
+  ]
+ },
+ {
   "id": "respiratory",
   "title": "Respiratory examination",
-  "group": "Respiratory & abdominal",
+  "group": "Cardiovascular, respiratory & abdominal",
   "block": "CR7",
   "minutes": 14,
   "pdf": "pdf/Respiratory_Exam_OSCE_Checklist.pdf",
@@ -2483,7 +3126,7 @@ window.OSCE_DATA = [
  {
   "id": "abdominal",
   "title": "Abdominal (GI) examination",
-  "group": "Respiratory & abdominal",
+  "group": "Cardiovascular, respiratory & abdominal",
   "block": "RG5",
   "minutes": 14,
   "pdf": "pdf/Abdominal_Exam_OSCE_Checklist.pdf",
@@ -2936,7 +3579,7 @@ window.OSCE_DATA = [
  {
   "id": "dre",
   "title": "Digital rectal examination",
-  "group": "Respiratory & abdominal",
+  "group": "Cardiovascular, respiratory & abdominal",
   "block": "RG5",
   "minutes": 14,
   "pdf": "pdf/DRE_OSCE_Checklist.pdf",
