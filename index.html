@@ -229,7 +229,7 @@ function renderHome(){
   var html = '<div class="wrap"><div class="hero"><p>Deakin MD2 clinical skills · '+DATA.length+' checklists · works offline</p></div>'+
     '<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>'+
     '<input id="q" type="search" placeholder="Search checklists or steps…" autocomplete="off" value="'+esc(query)+'"></label><div id="list"></div>'+
-    '<div class="foot">Based on Deakin CP guidelines 2026 &amp; Talley &amp; O\'Connor 10e.<br>Always check against your marking rubric.<br><a href="pdf/ALL_OSCE_Checklists_Bundle.pdf">All exam checklists (PDF)</a> · <a href="pdf/Procedural_Skills_All.pdf">All procedural skills (PDF)</a></div></div>';
+    '<div class="foot">Based on Deakin CP guidelines 2026 &amp; Talley &amp; O\'Connor 10e.<br>Always check against your marking rubric.<br>All exam checklists (PDF): <a href="pdf/OSCE_Bundle_Part1_Neuro_Eyes_ENT_Cardio_Resp_Abdo.pdf">Part 1</a> · <a href="pdf/OSCE_Bundle_Part2_Endocrine_Womens_MSK.pdf">Part 2</a><br> · <a href="pdf/Procedural_Skills_All.pdf">All procedural skills (PDF)</a></div></div>';
   app.innerHTML = html;
   var q = document.getElementById("q");
   q.addEventListener("input", function(){ query = q.value; renderList(); });
