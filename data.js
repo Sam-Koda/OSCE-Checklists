@@ -5,9 +5,9 @@ window.OSCE_DATA = [
   "title": "Cranial nerves",
   "group": "Neurology",
   "block": "Neuro",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Cranial_Nerve_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · Neuro · Time: 14 min",
+  "sub": "Deakin MD2 · Neuro · Time: 8 min (+2 min reading)",
   "source": "Based on class whiteboard notes · Check against your Deakin marking rubric",
   "blocks": [
    {
@@ -345,9 +345,9 @@ window.OSCE_DATA = [
   "title": "Upper limb neuro",
   "group": "Neurology",
   "block": "BB6/BB7",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Upper_Limb_Neuro_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · BB6/BB7 · Time: 14 min",
+  "sub": "Deakin MD2 · BB6/BB7 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP BB6/BB7 Neurological Examination Guidelines 2026 & Talley & O'Connor Ch 34 · Check against your marking rubric",
   "blocks": [
    {
@@ -569,7 +569,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/neuro/proprioception.webp",
+      "src": "neuro/proprioception.webp",
       "alt": "Proprioception: hold the sides of the distal phalanx",
       "cap": "Proprioception: hold the sides of the distal phalanx"
      }
@@ -746,9 +746,9 @@ window.OSCE_DATA = [
   "title": "Lower limb neuro",
   "group": "Neurology",
   "block": "BB6/BB7",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Lower_Limb_Neuro_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · BB6/BB7 · Time: 14 min",
+  "sub": "Deakin MD2 · BB6/BB7 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP BB6/BB7 Neurological Examination Guidelines 2026 & Talley & O'Connor Ch 34 · Check against your marking rubric",
   "blocks": [
    {
@@ -1161,7 +1161,7 @@ window.OSCE_DATA = [
   "title": "Eye history",
   "group": "Eyes",
   "block": "BB8",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Eye_History_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · BB8 · Ophthalmology",
   "source": "Based on Deakin CP BB8 Ophthalmology Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -1405,7 +1405,7 @@ window.OSCE_DATA = [
   "title": "Eye examination",
   "group": "Eyes",
   "block": "BB8",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Eye_Exam_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · BB8 · Ophthalmology",
   "source": "Based on Deakin CP BB8 Ophthalmology Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -1485,27 +1485,27 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/eye/ptosis.webp",
+      "src": "eye/ptosis.webp",
       "alt": "Ptosis",
       "cap": "Ptosis"
      },
      {
-      "src": "img/eye/conj-normal.webp",
+      "src": "eye/conj-normal.webp",
       "alt": "(a) Normal conjunctiva",
       "cap": "(a) Normal conjunctiva"
      },
      {
-      "src": "img/eye/conj-pallor.webp",
+      "src": "eye/conj-pallor.webp",
       "alt": "(b) Conjunctival pallor — anaemia",
       "cap": "(b) Conjunctival pallor — anaemia"
      },
      {
-      "src": "img/eye/eye-anatomy.webp",
+      "src": "eye/eye-anatomy.webp",
       "alt": "Anatomy of the eye",
       "cap": "Anatomy of the eye"
      },
      {
-      "src": "img/eye/slit-lamp.webp",
+      "src": "eye/slit-lamp.webp",
       "alt": "Slit lamp",
       "cap": "Slit lamp"
      }
@@ -1541,17 +1541,17 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/eye/snellen.webp",
+      "src": "eye/snellen.webp",
       "alt": "Snellen chart",
       "cap": "Snellen chart"
      },
      {
-      "src": "img/eye/pinhole.webp",
+      "src": "eye/pinhole.webp",
       "alt": "Pinhole occluder",
       "cap": "Pinhole occluder"
      },
      {
-      "src": "img/eye/lea-chart.webp",
+      "src": "eye/lea-chart.webp",
       "alt": "Picture/shape chart (children)",
       "cap": "Picture/shape chart (children)"
      }
@@ -1592,17 +1592,17 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/eye/confrontation.webp",
+      "src": "eye/confrontation.webp",
       "alt": "Confrontation visual fields",
       "cap": "Confrontation visual fields"
      },
      {
-      "src": "img/eye/visual-pathway.webp",
+      "src": "eye/visual-pathway.webp",
       "alt": "Visual pathway",
       "cap": "Visual pathway"
      },
      {
-      "src": "img/eye/field-defects.webp",
+      "src": "eye/field-defects.webp",
       "alt": "Visual field defects and lesion sites",
       "cap": "Visual field defects and lesion sites"
      }
@@ -1643,17 +1643,17 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/eye/direct-reflex.webp",
+      "src": "eye/direct-reflex.webp",
       "alt": "Direct pupillary reflex",
       "cap": "Direct pupillary reflex"
      },
      {
-      "src": "img/eye/pupil-pathway.webp",
+      "src": "eye/pupil-pathway.webp",
       "alt": "Pupillary light reflex pathway",
       "cap": "Pupillary light reflex pathway"
      },
      {
-      "src": "img/eye/perrla.webp",
+      "src": "eye/perrla.webp",
       "alt": "PERRLA",
       "cap": "PERRLA"
      }
@@ -1694,7 +1694,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/eye/eom.webp",
+      "src": "eye/eom.webp",
       "alt": "Extraocular muscles and nerves",
       "cap": "Extraocular muscles and nerves"
      }
@@ -1730,22 +1730,22 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/eye/ishihara.webp",
+      "src": "eye/ishihara.webp",
       "alt": "Ishihara colour plate",
       "cap": "Ishihara colour plate"
      },
      {
-      "src": "img/eye/ophthalmoscope.webp",
+      "src": "eye/ophthalmoscope.webp",
       "alt": "Ophthalmoscope",
       "cap": "Ophthalmoscope"
      },
      {
-      "src": "img/eye/fundus-normal.webp",
+      "src": "eye/fundus-normal.webp",
       "alt": "Normal fundus — optic disc and fovea",
       "cap": "Normal fundus — optic disc and fovea"
      },
      {
-      "src": "img/eye/diabetic-retinopathy.webp",
+      "src": "eye/diabetic-retinopathy.webp",
       "alt": "Diabetic retinopathy",
       "cap": "Diabetic retinopathy"
      }
@@ -1776,7 +1776,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/eye/lymph-nodes.webp",
+      "src": "eye/lymph-nodes.webp",
       "alt": "Head and neck lymph node groups",
       "cap": "Head and neck lymph node groups"
      }
@@ -1876,18 +1876,18 @@ window.OSCE_DATA = [
   ]
  },
  {
-  "id": "ear",
-  "title": "Ear examination",
+  "id": "ent",
+  "title": "ENT examination (ear, nose & throat)",
   "group": "Ear, nose & throat",
   "block": "BB4",
-  "minutes": 14,
-  "pdf": "pdf/Ear_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · BB4 · ENT",
+  "minutes": 8,
+  "pdf": "pdf/ENT_Exam_OSCE_Checklist.pdf",
+  "sub": "Deakin MD2 · BB4 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP BB4 ENT Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
     "t": "note",
-    "text": "Tick each step as you perform or verbalise it. <b>Shaded rows (*)</b> are optional, verbalised or done if indicated. <b>†</b> = added from standard teaching (Talley &amp; O'Connor), not in the Deakin guideline. Order: <b>Inspect → Palpate → Otoscopy → Whisper test → Weber → Rinne</b>. Examine the <b>good ear first</b>."
+    "text": "Tick each step as you perform or verbalise it. <b>Shaded rows (*)</b> are optional, verbalised or done if indicated. <b>†</b> = added from standard teaching (Talley &amp; O'Connor), not in the Deakin guideline. Order: <b>Ears (inspect → palpate → otoscopy → hearing) → Nose (inspect → airflow → rhinoscopy → sinuses) → Throat (mouth → tonsils → neck)</b>. Deakin quick reference order. Examine the <b>good ear first</b>."
    },
    {
     "t": "h",
@@ -1904,16 +1904,16 @@ window.OSCE_DATA = [
       "Explain the exam and gain consent; ask about pain"
      ],
      [
-      "Ask which ear is affected; position seated, ear at your eye level"
+      "Ask about ear, nose and throat symptoms; position seated, at your eye level"
      ],
      [
-      "Equipment: otoscope with range of speculae, 512 Hz tuning fork"
+      "Equipment: otoscope with range of speculae, 512 Hz tuning fork, pen torch, tongue depressor, nasal speculum (or otoscope with wide speculum), gloves"
      ]
     ]
    },
    {
     "t": "h",
-    "text": "2. Examination"
+    "text": "2. Ears"
    },
    {
     "t": "check",
@@ -1923,7 +1923,7 @@ window.OSCE_DATA = [
      "Abnormal"
     ],
     "rows": [
-     "Inspection (external ear)",
+     "Ear — inspection (external ear)",
      [
       "Pinna",
       "Size, shape, deformity; trauma (haematoma)",
@@ -1960,22 +1960,22 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/ent/ear-anatomy.webp",
+      "src": "ent/ear-anatomy.webp",
       "alt": "Anatomy of the ear",
       "cap": "Anatomy of the ear"
      },
      {
-      "src": "img/ent/otitis-externa.webp",
+      "src": "ent/otitis-externa.webp",
       "alt": "Otitis externa",
       "cap": "Otitis externa"
      },
      {
-      "src": "img/ent/pinna-scc.webp",
+      "src": "ent/pinna-scc.webp",
       "alt": "Squamous cell carcinoma of the pinna",
       "cap": "Squamous cell carcinoma of the pinna"
      },
      {
-      "src": "img/ent/preauricular-sinus.webp",
+      "src": "ent/preauricular-sinus.webp",
       "alt": "Preauricular sinus",
       "cap": "Preauricular sinus"
      }
@@ -1989,7 +1989,7 @@ window.OSCE_DATA = [
      "Abnormal"
     ],
     "rows": [
-     "Palpation",
+     "Ear — palpation",
      [
       "Tragus and pinna",
       "Gently move — tenderness?",
@@ -2006,7 +2006,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/ent/mastoiditis.webp",
+      "src": "ent/mastoiditis.webp",
       "alt": "Acute mastoiditis",
       "cap": "Acute mastoiditis"
      }
@@ -2020,7 +2020,7 @@ window.OSCE_DATA = [
      "Abnormal"
     ],
     "rows": [
-     "Otoscopy",
+     "Ear — otoscopy",
      [
       "Speculum",
       "Largest that fits comfortably",
@@ -2052,22 +2052,22 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/ent/otoscope-grip.webp",
+      "src": "ent/otoscope-grip.webp",
       "alt": "Holding the otoscope — hand braced on head",
       "cap": "Holding the otoscope — hand braced on head"
      },
      {
-      "src": "img/ent/tm-labelled.webp",
+      "src": "ent/tm-labelled.webp",
       "alt": "Right tympanic membrane — landmarks",
       "cap": "Right tympanic membrane — landmarks"
      },
      {
-      "src": "img/ent/grommet.webp",
+      "src": "ent/grommet.webp",
       "alt": "Grommet (ventilation tube)",
       "cap": "Grommet (ventilation tube)"
      },
      {
-      "src": "img/ent/tm-findings.webp",
+      "src": "ent/tm-findings.webp",
       "alt": "Common ear drum findings",
       "cap": "Common ear drum findings"
      }
@@ -2081,7 +2081,7 @@ window.OSCE_DATA = [
      "Abnormal"
     ],
     "rows": [
-     "Hearing",
+     "Ear — hearing",
      [
       "Whisper test",
       "Mask other ear (rub tragus / fingers); whisper numbers; increase volume if needed; each side",
@@ -2103,7 +2103,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/ent/weber-rinne.webp",
+      "src": "ent/weber-rinne.webp",
       "alt": "Weber and Rinne tests",
       "cap": "Weber and Rinne tests"
      }
@@ -2111,26 +2111,286 @@ window.OSCE_DATA = [
    },
    {
     "t": "h",
-    "text": "3. Closing"
+    "text": "3. Nose and sinuses"
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     "Nose — external inspection",
+     [
+      "Front and side",
+      "Swelling, deformity, scars or creases, redness / skin disease",
+      "Trauma, rhinophyma, BCC"
+     ],
+     [
+      "From above",
+      "Patient tilts head back; look down the bridge",
+      "Deviated nose"
+     ],
+     [
+      "Discharge",
+      "Rhinorrhoea, crusting; unilateral?",
+      "Unilateral offensive in a child = foreign body"
+     ],
+     [
+      "Nasal bones",
+      "Gently palpate bridge",
+      "Tenderness, crepitus, step = fracture"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "ent/nasal-anatomy.webp",
+      "alt": "Nasal and sinus anatomy",
+      "cap": "Nasal and sinus anatomy"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     "Nose — airflow",
+     [
+      "Misting test",
+      "Cold metal tongue depressor under nose as patient breathes out",
+      "Condensation under both nostrils = airflow"
+     ],
+     [
+      "Sniff test",
+      "Occlude one nostril, ask patient to sniff; repeat",
+      "Unilateral obstruction"
+     ]
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     "Nose — anterior rhinoscopy (torch ± speculum)",
+     [
+      "Without speculum",
+      "Tip nose up with thumb; look into the anterior nares with torch",
+      ""
+     ],
+     [
+      "With speculum / otoscope",
+      "Gently open; look straight back, not up",
+      ""
+     ],
+     [
+      "Septum",
+      "Straight or deviated? Bleeding points, clots, crusting, perforation; septal haematoma",
+      "Little's area = common epistaxis site †; haematoma = urgent drainage"
+     ],
+     [
+      "Turbinates",
+      "Inflammation, swelling, colour",
+      "Rhinitis (pale, boggy = allergic †)"
+     ],
+     [
+      "Polyps*",
+      "Grey, glistening, insensate †",
+      "Chronic rhinosinusitis"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "ent/nasal-speculum.webp",
+      "alt": "Nasal speculum examination",
+      "cap": "Nasal speculum examination"
+     },
+     {
+      "src": "ent/littles-area.webp",
+      "alt": "Blood supply of the septum — Little's area",
+      "cap": "Blood supply of the septum — Little's area"
+     },
+     {
+      "src": "ent/nasal-polyp.webp",
+      "alt": "Nasal polyp",
+      "cap": "Nasal polyp"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     "Sinuses",
+     [
+      "Palpate",
+      "Frontal (above brow) and maxillary (cheek) sinuses",
+      "Tenderness = sinusitis"
+     ],
+     [
+      "Transilluminate*",
+      "Pen torch in a dark room (demonstrated in session)",
+      "Reduced = fluid / mass"
+     ],
+     [
+      "Note",
+      "Ethmoid and sphenoid sinuses cannot be examined physically",
+      ""
+     ]
+    ]
+   },
+   {
+    "t": "h",
+    "text": "4. Throat and neck"
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     "Mouth — oral cavity (bright pen torch, mouth wide open)",
+     [
+      "Lips and mucosa",
+      "Ulcers, lesions, colour",
+      "Aphthous ulcers, candida, malignancy †"
+     ],
+     [
+      "Dentition",
+      "Comment on teeth and gums",
+      "Dental caries, abscess"
+     ],
+     [
+      "Tongue",
+      "Appearance; ask to raise tongue to check underneath if indicated",
+      "Lesions, floor-of-mouth swelling"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "ent/mouth-anatomy.webp",
+      "alt": "Anatomy of the mouth",
+      "cap": "Anatomy of the mouth"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     "Throat — oropharynx",
+     [
+      "\"Say ahh\"",
+      "Mouth wide, tongue protruded",
+      "Palate rises symmetrically; uvula central †"
+     ],
+     [
+      "Tongue depressor",
+      "If tonsils not seen: press middle third of tongue, not the back †",
+      ""
+     ],
+     [
+      "Tonsils",
+      "Size, symmetry, inflammation, exudate",
+      "Tonsillitis; asymmetry = quinsy or malignancy †"
+     ],
+     [
+      "Pharynx",
+      "Swelling, inflammation, exudate, post-nasal drip",
+      ""
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "ent/throat-view.webp",
+      "alt": "Palate, uvula and tonsils",
+      "cap": "Palate, uvula and tonsils"
+     }
+    ]
+   },
+   {
+    "t": "check",
+    "header": [
+     "Step",
+     "What to do / say",
+     "Abnormal"
+    ],
+    "rows": [
+     "Neck (if clinically indicated)",
+     [
+      "Lymph nodes",
+      "From behind: submental, submandibular, tonsillar, cervical chain, supraclavicular, pre/post-auricular, occipital",
+      "Infection, malignancy"
+     ],
+     [
+      "Parotids*",
+      "Palpate in front of ear and over angle of jaw",
+      "Parotitis, tumour"
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "ent/neck-nodes.webp",
+      "alt": "Cervical lymph node groups",
+      "cap": "Cervical lymph node groups"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "5. Closing and presenting"
    },
    {
     "t": "check",
     "header": null,
     "rows": [
      [
-      "Thank patient; clean otoscope speculum; wash hands"
+      "Thank patient; clean otoscope speculum; dispose of tongue depressor; wash hands"
      ],
      [
-      "Present: \"Pinnae normal, no tenderness; canals clear; both TMs intact and pearly grey with a normal light reflex; whisper test normal; Weber central, Rinne positive bilaterally.\""
+      "Present: \"Pinnae normal and non-tender; canals clear; both TMs intact and pearly grey; whisper test normal, Weber central, Rinne positive bilaterally. No nasal deformity, airways patent, septum midline, no sinus tenderness. Good dentition; tonsils symmetrical without exudate; uvula central; no cervical lymphadenopathy.\""
      ],
      [
-      "Completion: \"I would complete the ENT exam (nose, throat, neck nodes) and arrange formal audiometry if indicated.\""
+      "Completion: \"I would arrange formal audiometry and consider nasendoscopy or a throat swab if indicated.\""
      ]
     ]
    },
    {
     "t": "h",
-    "text": "4. Quick reference"
+    "text": "6. Quick reference"
    },
    {
     "t": "table",
@@ -2203,406 +2463,10 @@ window.OSCE_DATA = [
        "<b>Conductive</b> loss: Weber goes TO the bad ear, Rinne negative (BC &gt; AC).",
        "<b>Sensorineural</b> loss: Weber goes AWAY from the bad ear, Rinne positive (both reduced).",
        "<b>False-negative Rinne</b>: a dead ear hears BC louder via the other cochlea — Weber clarifies.",
-       "Rinne negative needs a conductive loss of ~20 dB or more."
+       "<b>Quinsy †</b>: unilateral tonsil swelling, uvula deviated away, trismus, \"hot potato\" voice — urgent ENT.",
+       "<b>Airway red flags †</b>: stridor, drooling, can't swallow saliva — don't use a tongue depressor; call for help."
       ]
      }
-    ]
-   }
-  ]
- },
- {
-  "id": "nose-sinus",
-  "title": "Nose & sinus",
-  "group": "Ear, nose & throat",
-  "block": "BB4",
-  "minutes": 14,
-  "pdf": "pdf/Nose_Sinus_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · BB4 · ENT",
-  "source": "Based on Deakin CP BB4 ENT Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
-  "blocks": [
-   {
-    "t": "note",
-    "text": "Tick each step as you perform or verbalise it. <b>Shaded rows (*)</b> are optional, verbalised or done if indicated. <b>†</b> = added from standard teaching (Talley &amp; O'Connor), not in the Deakin guideline. Order: <b>Inspect externally → Palpate → Airflow → Anterior rhinoscopy → Sinuses</b>. Nasal speculum is rarely used outside specialist settings — a pen torch or otoscope is usual."
-   },
-   {
-    "t": "h",
-    "text": "1. Introduction"
-   },
-   {
-    "t": "check",
-    "header": null,
-    "rows": [
-     [
-      "Wash hands; introduce self; confirm patient ID"
-     ],
-     [
-      "Explain the exam and gain consent; ask about pain"
-     ],
-     [
-      "Ask about nasal symptoms (blockage, discharge, bleeding, smell); position seated at eye level"
-     ],
-     [
-      "Equipment: pen torch, cold metal tongue depressor, nasal speculum or otoscope with wide speculum"
-     ]
-    ]
-   },
-   {
-    "t": "h",
-    "text": "2. Examination"
-   },
-   {
-    "t": "check",
-    "header": [
-     "Step",
-     "What to do / say",
-     "Abnormal"
-    ],
-    "rows": [
-     "External inspection",
-     [
-      "Front and side",
-      "Swelling, deformity, scars or creases, redness / skin disease",
-      "Trauma, rhinophyma, BCC"
-     ],
-     [
-      "From above",
-      "Patient tilts head back; look down the bridge",
-      "Deviated nose"
-     ],
-     [
-      "Discharge",
-      "Rhinorrhoea, crusting; unilateral?",
-      "Unilateral offensive in a child = foreign body"
-     ]
-    ]
-   },
-   {
-    "t": "imgs",
-    "items": [
-     {
-      "src": "img/ent/nasal-anatomy.webp",
-      "alt": "Nasal and sinus anatomy",
-      "cap": "Nasal and sinus anatomy"
-     }
-    ]
-   },
-   {
-    "t": "check",
-    "header": [
-     "Step",
-     "What to do / say",
-     "Abnormal"
-    ],
-    "rows": [
-     "Palpation",
-     [
-      "Nasal bones",
-      "Gently palpate bridge",
-      "Tenderness, crepitus, step = fracture"
-     ]
-    ]
-   },
-   {
-    "t": "check",
-    "header": [
-     "Step",
-     "What to do / say",
-     "Abnormal"
-    ],
-    "rows": [
-     "Airway patency",
-     [
-      "Misting test",
-      "Cold metal tongue depressor under nose as patient breathes out",
-      "Condensation under both nostrils = airflow"
-     ],
-     [
-      "Sniff test",
-      "Occlude one nostril, ask patient to sniff; repeat",
-      "Unilateral obstruction"
-     ]
-    ]
-   },
-   {
-    "t": "check",
-    "header": [
-     "Step",
-     "What to do / say",
-     "Abnormal"
-    ],
-    "rows": [
-     "Anterior rhinoscopy",
-     [
-      "Without speculum",
-      "Tip nose up with thumb; look into the anterior nares with torch",
-      ""
-     ],
-     [
-      "With speculum / otoscope",
-      "Gently open; look straight back, not up",
-      ""
-     ],
-     [
-      "Septum",
-      "Straight or deviated? Bleeding points, clots, crusting, perforation; septal haematoma",
-      "Little's area = common epistaxis site †; haematoma = urgent drainage"
-     ],
-     [
-      "Turbinates",
-      "Inflammation, swelling, colour",
-      "Rhinitis (pale, boggy = allergic †)"
-     ],
-     [
-      "Polyps*",
-      "Grey, glistening, insensate †",
-      "Chronic rhinosinusitis"
-     ]
-    ]
-   },
-   {
-    "t": "imgs",
-    "items": [
-     {
-      "src": "img/ent/nasal-speculum.webp",
-      "alt": "Nasal speculum examination",
-      "cap": "Nasal speculum examination"
-     },
-     {
-      "src": "img/ent/littles-area.webp",
-      "alt": "Blood supply of the septum — Little's area",
-      "cap": "Blood supply of the septum — Little's area"
-     },
-     {
-      "src": "img/ent/nasal-polyp.webp",
-      "alt": "Nasal polyp",
-      "cap": "Nasal polyp"
-     }
-    ]
-   },
-   {
-    "t": "check",
-    "header": [
-     "Step",
-     "What to do / say",
-     "Abnormal"
-    ],
-    "rows": [
-     "Sinuses",
-     [
-      "Palpate",
-      "Frontal (above brow) and maxillary (cheek) sinuses",
-      "Tenderness = sinusitis"
-     ],
-     [
-      "Transilluminate*",
-      "Pen torch in a dark room (demonstrated in session)",
-      "Reduced = fluid / mass"
-     ],
-     [
-      "Note",
-      "Ethmoid and sphenoid sinuses cannot be examined physically",
-      ""
-     ]
-    ]
-   },
-   {
-    "t": "h",
-    "text": "3. Closing"
-   },
-   {
-    "t": "check",
-    "header": null,
-    "rows": [
-     [
-      "Thank patient; clean equipment; wash hands"
-     ],
-     [
-      "Present: \"No external deformity; both nasal airways patent; septum midline with no haematoma or perforation; turbinates normal; no sinus tenderness.\""
-     ],
-     [
-      "Completion: \"I would complete the ENT exam, test smell (CN I) if indicated, and consider nasendoscopy.\""
-     ]
-    ]
-   }
-  ]
- },
- {
-  "id": "throat-mouth",
-  "title": "Throat & mouth",
-  "group": "Ear, nose & throat",
-  "block": "BB4",
-  "minutes": 14,
-  "pdf": "pdf/Throat_Mouth_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · BB4 · ENT",
-  "source": "Based on Deakin CP BB4 ENT Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
-  "blocks": [
-   {
-    "t": "note",
-    "text": "Tick each step as you perform or verbalise it. <b>Shaded rows (*)</b> are optional, verbalised or done if indicated. <b>†</b> = added from standard teaching (Talley &amp; O'Connor), not in the Deakin guideline. Order: <b>Inspect mouth → Tongue → Tonsils/pharynx → Palpate neck</b>. Use a bright pen torch with the mouth wide open."
-   },
-   {
-    "t": "h",
-    "text": "1. Introduction"
-   },
-   {
-    "t": "check",
-    "header": null,
-    "rows": [
-     [
-      "Wash hands; introduce self; confirm patient ID"
-     ],
-     [
-      "Explain the exam and gain consent; ask about pain"
-     ],
-     [
-      "Ask about sore throat, swallowing, voice; remove dentures if present †"
-     ],
-     [
-      "Equipment: pen torch, tongue depressor, gloves"
-     ]
-    ]
-   },
-   {
-    "t": "h",
-    "text": "2. Examination"
-   },
-   {
-    "t": "check",
-    "header": [
-     "Step",
-     "What to do / say",
-     "Abnormal"
-    ],
-    "rows": [
-     "Oral cavity",
-     [
-      "Lips and mucosa",
-      "Ulcers, lesions, colour",
-      "Aphthous ulcers, candida, malignancy †"
-     ],
-     [
-      "Dentition",
-      "Comment on teeth and gums",
-      "Dental caries, abscess"
-     ],
-     [
-      "Tongue",
-      "Appearance; ask to raise tongue to check underneath if indicated",
-      "Lesions, floor-of-mouth swelling"
-     ]
-    ]
-   },
-   {
-    "t": "imgs",
-    "items": [
-     {
-      "src": "img/ent/mouth-anatomy.webp",
-      "alt": "Anatomy of the mouth",
-      "cap": "Anatomy of the mouth"
-     }
-    ]
-   },
-   {
-    "t": "check",
-    "header": [
-     "Step",
-     "What to do / say",
-     "Abnormal"
-    ],
-    "rows": [
-     "Oropharynx",
-     [
-      "\"Say ahh\"",
-      "Mouth wide, tongue protruded",
-      "Palate rises symmetrically; uvula central †"
-     ],
-     [
-      "Tongue depressor",
-      "If tonsils not seen: press middle third of tongue, not the back †",
-      ""
-     ],
-     [
-      "Tonsils",
-      "Size, symmetry, inflammation, exudate",
-      "Tonsillitis; asymmetry = quinsy or malignancy †"
-     ],
-     [
-      "Pharynx",
-      "Swelling, inflammation, exudate, post-nasal drip",
-      ""
-     ]
-    ]
-   },
-   {
-    "t": "imgs",
-    "items": [
-     {
-      "src": "img/ent/throat-view.webp",
-      "alt": "Palate, uvula and tonsils",
-      "cap": "Palate, uvula and tonsils"
-     }
-    ]
-   },
-   {
-    "t": "check",
-    "header": [
-     "Step",
-     "What to do / say",
-     "Abnormal"
-    ],
-    "rows": [
-     "Neck (if clinically indicated)",
-     [
-      "Lymph nodes",
-      "From behind: submental, submandibular, tonsillar, cervical chain, supraclavicular, pre/post-auricular, occipital",
-      "Infection, malignancy"
-     ],
-     [
-      "Parotids*",
-      "Palpate in front of ear and over angle of jaw",
-      "Parotitis, tumour"
-     ]
-    ]
-   },
-   {
-    "t": "imgs",
-    "items": [
-     {
-      "src": "img/ent/neck-nodes.webp",
-      "alt": "Cervical lymph node groups",
-      "cap": "Cervical lymph node groups"
-     }
-    ]
-   },
-   {
-    "t": "h",
-    "text": "3. Closing"
-   },
-   {
-    "t": "check",
-    "header": null,
-    "rows": [
-     [
-      "Thank patient; dispose of tongue depressor; wash hands"
-     ],
-     [
-      "Present: \"Good dentition; tongue and oral mucosa normal; tonsils symmetrical without erythema or exudate; uvula central; no cervical lymphadenopathy.\""
-     ],
-     [
-      "Completion: \"I would complete the ENT exam and consider a throat swab if indicated.\""
-     ]
-    ]
-   },
-   {
-    "t": "h",
-    "text": "4. Quick reference †"
-   },
-   {
-    "t": "bullets",
-    "items": [
-     "<b>Peritonsillar abscess (quinsy)</b>: unilateral tonsil swelling, uvula deviated away, trismus, \"hot potato\" voice, drooling — urgent ENT referral.",
-     "<b>Airway red flags</b>: stridor, drooling, unable to swallow saliva, tripod posture — do not examine with a tongue depressor; call for senior help.",
-     "Uvula deviates <b>away</b> from a CN X lesion (links to cranial nerve exam)."
     ]
    }
   ]
@@ -2612,9 +2476,9 @@ window.OSCE_DATA = [
   "title": "Cardiovascular examination",
   "group": "Cardiovascular, respiratory & abdominal",
   "block": "CR3",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Cardiovascular_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · CR3 · Time: 14 min",
+  "sub": "Deakin MD2 · CR3 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP CR3 Cardiovascular Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -3255,9 +3119,9 @@ window.OSCE_DATA = [
   "title": "Respiratory examination",
   "group": "Cardiovascular, respiratory & abdominal",
   "block": "CR7",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Respiratory_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · CR7 · Time: 14 min",
+  "sub": "Deakin MD2 · CR7 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP CR7 Respiratory Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -3553,9 +3417,9 @@ window.OSCE_DATA = [
   "title": "Abdominal (GI) examination",
   "group": "Cardiovascular, respiratory & abdominal",
   "block": "RG5",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Abdominal_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · RG5 · Time: 14 min",
+  "sub": "Deakin MD2 · RG5 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP RG5 GI Abdominal Examination & DRE Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -3634,7 +3498,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/abdo/scleral-icterus.webp",
+      "src": "abdo/scleral-icterus.webp",
       "alt": "Scleral icterus (jaundice)",
       "cap": "Scleral icterus (jaundice)"
      }
@@ -3701,22 +3565,22 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/abdo/leukonychia.webp",
+      "src": "abdo/leukonychia.webp",
       "alt": "Leukonychia",
       "cap": "Leukonychia"
      },
      {
-      "src": "img/abdo/clubbing.webp",
+      "src": "abdo/clubbing.webp",
       "alt": "Clubbing",
       "cap": "Clubbing"
      },
      {
-      "src": "img/abdo/palmar-erythema.webp",
+      "src": "abdo/palmar-erythema.webp",
       "alt": "Palmar erythema",
       "cap": "Palmar erythema"
      },
      {
-      "src": "img/abdo/dupuytrens.webp",
+      "src": "abdo/dupuytrens.webp",
       "alt": "Dupuytren's contracture",
       "cap": "Dupuytren's contracture"
      }
@@ -3747,7 +3611,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/abdo/spider-naevi.webp",
+      "src": "abdo/spider-naevi.webp",
       "alt": "Spider naevi",
       "cap": "Spider naevi"
      }
@@ -3788,12 +3652,12 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/abdo/xanthelasma.webp",
+      "src": "abdo/xanthelasma.webp",
       "alt": "Xanthelasma",
       "cap": "Xanthelasma"
      },
      {
-      "src": "img/abdo/angular-stomatitis.webp",
+      "src": "abdo/angular-stomatitis.webp",
       "alt": "Angular stomatitis",
       "cap": "Angular stomatitis"
      }
@@ -3860,17 +3724,17 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/abdo/abdominal-scars.webp",
+      "src": "abdo/abdominal-scars.webp",
       "alt": "Abdominal scars (see quick reference)",
       "cap": "Abdominal scars (see quick reference)"
      },
      {
-      "src": "img/abdo/gross-ascites.webp",
+      "src": "abdo/gross-ascites.webp",
       "alt": "Gross ascites",
       "cap": "Gross ascites"
      },
      {
-      "src": "img/abdo/distension-veins.webp",
+      "src": "abdo/distension-veins.webp",
       "alt": "Distension and prominent veins",
       "cap": "Distension and prominent veins"
      }
@@ -3926,7 +3790,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/abdo/nine-regions.webp",
+      "src": "abdo/nine-regions.webp",
       "alt": "The nine abdominal regions",
       "cap": "The nine abdominal regions"
      }
@@ -4206,7 +4070,7 @@ window.OSCE_DATA = [
   "title": "Digital rectal examination",
   "group": "Cardiovascular, respiratory & abdominal",
   "block": "RG5",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/DRE_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · RG5 · Part-task trainer",
   "source": "Based on Deakin CP RG5 GI Abdominal Examination & DRE Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -4250,7 +4114,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/abdo/dre-position.webp",
+      "src": "abdo/dre-position.webp",
       "alt": "Left lateral position for DRE",
       "cap": "Left lateral position for DRE"
      }
@@ -4470,9 +4334,9 @@ window.OSCE_DATA = [
   "title": "Thyroid examination",
   "group": "Endocrine",
   "block": "ELC5",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Thyroid_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · ELC5 · Time: 14 min",
+  "sub": "Deakin MD2 · ELC5 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP ELC5 Thyroid Examination & Menstrual History Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -4721,7 +4585,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/endo/thyroid-anatomy.webp",
+      "src": "endo/thyroid-anatomy.webp",
       "alt": "Thyroid gland anatomy",
       "cap": "Thyroid gland anatomy"
      }
@@ -4883,7 +4747,7 @@ window.OSCE_DATA = [
   "title": "Menstrual history",
   "group": "Endocrine",
   "block": "ELC5",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Menstrual_History_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · ELC5 · Introductory history",
   "source": "Based on Deakin CP ELC5 Thyroid Examination & Menstrual History Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -5146,9 +5010,9 @@ window.OSCE_DATA = [
   "title": "Diabetes examination",
   "group": "Endocrine",
   "block": "ELC3",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Diabetes_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · ELC3 · Time: 14 min",
+  "sub": "Deakin MD2 · ELC3 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP ELC3 Diabetes Examination Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -5338,7 +5202,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/endo/acanthosis.webp",
+      "src": "endo/acanthosis.webp",
       "alt": "Acanthosis nigricans — neck and axilla",
       "cap": "Acanthosis nigricans — neck and axilla"
      }
@@ -5410,7 +5274,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/endo/necrobiosis.webp",
+      "src": "endo/necrobiosis.webp",
       "alt": "Necrobiosis lipoidica",
       "cap": "Necrobiosis lipoidica"
      }
@@ -5472,7 +5336,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/endo/monofilament.webp",
+      "src": "endo/monofilament.webp",
       "alt": "10 g monofilament testing sites",
       "cap": "10 g monofilament testing sites"
      }
@@ -5571,9 +5435,9 @@ window.OSCE_DATA = [
   "title": "Breast examination",
   "group": "Breast & inguinoscrotal",
   "block": "ELC7",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Breast_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · ELC7 · Time: 14 min",
+  "sub": "Deakin MD2 · ELC7 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP ELC7 Breast & Inguinoscrotal Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -5721,7 +5585,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/endo/breast-lymph.webp",
+      "src": "endo/breast-lymph.webp",
       "alt": "Lymph drainage of the breast",
       "cap": "Lymph drainage of the breast"
      }
@@ -5765,17 +5629,17 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/endo/breast-anatomy.webp",
+      "src": "endo/breast-anatomy.webp",
       "alt": "Breast anatomy",
       "cap": "Breast anatomy"
      },
      {
-      "src": "img/endo/breast-quadrants.webp",
+      "src": "endo/breast-quadrants.webp",
       "alt": "Breast quadrants and axillary tail",
       "cap": "Breast quadrants and axillary tail"
      },
      {
-      "src": "img/endo/breast-tumour-sites.webp",
+      "src": "endo/breast-tumour-sites.webp",
       "alt": "Where breast cancers most commonly occur",
       "cap": "Where breast cancers most commonly occur"
      }
@@ -5937,7 +5801,7 @@ window.OSCE_DATA = [
   "title": "Inguinoscrotal examination",
   "group": "Breast & inguinoscrotal",
   "block": "ELC7",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Inguinoscrotal_Exam_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · ELC7 · Hernia & testes",
   "source": "Based on Deakin CP ELC7 Breast & Inguinoscrotal Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -6262,18 +6126,18 @@ window.OSCE_DATA = [
   ]
  },
  {
-  "id": "cervical-screening",
-  "title": "Cervical screening (speculum)",
+  "id": "cervical-bimanual",
+  "title": "Cervical screening & bimanual pelvic exam",
   "group": "Cervical & pelvic",
   "block": "ELC8",
-  "minutes": 14,
-  "pdf": "pdf/Cervical_Screening_Speculum_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · ELC8 · Clinician-collected CST",
+  "minutes": 8,
+  "pdf": "pdf/Cervical_Screening_Bimanual_OSCE_Checklist.pdf",
+  "sub": "Deakin MD2 · ELC8 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP ELC8 Cervical & Pelvic Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
     "t": "note",
-    "text": "Tick each step as you perform or verbalise it. <b>Shaded rows (*)</b> are optional, verbalised or done if indicated. <b>†</b> = added from standard teaching (Talley &amp; O'Connor), not in the Deakin guideline. Order: <b>Prepare and consent → Equipment → Position → Inspect → Speculum → Sample → Remove → Close</b>. Practised on part-task trainers — speak to the model as you would to a patient."
+    "text": "Tick each step as you perform or verbalise it. <b>Shaded rows (*)</b> are optional, verbalised or done if indicated. <b>†</b> = added from standard teaching (Talley &amp; O'Connor), not in the Deakin guideline. Order: <b>Prepare and consent → Equipment → Position → Inspect → Speculum + CST → Bimanual → Close</b>. Practised on part-task trainers — speak to the model as you would to a patient."
    },
    {
     "t": "h",
@@ -6305,7 +6169,7 @@ window.OSCE_DATA = [
       "Offer to empty bladder first"
      ],
      [
-      "Timing*: ideally ~2 weeks after day 1 of last period (if menstruating)"
+      "Timing*: CST ideally ~2 weeks after day 1 of last period (if menstruating)"
      ]
     ]
    },
@@ -6341,7 +6205,7 @@ window.OSCE_DATA = [
    },
    {
     "t": "h",
-    "text": "3. Procedure"
+    "text": "3. Position and inspection"
    },
    {
     "t": "check",
@@ -6351,10 +6215,7 @@ window.OSCE_DATA = [
       "Gather equipment; hand hygiene; gloves"
      ],
      [
-      "Patient undresses from waist down behind curtain and covers with blanket"
-     ],
-     [
-      "Enter with permission"
+      "Patient undresses from waist down behind curtain and covers with blanket; enter with permission"
      ],
      [
       "Position: supine, knees drawn up, heels together, let knees fall apart (do <b>not</b> push knees apart)"
@@ -6364,7 +6225,27 @@ window.OSCE_DATA = [
      ],
      [
       "Inspect external genitalia: vulval skin, discharge, lesions, prolapse †"
-     ],
+     ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "endo/pelvic-position.webp",
+      "alt": "Position: heels together, knees fall apart",
+      "cap": "Position: heels together, knees fall apart"
+     }
+    ]
+   },
+   {
+    "t": "h",
+    "text": "4. Speculum and cervical screening test"
+   },
+   {
+    "t": "check",
+    "header": null,
+    "rows": [
      [
       "Warn the patient; part labia with non-dominant hand"
      ],
@@ -6385,125 +6266,17 @@ window.OSCE_DATA = [
      ],
      [
       "Loosen speculum and remove gently as patient breathes out (watch vaginal walls †)"
-     ],
-     [
-      "Cover patient with blanket; tell them the procedure is complete"
-     ],
-     [
-      "Privacy to dress; tissues and bin available"
-     ]
-    ]
-   },
-   {
-    "t": "imgs",
-    "items": [
-     {
-      "src": "img/endo/pelvic-position.webp",
-      "alt": "Position: heels together, knees fall apart",
-      "cap": "Position: heels together, knees fall apart"
-     }
-    ]
-   },
-   {
-    "t": "h",
-    "text": "4. Closing"
-   },
-   {
-    "t": "check",
-    "header": null,
-    "rows": [
-     [
-      "Explain how and when results will be received; follow-up plan"
-     ],
-     [
-      "Invite questions; check comfort"
-     ],
-     [
-      "Document consent, chaperone, findings, tests taken, follow-up"
      ]
     ]
    },
    {
     "t": "h",
-    "text": "5. Quick reference"
-   },
-   {
-    "t": "bullets",
-    "items": [
-     "Bimanual examination is <b>not</b> recommended routinely in asymptomatic people attending for screening.",
-     "Australian NCSP: HPV-based CST every 5 years for people with a cervix aged 25–74; self-collection is an option for everyone †.",
-     "Clinician collection (HPV + liquid-based cytology) is required for symptoms (PCB, IMB, PMB, persistent unexplained discharge) and for AIS surveillance.",
-     "Over 70% of Australians diagnosed with cervical cancer were under-screened or never screened.",
-     "Pitfalls: inserting blades vertically, aiming upwards, opening blades before full insertion, closing blades on the cervix, exposing the patient before they're ready."
-    ]
-   }
-  ]
- },
- {
-  "id": "bimanual",
-  "title": "Bimanual pelvic examination",
-  "group": "Cervical & pelvic",
-  "block": "ELC8",
-  "minutes": 14,
-  "pdf": "pdf/Bimanual_Pelvic_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · ELC8 · Pelvic exam",
-  "source": "Based on Deakin CP ELC8 Cervical & Pelvic Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
-  "blocks": [
-   {
-    "t": "note",
-    "text": "Tick each step as you perform or verbalise it. <b>Shaded rows (*)</b> are optional, verbalised or done if indicated. <b>†</b> = added from standard teaching (Talley &amp; O'Connor), not in the Deakin guideline. Order: <b>Prepare and consent → Position → Inspect → Internal palpation → Bimanual → Close</b>. Indicated for genitourinary symptoms and in pregnancy — <b>not</b> as routine screening."
-   },
-   {
-    "t": "h",
-    "text": "1. Before the patient is on the couch"
+    "text": "5. Bimanual examination (if indicated)"
    },
    {
     "t": "check",
     "header": null,
     "rows": [
-     [
-      "Why a pelvic examination is needed; what it involves (speculum, CST, swabs, bimanual) and the position"
-     ],
-     [
-      "Past experience of pelvic examinations"
-     ],
-     [
-      "Obstetric history: children? vaginal births? (guides speculum size)"
-     ],
-     [
-      "Menstrual history: LMP; possibility of pregnancy"
-     ],
-     [
-      "Verbal consent; \"Just say stop and I will\""
-     ],
-     [
-      "Offer a chaperone (advocate for patient and doctor; often a nurse who assists)"
-     ],
-     [
-      "Offer to empty bladder first"
-     ]
-    ]
-   },
-   {
-    "t": "h",
-    "text": "2. Procedure"
-   },
-   {
-    "t": "check",
-    "header": null,
-    "rows": [
-     [
-      "Gather equipment (gloves, lubricant, light, bluey, tissues); hand hygiene; gloves"
-     ],
-     [
-      "Patient undresses from waist down behind curtain, covers with blanket; enter with permission"
-     ],
-     [
-      "Position: supine, knees drawn up, heels together, knees fall apart"
-     ],
-     [
-      "Expose waist down; inspect external genitalia"
-     ],
      [
       "Warn patient; gently touch the introitus, then slowly insert 2 lubricated gloved fingers"
      ],
@@ -6521,47 +6294,40 @@ window.OSCE_DATA = [
      ],
      [
       "Withdraw fingers; check glove for blood or discharge"
-     ],
-     [
-      "Cover patient; leave tissues and bin; privacy to dress"
      ]
     ]
    },
    {
-    "t": "imgs",
-    "items": [
-     {
-      "src": "img/endo/pelvic-position.webp",
-      "alt": "Position: heels together, knees fall apart",
-      "cap": "Position: heels together, knees fall apart"
-     }
-    ]
-   },
-   {
     "t": "h",
-    "text": "3. Closing"
+    "text": "6. Closing"
    },
    {
     "t": "check",
     "header": null,
     "rows": [
      [
-      "Explain findings and next steps; invite questions"
+      "Cover patient; tell them the examination is complete; leave tissues and bin; privacy to dress"
      ],
      [
-      "Document consent, chaperone, findings, investigations, treatment and follow-up"
+      "Explain findings and how/when CST results will be received; follow-up plan"
+     ],
+     [
+      "Invite questions; check comfort"
+     ],
+     [
+      "Document consent, chaperone, findings, tests taken, follow-up"
      ]
     ]
    },
    {
     "t": "h",
-    "text": "4. Quick reference †"
+    "text": "7. Quick reference"
    },
    {
     "t": "table",
     "rows": [
      [
-      "Finding",
+      "Bimanual finding †",
       "Think of"
      ],
      [
@@ -6583,18 +6349,16 @@ window.OSCE_DATA = [
      [
       "Adnexal mass",
       "Ovarian cyst or tumour, ectopic, tubo-ovarian abscess"
-     ],
-     [
-      "Blood on glove",
-      "Menses, IMB/PMB — correlate with history"
      ]
     ]
    },
    {
     "t": "bullets",
     "items": [
-     "Never uncover the patient yourself if avoidable — ask them to do so when comfortable.",
-     "Pitfalls: no chaperone offer, not warning before touching, examining without watching the patient's face, not checking the glove."
+     "Bimanual examination is <b>not</b> recommended routinely in asymptomatic people attending for screening; it's for symptoms and pregnancy.",
+     "Australian NCSP: HPV-based CST every 5 years for people with a cervix aged 25–74; self-collection is an option for everyone †.",
+     "Clinician collection (HPV + liquid-based cytology) is required for symptoms (PCB, IMB, PMB, persistent unexplained discharge) and for AIS surveillance.",
+     "Pitfalls: blades inserted vertically or aimed upwards, closing blades on the cervix, no chaperone offer, not warning before touching, not watching the face."
     ]
    }
   ]
@@ -6604,7 +6368,7 @@ window.OSCE_DATA = [
   "title": "HPV self-collection discussion",
   "group": "Cervical & pelvic",
   "block": "ELC8",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/HPV_Self_Collection_OSCE_Checklist.pdf",
   "sub": "Deakin MD2 · ELC8 · Counselling station",
   "source": "Based on Deakin CP ELC8 Cervical & Pelvic Examinations Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
@@ -6740,9 +6504,9 @@ window.OSCE_DATA = [
   "title": "Shoulder examination",
   "group": "Musculoskeletal — upper limb",
   "block": "MM6",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Shoulder_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM6 · Time: 14 min",
+  "sub": "Deakin MD2 · MM6 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP MM6 Shoulder, Elbow & Hand Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -6941,17 +6705,17 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/msk/empty-can.webp",
+      "src": "msk/empty-can.webp",
       "alt": "Empty can test",
       "cap": "Empty can test"
      },
      {
-      "src": "img/msk/hawkins.webp",
+      "src": "msk/hawkins.webp",
       "alt": "Hawkins test",
       "cap": "Hawkins test"
      },
      {
-      "src": "img/msk/apprehension.webp",
+      "src": "msk/apprehension.webp",
       "alt": "Apprehension test (supine)",
       "cap": "Apprehension test (supine)"
      }
@@ -7016,9 +6780,9 @@ window.OSCE_DATA = [
   "title": "Elbow examination",
   "group": "Musculoskeletal — upper limb",
   "block": "MM6",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Elbow_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM6 · Time: 14 min",
+  "sub": "Deakin MD2 · MM6 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP MM6 Shoulder, Elbow & Hand Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -7194,9 +6958,9 @@ window.OSCE_DATA = [
   "title": "Hand & wrist examination",
   "group": "Musculoskeletal — upper limb",
   "block": "MM6",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Hand_Wrist_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM6 · Time: 14 min",
+  "sub": "Deakin MD2 · MM6 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP MM6 Shoulder, Elbow & Hand Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -7282,27 +7046,27 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/msk/ra-hand.webp",
+      "src": "msk/ra-hand.webp",
       "alt": "Rheumatoid arthritis — late changes",
       "cap": "Rheumatoid arthritis — late changes"
      },
      {
-      "src": "img/msk/ra-distribution.webp",
+      "src": "msk/ra-distribution.webp",
       "alt": "RA joint distribution",
       "cap": "RA joint distribution"
      },
      {
-      "src": "img/msk/oa-hand.webp",
+      "src": "msk/oa-hand.webp",
       "alt": "Osteoarthritis — Heberden's nodes",
       "cap": "Osteoarthritis — Heberden's nodes"
      },
      {
-      "src": "img/msk/nail-pitting.webp",
+      "src": "msk/nail-pitting.webp",
       "alt": "Nail pitting (psoriasis)",
       "cap": "Nail pitting (psoriasis)"
      },
      {
-      "src": "img/msk/psoriatic-hands.webp",
+      "src": "msk/psoriatic-hands.webp",
       "alt": "Psoriatic arthritis",
       "cap": "Psoriatic arthritis"
      }
@@ -7457,7 +7221,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/msk/phalens.webp",
+      "src": "msk/phalens.webp",
       "alt": "Phalen's manoeuvre",
       "cap": "Phalen's manoeuvre"
      }
@@ -7528,9 +7292,9 @@ window.OSCE_DATA = [
   "title": "Hip examination",
   "group": "Musculoskeletal — lower limb",
   "block": "MM7",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Hip_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM7 · Time: 14 min",
+  "sub": "Deakin MD2 · MM7 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP MM7 Hip, Knee & Ankle Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -7601,7 +7365,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/msk/trendelenburg.webp",
+      "src": "msk/trendelenburg.webp",
       "alt": "Trendelenburg test",
       "cap": "Trendelenburg test"
      }
@@ -7684,7 +7448,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/msk/thomas.webp",
+      "src": "msk/thomas.webp",
       "alt": "Thomas test",
       "cap": "Thomas test"
      }
@@ -7753,9 +7517,9 @@ window.OSCE_DATA = [
   "title": "Knee examination",
   "group": "Musculoskeletal — lower limb",
   "block": "MM7",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Knee_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM7 · Time: 14 min",
+  "sub": "Deakin MD2 · MM7 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP MM7 Hip, Knee & Ankle Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -7925,7 +7689,7 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
-      "src": "img/msk/lachman.webp",
+      "src": "msk/lachman.webp",
       "alt": "Lachman's test (20–30° flexion)",
       "cap": "Lachman's test (20–30° flexion)"
      }
@@ -8020,9 +7784,9 @@ window.OSCE_DATA = [
   "title": "Ankle & foot examination",
   "group": "Musculoskeletal — lower limb",
   "block": "MM7",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Ankle_Foot_Exam_OSCE_Checklist.pdf",
-  "sub": "Deakin MD2 · MM7 · Time: 14 min",
+  "sub": "Deakin MD2 · MM7 · Time: 8 min (+2 min reading)",
   "source": "Based on Deakin CP MM7 Hip, Knee & Ankle Exam Guidelines 2026 & Talley & O'Connor 10e · Check against your marking rubric",
   "blocks": [
    {
@@ -8214,9 +7978,9 @@ window.OSCE_DATA = [
   "title": "1. Injections — IM / SC / ID",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Proc_1_Injections_IM_SC_ID.pdf",
-  "sub": "HME922 Procedural Station · 14 minutes · Injections guideline + IM/SC DOPS form",
+  "sub": "HME922 Procedural Station · 8 minutes · Injections guideline + IM/SC DOPS form",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -8557,9 +8321,9 @@ window.OSCE_DATA = [
   "title": "2. Venepuncture",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Proc_2_Venepuncture.pdf",
-  "sub": "HME922 Procedural Station · 14 minutes · Venepuncture guideline + DOPS form",
+  "sub": "HME922 Procedural Station · 8 minutes · Venepuncture guideline + DOPS form",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -8831,9 +8595,9 @@ window.OSCE_DATA = [
   "title": "3. 12-lead ECG",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Proc_3_12_Lead_ECG.pdf",
-  "sub": "HME922 Procedural Station · 14 minutes · CR4 ECG guideline",
+  "sub": "HME922 Procedural Station · 8 minutes · CR4 ECG guideline",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -9168,9 +8932,9 @@ window.OSCE_DATA = [
   "title": "4. Basic life support (adult)",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Proc_4_Basic_Life_Support.pdf",
-  "sub": "HME922 Procedural Station · 14 minutes · HB6 BLS & First Aid lecture + ANZCOR 2024",
+  "sub": "HME922 Procedural Station · 8 minutes · HB6 BLS & First Aid lecture + ANZCOR 2024",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -9588,7 +9352,7 @@ window.OSCE_DATA = [
   "title": "4b. First aid — quick reference",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Proc_4b_First_Aid.pdf",
   "sub": "HB6 BLS & First Aid lecture · burns · trauma · anaphylaxis · snake bite",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
@@ -9769,9 +9533,9 @@ window.OSCE_DATA = [
   "title": "5. Airway & oxygen therapy",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Proc_5_Airway_Oxygen.pdf",
-  "sub": "HME922 Procedural Station · 14 minutes · Airway Management & Oxygen Therapy guideline",
+  "sub": "HME922 Procedural Station · 8 minutes · Airway Management & Oxygen Therapy guideline",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -10117,9 +9881,9 @@ window.OSCE_DATA = [
   "title": "6. Wound dressing (ANTT)",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Proc_6_Wound_Dressing.pdf",
-  "sub": "HME922 Procedural Station · 14 minutes · standard ANTT (check against wound guideline)",
+  "sub": "HME922 Procedural Station · 8 minutes · standard ANTT (check against wound guideline)",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
@@ -10315,9 +10079,9 @@ window.OSCE_DATA = [
   "title": "7. IV cannulation (PIVC)",
   "group": "Procedural skills",
   "block": "HME922",
-  "minutes": 14,
+  "minutes": 8,
   "pdf": "pdf/Proc_7_IV_Cannulation.pdf",
-  "sub": "HME922 Procedural Station · 14 minutes · MM3 guideline + IVC DOPS form",
+  "sub": "HME922 Procedural Station · 8 minutes · MM3 guideline + IVC DOPS form",
   "source": "From your HME922 Procedural Skills OSCE Checklists (Clinical Practice Passport)",
   "blocks": [
    {
