@@ -569,6 +569,21 @@ window.OSCE_DATA = [
     "t": "imgs",
     "items": [
      {
+      "src": "neuro/ul-dermatomes-chart.webp",
+      "alt": "Upper limb dermatomes (Geeky Medics)",
+      "cap": "Upper limb dermatomes (Geeky Medics)"
+     },
+     {
+      "src": "neuro/ul-dermatomes-sites.webp",
+      "alt": "Dermatome test sites C5–T1 (Geeky Medics)",
+      "cap": "Dermatome test sites C5–T1 (Geeky Medics)"
+     }
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
       "src": "neuro/proprioception.webp",
       "alt": "Proprioception: hold the sides of the distal phalanx",
       "cap": "Proprioception: hold the sides of the distal phalanx"
@@ -979,6 +994,16 @@ window.OSCE_DATA = [
       "Hold great toe by its sides; \"Up or down?\"; if absent move proximally",
       "Dorsal column / sensory ataxia"
      ]
+    ]
+   },
+   {
+    "t": "imgs",
+    "items": [
+     {
+      "src": "neuro/ll-dermatomes.webp",
+      "alt": "Lower limb dermatomes — anterior and posterior (Geeky Medics)",
+      "cap": "Lower limb dermatomes — anterior and posterior (Geeky Medics)"
+     }
     ]
    },
    {
