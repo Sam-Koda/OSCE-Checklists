@@ -227,6 +227,7 @@ function renderHome(){
   backBtn.hidden = true; topProg.hidden = true;
   document.title = "OSCE Checklists";
   var html = '<div class="wrap"><div class="hero"><p>Deakin MD2 clinical skills · '+DATA.length+' checklists · works offline</p></div>'+
+    '<a href="cards.html" style="display:flex;align-items:center;gap:12px;padding:14px 16px;margin:0 0 12px;border-radius:14px;background:#1F3A5F;color:#fff;text-decoration:none;font-weight:600"><span style="font-size:22px">🃏</span><span style="flex:1">Swipe cards<br><small style="font-weight:400;opacity:.8">Quick revision · recall mode · 28 cards</small></span><span style="font-size:20px">›</span></a>'+
     '<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>'+
     '<input id="q" type="search" placeholder="Search checklists or steps…" autocomplete="off" value="'+esc(query)+'"></label><div id="list"></div>'+
     '<div class="foot">Based on Deakin CP guidelines 2026 &amp; Talley &amp; O\'Connor 10e.<br>Always check against your marking rubric.<br>All exam checklists (PDF): <a href="pdf/OSCE_Bundle_Part1_Neuro_Eyes_ENT_Cardio_Resp_Abdo.pdf">Part 1</a> · <a href="pdf/OSCE_Bundle_Part2_Endocrine_Womens_MSK.pdf">Part 2</a><br> · <a href="pdf/Procedural_Skills_All.pdf">All procedural skills (PDF)</a></div></div>';
